@@ -15,6 +15,12 @@ import {
   LogOut,
   ShieldCheck,
   Sliders,
+  ChevronDown,
+  Pill,
+  Boxes,
+  ShoppingCart,
+  Shield,
+  ArrowRightLeft,
 } from 'lucide-react';
 import { useInventory } from '../../context/InventoryContext';
 import { UserRole } from '../../types/inventory';
@@ -29,6 +35,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
     currentUser,
     logout,
     userRole,
+    switchRole,
     setUserRole,
     selectedHospital,
     setSelectedHospital,
@@ -40,6 +47,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
     resetDemoData,
   } = useInventory();
 
+  const [showRoleMenu, setShowRoleMenu] = useState<boolean>(false);
   const [showNotifMenu, setShowNotifMenu] = useState<boolean>(false);
   const [searchVal, setSearchVal] = useState<string>('');
   const [scenarioToast, setScenarioToast] = useState<string | null>(null);
@@ -58,11 +66,63 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
     if (onNavigateTab) onNavigateTab('expiry');
   };
 
-  const roles: UserRole[] = [
-    'Hospital Administrator',
-    'Inventory Manager',
-    'Pharmacist',
-    'Procurement Manager',
+  const handleSelectRole = (newRole: UserRole) => {
+    switchRole(newRole);
+    setShowRoleMenu(false);
+    setScenarioToast(`Operating persona active: ${newRole}`);
+    setTimeout(() => setScenarioToast(null), 3000);
+  };
+
+  const roleOptions: {
+    role: UserRole;
+    title: string;
+    name: string;
+    badge: string;
+    badgeColor: string;
+    icon: React.ComponentType<{ className?: string }>;
+    color: string;
+    desc: string;
+  }[] = [
+    {
+      role: 'Hospital Administrator',
+      title: 'Hospital Administrator',
+      name: 'Dr. Rajeshwari Rao',
+      badge: 'Master CRUD & Governance',
+      badgeColor: 'bg-indigo-100 text-indigo-800 border-indigo-200',
+      icon: ShieldCheck,
+      color: 'text-indigo-600 bg-indigo-50 border-indigo-200',
+      desc: 'Master database control, SKU management, audit logs & risk weights',
+    },
+    {
+      role: 'Pharmacist',
+      title: 'Chief Pharmacist',
+      name: 'Dr. Anita Sharma',
+      badge: 'Dispensing & Expiry',
+      badgeColor: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+      icon: Pill,
+      color: 'text-emerald-600 bg-emerald-50 border-emerald-200',
+      desc: 'FEFO batch allocation, clinical requests, quarantine & expiry triage',
+    },
+    {
+      role: 'Inventory Manager',
+      title: 'Inventory Manager',
+      name: 'Rajesh Nair',
+      badge: 'Stock Logistics',
+      badgeColor: 'bg-blue-100 text-blue-800 border-blue-200',
+      icon: Boxes,
+      color: 'text-blue-600 bg-blue-50 border-blue-200',
+      desc: 'Warehouse stock counts, batch receipt & inter-hospital transfers',
+    },
+    {
+      role: 'Procurement Manager',
+      title: 'Procurement Manager',
+      name: 'Kavita Menon',
+      badge: 'PO Sourcing',
+      badgeColor: 'bg-amber-100 text-amber-800 border-amber-200',
+      icon: ShoppingCart,
+      color: 'text-amber-600 bg-amber-50 border-amber-200',
+      desc: 'Purchase orders, supplier pipeline, safety stock reorder thresholds',
+    },
   ];
 
   return (
@@ -234,16 +294,108 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
             )}
           </div>
 
+          {/* Interactive Clinical Role Switcher Dropdown */}
+          <div className="relative">
+            <button
+              onClick={() => {
+                setShowRoleMenu(!showRoleMenu);
+                setShowNotifMenu(false);
+              }}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold shadow-2xs transition cursor-pointer ${
+                userRole === 'Hospital Administrator'
+                  ? 'bg-indigo-50 border-indigo-200 text-indigo-900 hover:bg-indigo-100'
+                  : userRole === 'Pharmacist'
+                  ? 'bg-emerald-50 border-emerald-200 text-emerald-900 hover:bg-emerald-100'
+                  : userRole === 'Inventory Manager'
+                  ? 'bg-blue-50 border-blue-200 text-blue-900 hover:bg-blue-100'
+                  : 'bg-amber-50 border-amber-200 text-amber-900 hover:bg-amber-100'
+              }`}
+              title="Switch operational role between Administrator, Pharmacist, Inventory Manager, and Procurement Manager"
+            >
+              <div className="flex items-center gap-1.5">
+                {userRole === 'Hospital Administrator' && <ShieldCheck className="w-3.5 h-3.5 text-indigo-600" />}
+                {userRole === 'Pharmacist' && <Pill className="w-3.5 h-3.5 text-emerald-600" />}
+                {userRole === 'Inventory Manager' && <Boxes className="w-3.5 h-3.5 text-blue-600" />}
+                {userRole === 'Procurement Manager' && <ShoppingCart className="w-3.5 h-3.5 text-amber-600" />}
+                <span className="font-bold text-slate-800">{userRole}</span>
+              </div>
+              <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
+            </button>
+
+            {/* Role Switcher Menu Drawer */}
+            {showRoleMenu && (
+              <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden z-50 animate-in fade-in duration-100 p-2.5 space-y-1.5">
+                <div className="px-3 py-2 border-b border-slate-100 flex items-center justify-between">
+                  <div>
+                    <div className="text-xs font-bold text-slate-900">Switch Operational Persona</div>
+                    <p className="text-[10px] text-slate-500">Change role permissions and active clinical perspective</p>
+                  </div>
+                  <button
+                    onClick={() => setShowRoleMenu(false)}
+                    className="text-slate-400 hover:text-slate-600 p-1"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+
+                <div className="space-y-1 pt-1">
+                  {roleOptions.map(opt => {
+                    const isCurrent = userRole === opt.role;
+                    const Icon = opt.icon;
+
+                    return (
+                      <button
+                        key={opt.role}
+                        onClick={() => handleSelectRole(opt.role)}
+                        className={`w-full text-left p-2.5 rounded-xl border transition cursor-pointer flex items-start gap-2.5 ${
+                          isCurrent
+                            ? 'border-indigo-400 bg-indigo-50/60 ring-1 ring-indigo-400 shadow-2xs'
+                            : 'border-slate-100 hover:border-slate-200 hover:bg-slate-50'
+                        }`}
+                      >
+                        <div className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 ${opt.color}`}>
+                          <Icon className="w-4 h-4" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center justify-between gap-1">
+                            <span className="font-bold text-slate-800 text-xs truncate">{opt.title}</span>
+                            {isCurrent ? (
+                              <span className="text-[10px] font-bold px-2 py-0.2 rounded-full bg-indigo-600 text-white shrink-0">
+                                Active Role
+                              </span>
+                            ) : (
+                              <span className={`text-[10px] font-bold px-1.5 py-0.2 rounded-full border shrink-0 ${opt.badgeColor}`}>
+                                {opt.badge}
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-[11px] text-slate-600 font-medium truncate">{opt.name}</div>
+                          <p className="text-[10px] text-slate-400 mt-0.5 line-clamp-1 leading-snug">{opt.desc}</p>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+
           {/* User Profile Chip with Logout */}
           {currentUser ? (
             <div className="flex items-center gap-1.5 pl-2 border-l border-slate-200">
-              <div className="w-8 h-8 rounded-xl bg-slate-900 text-white font-bold text-xs flex items-center justify-center shadow-xs">
-                {currentUser.avatar || 'DR'}
-              </div>
-              <div className="hidden lg:block text-left text-xs leading-tight">
-                <span className="font-bold text-slate-800 block truncate max-w-[120px]">{currentUser.name}</span>
-                <span className="text-[10px] text-indigo-600 font-semibold block">{userRole}</span>
-              </div>
+              <button
+                onClick={() => setShowRoleMenu(!showRoleMenu)}
+                className="flex items-center gap-1.5 hover:opacity-80 transition cursor-pointer text-left"
+                title="Click to switch operating role"
+              >
+                <div className="w-8 h-8 rounded-xl bg-slate-900 text-white font-bold text-xs flex items-center justify-center shadow-xs">
+                  {currentUser.avatar || 'DR'}
+                </div>
+                <div className="hidden lg:block text-left text-xs leading-tight">
+                  <span className="font-bold text-slate-800 block truncate max-w-[120px]">{currentUser.name}</span>
+                  <span className="text-[10px] text-indigo-600 font-semibold block">{userRole}</span>
+                </div>
+              </button>
               <button
                 onClick={logout}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition"

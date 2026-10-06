@@ -91,6 +91,7 @@ interface InventoryContextType {
   login: (email: string, password?: string, role?: UserRole) => boolean;
   logout: () => void;
   setCurrentUser: (user: UserAccount | null) => void;
+  switchRole: (role: UserRole) => void;
 
   // State Mutators
   setUserRole: (role: UserRole) => void;
@@ -735,30 +736,104 @@ export const InventoryProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     setNotifications(prev => prev.map(n => ({ ...n, read: true })));
   };
 
-  // Auth Operations
-  const login = (email: string, password?: string, role?: UserRole): boolean => {
-    const matched = DEMO_ACCOUNTS.find(
-      a => a.email.toLowerCase() === email.toLowerCase() || (role && a.role === role)
-    );
-
-    const user: UserAccount = matched || {
-      id: `user_${Date.now()}`,
-      name: email.split('@')[0].replace(/[._]/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
-      email,
-      role: role || 'Hospital Administrator',
+  // Auth & Role Operations
+  const switchRole = (newRole: UserRole) => {
+    // Find matching profile from DEMO_ACCOUNTS
+    const matched = DEMO_ACCOUNTS.find(a => a.role === newRole);
+    const targetAccount: UserAccount = matched || {
+      id: `user_${newRole.toLowerCase().replace(/\s+/g, '_')}`,
+      name:
+        newRole === 'Pharmacist'
+          ? 'Dr. Anita Sharma'
+          : newRole === 'Inventory Manager'
+          ? 'Rajesh Nair'
+          : newRole === 'Procurement Manager'
+          ? 'Kavita Menon'
+          : 'Dr. Rajeshwari Rao',
+      email:
+        newRole === 'Pharmacist'
+          ? 'pharmacy@apexmetro.health'
+          : newRole === 'Inventory Manager'
+          ? 'inventory@apexmetro.health'
+          : newRole === 'Procurement Manager'
+          ? 'procurement@apexmetro.health'
+          : 'admin@apexmetro.health',
+      role: newRole,
       hospitalName: 'Apex Metro Super-Speciality',
-      avatar: email.substring(0, 2).toUpperCase(),
-      department: 'Clinical Administration',
+      avatar:
+        newRole === 'Pharmacist'
+          ? 'AS'
+          : newRole === 'Inventory Manager'
+          ? 'RN'
+          : newRole === 'Procurement Manager'
+          ? 'KM'
+          : 'RR',
+      department:
+        newRole === 'Pharmacist'
+          ? 'Clinical Inpatient Pharmacy & Dispensing'
+          : newRole === 'Inventory Manager'
+          ? 'Central Warehouse & Supply Chain Logistics'
+          : newRole === 'Procurement Manager'
+          ? 'Global Sourcing & Vendor Contracts'
+          : 'Executive Medical Board & Clinical Governance',
     };
 
-    setCurrentUser(user);
-    setUserRole(user.role);
+    setCurrentUser(targetAccount);
+    setUserRole(newRole);
+    try {
+      localStorage.setItem(`${LOCAL_STORAGE_KEY}_user`, JSON.stringify(targetAccount));
+    } catch (e) {
+      console.warn('LocalStorage error:', e);
+    }
 
     addAuditLog({
-      user: user.name,
-      role: user.role,
+      user: targetAccount.name,
+      role: newRole,
       actionType: 'STOCK_ADJUSTMENT',
-      description: `Staff member ${user.name} (${user.role}) logged in to Hospital Inventory Portal.`,
+      description: `Active operating persona switched to ${newRole} (${targetAccount.name} - ${targetAccount.department}).`,
+    });
+  };
+
+  const handleSetUserRole = (role: UserRole) => {
+    switchRole(role);
+  };
+
+  const login = (email: string, password?: string, role?: UserRole): boolean => {
+    const cleanEmail = (email || '').trim().toLowerCase();
+    const isAdminIntent = cleanEmail === 'admin' || cleanEmail.includes('admin') || role === 'Hospital Administrator';
+
+    // If logging in as admin or with admin credentials
+    let targetAccount: UserAccount;
+    if (isAdminIntent || !cleanEmail) {
+      targetAccount = DEMO_ACCOUNTS[0]; // Dr. Rajeshwari Rao (Hospital Administrator)
+    } else {
+      const matched = DEMO_ACCOUNTS.find(
+        a => a.email.toLowerCase() === cleanEmail || (role && a.role === role)
+      );
+      targetAccount = matched || {
+        id: `user_${Date.now()}`,
+        name: cleanEmail.split('@')[0].replace(/[._]/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+        email: cleanEmail,
+        role: role || 'Hospital Administrator',
+        hospitalName: 'Apex Metro Super-Speciality',
+        avatar: cleanEmail.substring(0, 2).toUpperCase(),
+        department: 'Clinical Administration',
+      };
+    }
+
+    setCurrentUser(targetAccount);
+    setUserRole(targetAccount.role);
+    try {
+      localStorage.setItem(`${LOCAL_STORAGE_KEY}_user`, JSON.stringify(targetAccount));
+    } catch (e) {
+      console.warn('LocalStorage error:', e);
+    }
+
+    addAuditLog({
+      user: targetAccount.name,
+      role: targetAccount.role,
+      actionType: 'STOCK_ADJUSTMENT',
+      description: `Staff member ${targetAccount.name} (${targetAccount.role}) authenticated into Hospital Portal.`,
     });
 
     return true;
@@ -991,7 +1066,8 @@ export const InventoryProvider: React.FC<{ children: React.ReactNode }> = ({ chi
         login,
         logout,
         setCurrentUser,
-        setUserRole,
+        switchRole,
+        setUserRole: handleSetUserRole,
         setSelectedHospital,
         updateBatchStock,
         updateBatchExpiry,

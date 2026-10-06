@@ -32,6 +32,7 @@ export const AdminDashboardPage: React.FC = () => {
     currentUser,
     userRole,
     setUserRole,
+    switchRole,
     addItem,
     updateItem,
     deleteItem,
@@ -1204,11 +1205,33 @@ export const AdminDashboardPage: React.FC = () => {
                     </span>
                   </div>
 
-                  <div className="mt-3 pt-3 border-t border-slate-100 text-[11px] text-slate-600 space-y-1">
-                    <div><strong>Department:</strong> {acc.department}</div>
-                    <div><strong>Facility:</strong> {acc.hospitalName}</div>
-                    <div className="text-[10px] text-slate-400">
-                      Permissions: {acc.role === 'Hospital Administrator' ? 'Full Master CRUD + Policy' : acc.role === 'Pharmacist' ? 'FEFO Dispense & Batch Tracking' : acc.role === 'Inventory Manager' ? 'Physical Stock & Transfer Rebalancing' : 'PO Issuance & Pipeline Control'}
+                  <div className="mt-3 pt-3 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px]">
+                    <div className="space-y-0.5 text-slate-600 flex-1">
+                      <div><strong>Department:</strong> {acc.department}</div>
+                      <div><strong>Facility:</strong> {acc.hospitalName}</div>
+                      <div className="text-[10px] text-slate-400">
+                        Permissions: {acc.role === 'Hospital Administrator' ? 'Full Master CRUD + Policy' : acc.role === 'Pharmacist' ? 'FEFO Dispense & Batch Tracking' : acc.role === 'Inventory Manager' ? 'Physical Stock & Transfer Rebalancing' : 'PO Issuance & Pipeline Control'}
+                      </div>
+                    </div>
+                    <div className="shrink-0 pt-1 sm:pt-0">
+                      {isCurrent ? (
+                        <span className="px-3 py-1 rounded-xl bg-emerald-50 text-emerald-700 border border-emerald-200 font-bold text-[10px] flex items-center gap-1">
+                          <Check className="w-3.5 h-3.5" />
+                          Active Operating Persona
+                        </span>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            switchRole(acc.role);
+                            showToast(`Switched active operational persona to ${acc.role} (${acc.name}).`);
+                          }}
+                          className="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white border border-indigo-200 font-bold text-xs transition cursor-pointer flex items-center gap-1.5 shadow-2xs"
+                        >
+                          <UserCheck className="w-3.5 h-3.5" />
+                          <span>Switch to {acc.role}</span>
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>

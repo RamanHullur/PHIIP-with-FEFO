@@ -14,8 +14,12 @@ import {
   FileClock,
   CheckCheck,
   ShieldAlert,
+  ShieldCheck,
+  Pill,
+  UserCheck,
 } from 'lucide-react';
 import { useInventory } from '../../context/InventoryContext';
+import { UserRole } from '../../types/inventory';
 
 export interface NavItem {
   id: string;
@@ -32,7 +36,7 @@ interface SidebarProps {
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
-  const { stats, actions, transfers, procurements } = useInventory();
+  const { stats, actions, transfers, procurements, userRole, switchRole } = useInventory();
 
   const navItems: NavItem[] = [
     {
@@ -197,11 +201,90 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
         })}
       </div>
 
+      {/* Active Persona & Quick Role Switcher */}
+      <div className="p-3 border-t border-slate-800 bg-slate-950/80 space-y-2">
+        <div className="flex items-center justify-between text-[10px] text-slate-400">
+          <span className="font-bold text-slate-300 uppercase tracking-wider">Active Persona:</span>
+          <span
+            className={`font-bold px-1.5 py-0.2 rounded ${
+              userRole === 'Hospital Administrator'
+                ? 'bg-indigo-900/80 text-indigo-300'
+                : userRole === 'Pharmacist'
+                ? 'bg-emerald-900/80 text-emerald-300'
+                : userRole === 'Inventory Manager'
+                ? 'bg-blue-900/80 text-blue-300'
+                : 'bg-amber-900/80 text-amber-300'
+            }`}
+          >
+            {userRole}
+          </span>
+        </div>
+
+        {/* 4-button fast role switch grid */}
+        <div className="grid grid-cols-2 gap-1 text-[10px]">
+          <button
+            type="button"
+            onClick={() => switchRole('Hospital Administrator')}
+            className={`px-2 py-1 rounded text-left truncate transition cursor-pointer flex items-center gap-1 ${
+              userRole === 'Hospital Administrator'
+                ? 'bg-indigo-600 text-white font-bold'
+                : 'bg-slate-800/80 text-slate-300 hover:bg-slate-800 hover:text-white'
+            }`}
+            title="Switch to Hospital Administrator"
+          >
+            <ShieldCheck className="w-3 h-3 shrink-0" />
+            <span className="truncate">Admin</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => switchRole('Pharmacist')}
+            className={`px-2 py-1 rounded text-left truncate transition cursor-pointer flex items-center gap-1 ${
+              userRole === 'Pharmacist'
+                ? 'bg-emerald-600 text-white font-bold'
+                : 'bg-slate-800/80 text-slate-300 hover:bg-slate-800 hover:text-white'
+            }`}
+            title="Switch to Chief Pharmacist"
+          >
+            <Pill className="w-3 h-3 shrink-0" />
+            <span className="truncate">Pharmacist</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => switchRole('Inventory Manager')}
+            className={`px-2 py-1 rounded text-left truncate transition cursor-pointer flex items-center gap-1 ${
+              userRole === 'Inventory Manager'
+                ? 'bg-blue-600 text-white font-bold'
+                : 'bg-slate-800/80 text-slate-300 hover:bg-slate-800 hover:text-white'
+            }`}
+            title="Switch to Inventory Manager"
+          >
+            <Boxes className="w-3 h-3 shrink-0" />
+            <span className="truncate">Inventory</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => switchRole('Procurement Manager')}
+            className={`px-2 py-1 rounded text-left truncate transition cursor-pointer flex items-center gap-1 ${
+              userRole === 'Procurement Manager'
+                ? 'bg-amber-600 text-white font-bold'
+                : 'bg-slate-800/80 text-slate-300 hover:bg-slate-800 hover:text-white'
+            }`}
+            title="Switch to Procurement Manager"
+          >
+            <ShoppingCart className="w-3 h-3 shrink-0" />
+            <span className="truncate">Procure</span>
+          </button>
+        </div>
+      </div>
+
       {/* Safety Notice Footer */}
-      <div className="p-3 border-t border-slate-800 bg-slate-950/60 text-[10px] text-slate-400 leading-tight">
-        <p className="font-semibold text-slate-300">PoC Decision Support</p>
-        <p className="mt-0.5 text-slate-400">
-          Deterministic calculations with synthetic inventory. Not clinical medical advice.
+      <div className="p-2.5 border-t border-slate-800 bg-slate-950 text-[9px] text-slate-500 leading-tight">
+        <p className="font-semibold text-slate-400">PoC Decision Support</p>
+        <p className="mt-0.5 text-slate-500">
+          Deterministic hospital intelligence engine with synthetic dataset.
         </p>
       </div>
     </aside>
