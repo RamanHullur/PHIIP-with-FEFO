@@ -1,0 +1,1801 @@
+id,itemId,batchId,locationId,date,quantityConsumed,department
+cons_item_cftx_1g_2026-08-06,item_cftx_1g,demo_batch,loc_apex_central,2026-08-06,43,Inpatient Medicine
+cons_item_mero_1g_2026-08-06,item_mero_1g,demo_batch,loc_apex_central,2026-08-06,13,Inpatient Medicine
+cons_item_piptaz_45_2026-08-06,item_piptaz_45,demo_batch,loc_apex_central,2026-08-06,13,Inpatient Medicine
+cons_item_vanco_500_2026-08-06,item_vanco_500,demo_batch,loc_apex_central,2026-08-06,7,Inpatient Medicine
+cons_item_amox_12_2026-08-06,item_amox_12,demo_batch,loc_apex_central,2026-08-06,26,Inpatient Medicine
+cons_item_epi_1mg_2026-08-06,item_epi_1mg,demo_batch,loc_apex_central,2026-08-06,15,ICU
+cons_item_norepi_4mg_2026-08-06,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-06,18,ICU
+cons_item_dopa_200_2026-08-06,item_dopa_200,demo_batch,loc_apex_central,2026-08-06,5,ICU
+cons_item_atro_06_2026-08-06,item_atro_06,demo_batch,loc_apex_central,2026-08-06,9,ICU
+cons_item_pcm_1g_2026-08-06,item_pcm_1g,demo_batch,loc_apex_central,2026-08-06,45,General Surgery
+cons_item_fent_100_2026-08-06,item_fent_100,demo_batch,loc_apex_central,2026-08-06,9,General Surgery
+cons_item_midaz_5mg_2026-08-06,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-06,10,General Surgery
+cons_item_tram_100_2026-08-06,item_tram_100,demo_batch,loc_apex_central,2026-08-06,13,General Surgery
+cons_item_ns_500_2026-08-06,item_ns_500,demo_batch,loc_apex_central,2026-08-06,119,General Surgery
+cons_item_rl_500_2026-08-06,item_rl_500,demo_batch,loc_apex_central,2026-08-06,89,General Surgery
+cons_item_d5_500_2026-08-06,item_d5_500,demo_batch,loc_apex_central,2026-08-06,40,General Surgery
+cons_item_kcl_20_2026-08-06,item_kcl_20,demo_batch,loc_apex_central,2026-08-06,15,General Surgery
+cons_item_iv_set_2026-08-06,item_iv_set,demo_batch,loc_apex_central,2026-08-06,28,General Surgery
+cons_item_gloves_75_2026-08-06,item_gloves_75,demo_batch,loc_apex_central,2026-08-06,32,General Surgery
+cons_item_syr_10_2026-08-06,item_syr_10,demo_batch,loc_apex_central,2026-08-06,158,General Surgery
+cons_item_foley_16_2026-08-06,item_foley_16,demo_batch,loc_apex_central,2026-08-06,8,General Surgery
+cons_item_ett_75_2026-08-06,item_ett_75,demo_batch,loc_apex_central,2026-08-06,6,General Surgery
+cons_item_stopcock_3w_2026-08-06,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-06,32,General Surgery
+cons_item_pacli_100_2026-08-06,item_pacli_100,demo_batch,loc_apex_central,2026-08-06,2,General Surgery
+cons_item_carbo_450_2026-08-06,item_carbo_450,demo_batch,loc_apex_central,2026-08-06,1,General Surgery
+cons_item_albu_20_2026-08-06,item_albu_20,demo_batch,loc_apex_central,2026-08-06,3,General Surgery
+cons_item_blood_bag_2026-08-06,item_blood_bag,demo_batch,loc_apex_central,2026-08-06,5,General Surgery
+cons_item_trop_i_2026-08-06,item_trop_i,demo_batch,loc_apex_central,2026-08-06,12,General Surgery
+cons_item_covid_ag_2026-08-06,item_covid_ag,demo_batch,loc_apex_central,2026-08-06,7,General Surgery
+cons_item_edta_tube_2026-08-06,item_edta_tube,demo_batch,loc_apex_central,2026-08-06,39,General Surgery
+cons_item_cftx_1g_2026-08-07,item_cftx_1g,demo_batch,loc_apex_central,2026-08-07,50,Inpatient Medicine
+cons_item_mero_1g_2026-08-07,item_mero_1g,demo_batch,loc_apex_central,2026-08-07,15,Inpatient Medicine
+cons_item_piptaz_45_2026-08-07,item_piptaz_45,demo_batch,loc_apex_central,2026-08-07,15,Inpatient Medicine
+cons_item_vanco_500_2026-08-07,item_vanco_500,demo_batch,loc_apex_central,2026-08-07,8,Inpatient Medicine
+cons_item_amox_12_2026-08-07,item_amox_12,demo_batch,loc_apex_central,2026-08-07,30,Inpatient Medicine
+cons_item_epi_1mg_2026-08-07,item_epi_1mg,demo_batch,loc_apex_central,2026-08-07,18,ICU
+cons_item_norepi_4mg_2026-08-07,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-07,15,ICU
+cons_item_dopa_200_2026-08-07,item_dopa_200,demo_batch,loc_apex_central,2026-08-07,7,ICU
+cons_item_atro_06_2026-08-07,item_atro_06,demo_batch,loc_apex_central,2026-08-07,10,ICU
+cons_item_pcm_1g_2026-08-07,item_pcm_1g,demo_batch,loc_apex_central,2026-08-07,43,General Surgery
+cons_item_fent_100_2026-08-07,item_fent_100,demo_batch,loc_apex_central,2026-08-07,12,General Surgery
+cons_item_midaz_5mg_2026-08-07,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-07,11,General Surgery
+cons_item_tram_100_2026-08-07,item_tram_100,demo_batch,loc_apex_central,2026-08-07,17,General Surgery
+cons_item_ns_500_2026-08-07,item_ns_500,demo_batch,loc_apex_central,2026-08-07,115,General Surgery
+cons_item_rl_500_2026-08-07,item_rl_500,demo_batch,loc_apex_central,2026-08-07,86,General Surgery
+cons_item_d5_500_2026-08-07,item_d5_500,demo_batch,loc_apex_central,2026-08-07,38,General Surgery
+cons_item_kcl_20_2026-08-07,item_kcl_20,demo_batch,loc_apex_central,2026-08-07,14,General Surgery
+cons_item_iv_set_2026-08-07,item_iv_set,demo_batch,loc_apex_central,2026-08-07,27,General Surgery
+cons_item_gloves_75_2026-08-07,item_gloves_75,demo_batch,loc_apex_central,2026-08-07,35,General Surgery
+cons_item_syr_10_2026-08-07,item_syr_10,demo_batch,loc_apex_central,2026-08-07,153,General Surgery
+cons_item_foley_16_2026-08-07,item_foley_16,demo_batch,loc_apex_central,2026-08-07,10,General Surgery
+cons_item_ett_75_2026-08-07,item_ett_75,demo_batch,loc_apex_central,2026-08-07,6,General Surgery
+cons_item_stopcock_3w_2026-08-07,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-07,25,General Surgery
+cons_item_pacli_100_2026-08-07,item_pacli_100,demo_batch,loc_apex_central,2026-08-07,2,General Surgery
+cons_item_carbo_450_2026-08-07,item_carbo_450,demo_batch,loc_apex_central,2026-08-07,1,General Surgery
+cons_item_albu_20_2026-08-07,item_albu_20,demo_batch,loc_apex_central,2026-08-07,4,General Surgery
+cons_item_blood_bag_2026-08-07,item_blood_bag,demo_batch,loc_apex_central,2026-08-07,5,General Surgery
+cons_item_trop_i_2026-08-07,item_trop_i,demo_batch,loc_apex_central,2026-08-07,11,General Surgery
+cons_item_covid_ag_2026-08-07,item_covid_ag,demo_batch,loc_apex_central,2026-08-07,9,General Surgery
+cons_item_edta_tube_2026-08-07,item_edta_tube,demo_batch,loc_apex_central,2026-08-07,43,General Surgery
+cons_item_cftx_1g_2026-08-08,item_cftx_1g,demo_batch,loc_apex_central,2026-08-08,48,Inpatient Medicine
+cons_item_mero_1g_2026-08-08,item_mero_1g,demo_batch,loc_apex_central,2026-08-08,14,Inpatient Medicine
+cons_item_piptaz_45_2026-08-08,item_piptaz_45,demo_batch,loc_apex_central,2026-08-08,19,Inpatient Medicine
+cons_item_vanco_500_2026-08-08,item_vanco_500,demo_batch,loc_apex_central,2026-08-08,10,Inpatient Medicine
+cons_item_amox_12_2026-08-08,item_amox_12,demo_batch,loc_apex_central,2026-08-08,29,Inpatient Medicine
+cons_item_epi_1mg_2026-08-08,item_epi_1mg,demo_batch,loc_apex_central,2026-08-08,17,ICU
+cons_item_norepi_4mg_2026-08-08,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-08,17,ICU
+cons_item_dopa_200_2026-08-08,item_dopa_200,demo_batch,loc_apex_central,2026-08-08,8,ICU
+cons_item_atro_06_2026-08-08,item_atro_06,demo_batch,loc_apex_central,2026-08-08,10,ICU
+cons_item_pcm_1g_2026-08-08,item_pcm_1g,demo_batch,loc_apex_central,2026-08-08,35,General Surgery
+cons_item_fent_100_2026-08-08,item_fent_100,demo_batch,loc_apex_central,2026-08-08,14,General Surgery
+cons_item_midaz_5mg_2026-08-08,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-08,14,General Surgery
+cons_item_tram_100_2026-08-08,item_tram_100,demo_batch,loc_apex_central,2026-08-08,20,General Surgery
+cons_item_ns_500_2026-08-08,item_ns_500,demo_batch,loc_apex_central,2026-08-08,93,General Surgery
+cons_item_rl_500_2026-08-08,item_rl_500,demo_batch,loc_apex_central,2026-08-08,70,General Surgery
+cons_item_d5_500_2026-08-08,item_d5_500,demo_batch,loc_apex_central,2026-08-08,31,General Surgery
+cons_item_kcl_20_2026-08-08,item_kcl_20,demo_batch,loc_apex_central,2026-08-08,12,General Surgery
+cons_item_iv_set_2026-08-08,item_iv_set,demo_batch,loc_apex_central,2026-08-08,22,General Surgery
+cons_item_gloves_75_2026-08-08,item_gloves_75,demo_batch,loc_apex_central,2026-08-08,45,General Surgery
+cons_item_syr_10_2026-08-08,item_syr_10,demo_batch,loc_apex_central,2026-08-08,124,General Surgery
+cons_item_foley_16_2026-08-08,item_foley_16,demo_batch,loc_apex_central,2026-08-08,12,General Surgery
+cons_item_ett_75_2026-08-08,item_ett_75,demo_batch,loc_apex_central,2026-08-08,5,General Surgery
+cons_item_stopcock_3w_2026-08-08,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-08,21,General Surgery
+cons_item_pacli_100_2026-08-08,item_pacli_100,demo_batch,loc_apex_central,2026-08-08,3,General Surgery
+cons_item_carbo_450_2026-08-08,item_carbo_450,demo_batch,loc_apex_central,2026-08-08,2,General Surgery
+cons_item_albu_20_2026-08-08,item_albu_20,demo_batch,loc_apex_central,2026-08-08,4,General Surgery
+cons_item_blood_bag_2026-08-08,item_blood_bag,demo_batch,loc_apex_central,2026-08-08,7,General Surgery
+cons_item_trop_i_2026-08-08,item_trop_i,demo_batch,loc_apex_central,2026-08-08,9,General Surgery
+cons_item_covid_ag_2026-08-08,item_covid_ag,demo_batch,loc_apex_central,2026-08-08,10,General Surgery
+cons_item_edta_tube_2026-08-08,item_edta_tube,demo_batch,loc_apex_central,2026-08-08,55,General Surgery
+cons_item_cftx_1g_2026-08-09,item_cftx_1g,demo_batch,loc_apex_central,2026-08-09,39,Inpatient Medicine
+cons_item_mero_1g_2026-08-09,item_mero_1g,demo_batch,loc_apex_central,2026-08-09,12,Inpatient Medicine
+cons_item_piptaz_45_2026-08-09,item_piptaz_45,demo_batch,loc_apex_central,2026-08-09,22,Inpatient Medicine
+cons_item_vanco_500_2026-08-09,item_vanco_500,demo_batch,loc_apex_central,2026-08-09,12,Inpatient Medicine
+cons_item_amox_12_2026-08-09,item_amox_12,demo_batch,loc_apex_central,2026-08-09,23,Inpatient Medicine
+cons_item_epi_1mg_2026-08-09,item_epi_1mg,demo_batch,loc_apex_central,2026-08-09,14,ICU
+cons_item_norepi_4mg_2026-08-09,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-09,21,ICU
+cons_item_dopa_200_2026-08-09,item_dopa_200,demo_batch,loc_apex_central,2026-08-09,8,ICU
+cons_item_atro_06_2026-08-09,item_atro_06,demo_batch,loc_apex_central,2026-08-09,8,ICU
+cons_item_pcm_1g_2026-08-09,item_pcm_1g,demo_batch,loc_apex_central,2026-08-09,28,General Surgery
+cons_item_fent_100_2026-08-09,item_fent_100,demo_batch,loc_apex_central,2026-08-09,13,General Surgery
+cons_item_midaz_5mg_2026-08-09,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-09,16,General Surgery
+cons_item_tram_100_2026-08-09,item_tram_100,demo_batch,loc_apex_central,2026-08-09,19,General Surgery
+cons_item_ns_500_2026-08-09,item_ns_500,demo_batch,loc_apex_central,2026-08-09,74,General Surgery
+cons_item_rl_500_2026-08-09,item_rl_500,demo_batch,loc_apex_central,2026-08-09,56,General Surgery
+cons_item_d5_500_2026-08-09,item_d5_500,demo_batch,loc_apex_central,2026-08-09,25,General Surgery
+cons_item_kcl_20_2026-08-09,item_kcl_20,demo_batch,loc_apex_central,2026-08-09,9,General Surgery
+cons_item_iv_set_2026-08-09,item_iv_set,demo_batch,loc_apex_central,2026-08-09,17,General Surgery
+cons_item_gloves_75_2026-08-09,item_gloves_75,demo_batch,loc_apex_central,2026-08-09,52,General Surgery
+cons_item_syr_10_2026-08-09,item_syr_10,demo_batch,loc_apex_central,2026-08-09,99,General Surgery
+cons_item_foley_16_2026-08-09,item_foley_16,demo_batch,loc_apex_central,2026-08-09,11,General Surgery
+cons_item_ett_75_2026-08-09,item_ett_75,demo_batch,loc_apex_central,2026-08-09,4,General Surgery
+cons_item_stopcock_3w_2026-08-09,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-09,23,General Surgery
+cons_item_pacli_100_2026-08-09,item_pacli_100,demo_batch,loc_apex_central,2026-08-09,3,General Surgery
+cons_item_carbo_450_2026-08-09,item_carbo_450,demo_batch,loc_apex_central,2026-08-09,2,General Surgery
+cons_item_albu_20_2026-08-09,item_albu_20,demo_batch,loc_apex_central,2026-08-09,3,General Surgery
+cons_item_blood_bag_2026-08-09,item_blood_bag,demo_batch,loc_apex_central,2026-08-09,8,General Surgery
+cons_item_trop_i_2026-08-09,item_trop_i,demo_batch,loc_apex_central,2026-08-09,7,General Surgery
+cons_item_covid_ag_2026-08-09,item_covid_ag,demo_batch,loc_apex_central,2026-08-09,10,General Surgery
+cons_item_edta_tube_2026-08-09,item_edta_tube,demo_batch,loc_apex_central,2026-08-09,64,General Surgery
+cons_item_cftx_1g_2026-08-10,item_cftx_1g,demo_batch,loc_apex_central,2026-08-10,31,Inpatient Medicine
+cons_item_mero_1g_2026-08-10,item_mero_1g,demo_batch,loc_apex_central,2026-08-10,9,Inpatient Medicine
+cons_item_piptaz_45_2026-08-10,item_piptaz_45,demo_batch,loc_apex_central,2026-08-10,21,Inpatient Medicine
+cons_item_vanco_500_2026-08-10,item_vanco_500,demo_batch,loc_apex_central,2026-08-10,11,Inpatient Medicine
+cons_item_amox_12_2026-08-10,item_amox_12,demo_batch,loc_apex_central,2026-08-10,19,Inpatient Medicine
+cons_item_epi_1mg_2026-08-10,item_epi_1mg,demo_batch,loc_apex_central,2026-08-10,11,ICU
+cons_item_norepi_4mg_2026-08-10,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-10,25,ICU
+cons_item_dopa_200_2026-08-10,item_dopa_200,demo_batch,loc_apex_central,2026-08-10,6,ICU
+cons_item_atro_06_2026-08-10,item_atro_06,demo_batch,loc_apex_central,2026-08-10,6,ICU
+cons_item_pcm_1g_2026-08-10,item_pcm_1g,demo_batch,loc_apex_central,2026-08-10,28,General Surgery
+cons_item_fent_100_2026-08-10,item_fent_100,demo_batch,loc_apex_central,2026-08-10,11,General Surgery
+cons_item_midaz_5mg_2026-08-10,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-10,15,General Surgery
+cons_item_tram_100_2026-08-10,item_tram_100,demo_batch,loc_apex_central,2026-08-10,16,General Surgery
+cons_item_ns_500_2026-08-10,item_ns_500,demo_batch,loc_apex_central,2026-08-10,75,General Surgery
+cons_item_rl_500_2026-08-10,item_rl_500,demo_batch,loc_apex_central,2026-08-10,57,General Surgery
+cons_item_d5_500_2026-08-10,item_d5_500,demo_batch,loc_apex_central,2026-08-10,25,General Surgery
+cons_item_kcl_20_2026-08-10,item_kcl_20,demo_batch,loc_apex_central,2026-08-10,9,General Surgery
+cons_item_iv_set_2026-08-10,item_iv_set,demo_batch,loc_apex_central,2026-08-10,18,General Surgery
+cons_item_gloves_75_2026-08-10,item_gloves_75,demo_batch,loc_apex_central,2026-08-10,51,General Surgery
+cons_item_syr_10_2026-08-10,item_syr_10,demo_batch,loc_apex_central,2026-08-10,101,General Surgery
+cons_item_foley_16_2026-08-10,item_foley_16,demo_batch,loc_apex_central,2026-08-10,9,General Surgery
+cons_item_ett_75_2026-08-10,item_ett_75,demo_batch,loc_apex_central,2026-08-10,4,General Surgery
+cons_item_stopcock_3w_2026-08-10,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-10,30,General Surgery
+cons_item_pacli_100_2026-08-10,item_pacli_100,demo_batch,loc_apex_central,2026-08-10,3,General Surgery
+cons_item_carbo_450_2026-08-10,item_carbo_450,demo_batch,loc_apex_central,2026-08-10,2,General Surgery
+cons_item_albu_20_2026-08-10,item_albu_20,demo_batch,loc_apex_central,2026-08-10,2,General Surgery
+cons_item_blood_bag_2026-08-10,item_blood_bag,demo_batch,loc_apex_central,2026-08-10,8,General Surgery
+cons_item_trop_i_2026-08-10,item_trop_i,demo_batch,loc_apex_central,2026-08-10,8,General Surgery
+cons_item_covid_ag_2026-08-10,item_covid_ag,demo_batch,loc_apex_central,2026-08-10,8,General Surgery
+cons_item_edta_tube_2026-08-10,item_edta_tube,demo_batch,loc_apex_central,2026-08-10,62,General Surgery
+cons_item_cftx_1g_2026-08-11,item_cftx_1g,demo_batch,loc_apex_central,2026-08-11,31,Inpatient Medicine
+cons_item_mero_1g_2026-08-11,item_mero_1g,demo_batch,loc_apex_central,2026-08-11,9,Inpatient Medicine
+cons_item_piptaz_45_2026-08-11,item_piptaz_45,demo_batch,loc_apex_central,2026-08-11,17,Inpatient Medicine
+cons_item_vanco_500_2026-08-11,item_vanco_500,demo_batch,loc_apex_central,2026-08-11,9,Inpatient Medicine
+cons_item_amox_12_2026-08-11,item_amox_12,demo_batch,loc_apex_central,2026-08-11,19,Inpatient Medicine
+cons_item_epi_1mg_2026-08-11,item_epi_1mg,demo_batch,loc_apex_central,2026-08-11,11,ICU
+cons_item_norepi_4mg_2026-08-11,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-11,24,ICU
+cons_item_dopa_200_2026-08-11,item_dopa_200,demo_batch,loc_apex_central,2026-08-11,5,ICU
+cons_item_atro_06_2026-08-11,item_atro_06,demo_batch,loc_apex_central,2026-08-11,6,ICU
+cons_item_pcm_1g_2026-08-11,item_pcm_1g,demo_batch,loc_apex_central,2026-08-11,36,General Surgery
+cons_item_fent_100_2026-08-11,item_fent_100,demo_batch,loc_apex_central,2026-08-11,9,General Surgery
+cons_item_midaz_5mg_2026-08-11,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-11,12,General Surgery
+cons_item_tram_100_2026-08-11,item_tram_100,demo_batch,loc_apex_central,2026-08-11,12,General Surgery
+cons_item_ns_500_2026-08-11,item_ns_500,demo_batch,loc_apex_central,2026-08-11,95,General Surgery
+cons_item_rl_500_2026-08-11,item_rl_500,demo_batch,loc_apex_central,2026-08-11,72,General Surgery
+cons_item_d5_500_2026-08-11,item_d5_500,demo_batch,loc_apex_central,2026-08-11,32,General Surgery
+cons_item_kcl_20_2026-08-11,item_kcl_20,demo_batch,loc_apex_central,2026-08-11,12,General Surgery
+cons_item_iv_set_2026-08-11,item_iv_set,demo_batch,loc_apex_central,2026-08-11,22,General Surgery
+cons_item_gloves_75_2026-08-11,item_gloves_75,demo_batch,loc_apex_central,2026-08-11,41,General Surgery
+cons_item_syr_10_2026-08-11,item_syr_10,demo_batch,loc_apex_central,2026-08-11,127,General Surgery
+cons_item_foley_16_2026-08-11,item_foley_16,demo_batch,loc_apex_central,2026-08-11,7,General Surgery
+cons_item_ett_75_2026-08-11,item_ett_75,demo_batch,loc_apex_central,2026-08-11,5,General Surgery
+cons_item_stopcock_3w_2026-08-11,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-11,35,General Surgery
+cons_item_pacli_100_2026-08-11,item_pacli_100,demo_batch,loc_apex_central,2026-08-11,2,General Surgery
+cons_item_carbo_450_2026-08-11,item_carbo_450,demo_batch,loc_apex_central,2026-08-11,2,General Surgery
+cons_item_albu_20_2026-08-11,item_albu_20,demo_batch,loc_apex_central,2026-08-11,3,General Surgery
+cons_item_blood_bag_2026-08-11,item_blood_bag,demo_batch,loc_apex_central,2026-08-11,6,General Surgery
+cons_item_trop_i_2026-08-11,item_trop_i,demo_batch,loc_apex_central,2026-08-11,10,General Surgery
+cons_item_covid_ag_2026-08-11,item_covid_ag,demo_batch,loc_apex_central,2026-08-11,6,General Surgery
+cons_item_edta_tube_2026-08-11,item_edta_tube,demo_batch,loc_apex_central,2026-08-11,51,General Surgery
+cons_item_cftx_1g_2026-08-12,item_cftx_1g,demo_batch,loc_apex_central,2026-08-12,40,Inpatient Medicine
+cons_item_mero_1g_2026-08-12,item_mero_1g,demo_batch,loc_apex_central,2026-08-12,12,Inpatient Medicine
+cons_item_piptaz_45_2026-08-12,item_piptaz_45,demo_batch,loc_apex_central,2026-08-12,14,Inpatient Medicine
+cons_item_vanco_500_2026-08-12,item_vanco_500,demo_batch,loc_apex_central,2026-08-12,7,Inpatient Medicine
+cons_item_amox_12_2026-08-12,item_amox_12,demo_batch,loc_apex_central,2026-08-12,24,Inpatient Medicine
+cons_item_epi_1mg_2026-08-12,item_epi_1mg,demo_batch,loc_apex_central,2026-08-12,14,ICU
+cons_item_norepi_4mg_2026-08-12,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-12,19,ICU
+cons_item_dopa_200_2026-08-12,item_dopa_200,demo_batch,loc_apex_central,2026-08-12,5,ICU
+cons_item_atro_06_2026-08-12,item_atro_06,demo_batch,loc_apex_central,2026-08-12,8,ICU
+cons_item_pcm_1g_2026-08-12,item_pcm_1g,demo_batch,loc_apex_central,2026-08-12,43,General Surgery
+cons_item_fent_100_2026-08-12,item_fent_100,demo_batch,loc_apex_central,2026-08-12,9,General Surgery
+cons_item_midaz_5mg_2026-08-12,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-12,10,General Surgery
+cons_item_tram_100_2026-08-12,item_tram_100,demo_batch,loc_apex_central,2026-08-12,13,General Surgery
+cons_item_ns_500_2026-08-12,item_ns_500,demo_batch,loc_apex_central,2026-08-12,116,General Surgery
+cons_item_rl_500_2026-08-12,item_rl_500,demo_batch,loc_apex_central,2026-08-12,87,General Surgery
+cons_item_d5_500_2026-08-12,item_d5_500,demo_batch,loc_apex_central,2026-08-12,39,General Surgery
+cons_item_kcl_20_2026-08-12,item_kcl_20,demo_batch,loc_apex_central,2026-08-12,14,General Surgery
+cons_item_iv_set_2026-08-12,item_iv_set,demo_batch,loc_apex_central,2026-08-12,27,General Surgery
+cons_item_gloves_75_2026-08-12,item_gloves_75,demo_batch,loc_apex_central,2026-08-12,33,General Surgery
+cons_item_syr_10_2026-08-12,item_syr_10,demo_batch,loc_apex_central,2026-08-12,154,General Surgery
+cons_item_foley_16_2026-08-12,item_foley_16,demo_batch,loc_apex_central,2026-08-12,8,General Surgery
+cons_item_ett_75_2026-08-12,item_ett_75,demo_batch,loc_apex_central,2026-08-12,6,General Surgery
+cons_item_stopcock_3w_2026-08-12,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-12,33,General Surgery
+cons_item_pacli_100_2026-08-12,item_pacli_100,demo_batch,loc_apex_central,2026-08-12,2,General Surgery
+cons_item_carbo_450_2026-08-12,item_carbo_450,demo_batch,loc_apex_central,2026-08-12,1,General Surgery
+cons_item_albu_20_2026-08-12,item_albu_20,demo_batch,loc_apex_central,2026-08-12,3,General Surgery
+cons_item_blood_bag_2026-08-12,item_blood_bag,demo_batch,loc_apex_central,2026-08-12,5,General Surgery
+cons_item_trop_i_2026-08-12,item_trop_i,demo_batch,loc_apex_central,2026-08-12,12,General Surgery
+cons_item_covid_ag_2026-08-12,item_covid_ag,demo_batch,loc_apex_central,2026-08-12,6,General Surgery
+cons_item_edta_tube_2026-08-12,item_edta_tube,demo_batch,loc_apex_central,2026-08-12,40,General Surgery
+cons_item_cftx_1g_2026-08-13,item_cftx_1g,demo_batch,loc_apex_central,2026-08-13,48,Inpatient Medicine
+cons_item_mero_1g_2026-08-13,item_mero_1g,demo_batch,loc_apex_central,2026-08-13,14,Inpatient Medicine
+cons_item_piptaz_45_2026-08-13,item_piptaz_45,demo_batch,loc_apex_central,2026-08-13,14,Inpatient Medicine
+cons_item_vanco_500_2026-08-13,item_vanco_500,demo_batch,loc_apex_central,2026-08-13,8,Inpatient Medicine
+cons_item_amox_12_2026-08-13,item_amox_12,demo_batch,loc_apex_central,2026-08-13,29,Inpatient Medicine
+cons_item_epi_1mg_2026-08-13,item_epi_1mg,demo_batch,loc_apex_central,2026-08-13,17,ICU
+cons_item_norepi_4mg_2026-08-13,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-13,16,ICU
+cons_item_dopa_200_2026-08-13,item_dopa_200,demo_batch,loc_apex_central,2026-08-13,6,ICU
+cons_item_atro_06_2026-08-13,item_atro_06,demo_batch,loc_apex_central,2026-08-13,10,ICU
+cons_item_pcm_1g_2026-08-13,item_pcm_1g,demo_batch,loc_apex_central,2026-08-13,44,General Surgery
+cons_item_fent_100_2026-08-13,item_fent_100,demo_batch,loc_apex_central,2026-08-13,11,General Surgery
+cons_item_midaz_5mg_2026-08-13,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-13,10,General Surgery
+cons_item_tram_100_2026-08-13,item_tram_100,demo_batch,loc_apex_central,2026-08-13,16,General Surgery
+cons_item_ns_500_2026-08-13,item_ns_500,demo_batch,loc_apex_central,2026-08-13,118,General Surgery
+cons_item_rl_500_2026-08-13,item_rl_500,demo_batch,loc_apex_central,2026-08-13,89,General Surgery
+cons_item_d5_500_2026-08-13,item_d5_500,demo_batch,loc_apex_central,2026-08-13,39,General Surgery
+cons_item_kcl_20_2026-08-13,item_kcl_20,demo_batch,loc_apex_central,2026-08-13,15,General Surgery
+cons_item_iv_set_2026-08-13,item_iv_set,demo_batch,loc_apex_central,2026-08-13,28,General Surgery
+cons_item_gloves_75_2026-08-13,item_gloves_75,demo_batch,loc_apex_central,2026-08-13,33,General Surgery
+cons_item_syr_10_2026-08-13,item_syr_10,demo_batch,loc_apex_central,2026-08-13,157,General Surgery
+cons_item_foley_16_2026-08-13,item_foley_16,demo_batch,loc_apex_central,2026-08-13,10,General Surgery
+cons_item_ett_75_2026-08-13,item_ett_75,demo_batch,loc_apex_central,2026-08-13,6,General Surgery
+cons_item_stopcock_3w_2026-08-13,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-13,27,General Surgery
+cons_item_pacli_100_2026-08-13,item_pacli_100,demo_batch,loc_apex_central,2026-08-13,2,General Surgery
+cons_item_carbo_450_2026-08-13,item_carbo_450,demo_batch,loc_apex_central,2026-08-13,1,General Surgery
+cons_item_albu_20_2026-08-13,item_albu_20,demo_batch,loc_apex_central,2026-08-13,4,General Surgery
+cons_item_blood_bag_2026-08-13,item_blood_bag,demo_batch,loc_apex_central,2026-08-13,5,General Surgery
+cons_item_trop_i_2026-08-13,item_trop_i,demo_batch,loc_apex_central,2026-08-13,12,General Surgery
+cons_item_covid_ag_2026-08-13,item_covid_ag,demo_batch,loc_apex_central,2026-08-13,8,General Surgery
+cons_item_edta_tube_2026-08-13,item_edta_tube,demo_batch,loc_apex_central,2026-08-13,41,General Surgery
+cons_item_cftx_1g_2026-08-14,item_cftx_1g,demo_batch,loc_apex_central,2026-08-14,49,Inpatient Medicine
+cons_item_mero_1g_2026-08-14,item_mero_1g,demo_batch,loc_apex_central,2026-08-14,15,Inpatient Medicine
+cons_item_piptaz_45_2026-08-14,item_piptaz_45,demo_batch,loc_apex_central,2026-08-14,17,Inpatient Medicine
+cons_item_vanco_500_2026-08-14,item_vanco_500,demo_batch,loc_apex_central,2026-08-14,10,Inpatient Medicine
+cons_item_amox_12_2026-08-14,item_amox_12,demo_batch,loc_apex_central,2026-08-14,30,Inpatient Medicine
+cons_item_epi_1mg_2026-08-14,item_epi_1mg,demo_batch,loc_apex_central,2026-08-14,18,ICU
+cons_item_norepi_4mg_2026-08-14,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-14,16,ICU
+cons_item_dopa_200_2026-08-14,item_dopa_200,demo_batch,loc_apex_central,2026-08-14,8,ICU
+cons_item_atro_06_2026-08-14,item_atro_06,demo_batch,loc_apex_central,2026-08-14,10,ICU
+cons_item_pcm_1g_2026-08-14,item_pcm_1g,demo_batch,loc_apex_central,2026-08-14,38,General Surgery
+cons_item_fent_100_2026-08-14,item_fent_100,demo_batch,loc_apex_central,2026-08-14,14,General Surgery
+cons_item_midaz_5mg_2026-08-14,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-14,13,General Surgery
+cons_item_tram_100_2026-08-14,item_tram_100,demo_batch,loc_apex_central,2026-08-14,19,General Surgery
+cons_item_ns_500_2026-08-14,item_ns_500,demo_batch,loc_apex_central,2026-08-14,100,General Surgery
+cons_item_rl_500_2026-08-14,item_rl_500,demo_batch,loc_apex_central,2026-08-14,75,General Surgery
+cons_item_d5_500_2026-08-14,item_d5_500,demo_batch,loc_apex_central,2026-08-14,33,General Surgery
+cons_item_kcl_20_2026-08-14,item_kcl_20,demo_batch,loc_apex_central,2026-08-14,13,General Surgery
+cons_item_iv_set_2026-08-14,item_iv_set,demo_batch,loc_apex_central,2026-08-14,23,General Surgery
+cons_item_gloves_75_2026-08-14,item_gloves_75,demo_batch,loc_apex_central,2026-08-14,42,General Surgery
+cons_item_syr_10_2026-08-14,item_syr_10,demo_batch,loc_apex_central,2026-08-14,133,General Surgery
+cons_item_foley_16_2026-08-14,item_foley_16,demo_batch,loc_apex_central,2026-08-14,12,General Surgery
+cons_item_ett_75_2026-08-14,item_ett_75,demo_batch,loc_apex_central,2026-08-14,5,General Surgery
+cons_item_stopcock_3w_2026-08-14,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-14,22,General Surgery
+cons_item_pacli_100_2026-08-14,item_pacli_100,demo_batch,loc_apex_central,2026-08-14,2,General Surgery
+cons_item_carbo_450_2026-08-14,item_carbo_450,demo_batch,loc_apex_central,2026-08-14,2,General Surgery
+cons_item_albu_20_2026-08-14,item_albu_20,demo_batch,loc_apex_central,2026-08-14,4,General Surgery
+cons_item_blood_bag_2026-08-14,item_blood_bag,demo_batch,loc_apex_central,2026-08-14,6,General Surgery
+cons_item_trop_i_2026-08-14,item_trop_i,demo_batch,loc_apex_central,2026-08-14,10,General Surgery
+cons_item_covid_ag_2026-08-14,item_covid_ag,demo_batch,loc_apex_central,2026-08-14,10,General Surgery
+cons_item_edta_tube_2026-08-14,item_edta_tube,demo_batch,loc_apex_central,2026-08-14,52,General Surgery
+cons_item_cftx_1g_2026-08-15,item_cftx_1g,demo_batch,loc_apex_central,2026-08-15,42,Inpatient Medicine
+cons_item_mero_1g_2026-08-15,item_mero_1g,demo_batch,loc_apex_central,2026-08-15,13,Inpatient Medicine
+cons_item_piptaz_45_2026-08-15,item_piptaz_45,demo_batch,loc_apex_central,2026-08-15,21,Inpatient Medicine
+cons_item_vanco_500_2026-08-15,item_vanco_500,demo_batch,loc_apex_central,2026-08-15,12,Inpatient Medicine
+cons_item_amox_12_2026-08-15,item_amox_12,demo_batch,loc_apex_central,2026-08-15,25,Inpatient Medicine
+cons_item_epi_1mg_2026-08-15,item_epi_1mg,demo_batch,loc_apex_central,2026-08-15,15,ICU
+cons_item_norepi_4mg_2026-08-15,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-15,20,ICU
+cons_item_dopa_200_2026-08-15,item_dopa_200,demo_batch,loc_apex_central,2026-08-15,8,ICU
+cons_item_atro_06_2026-08-15,item_atro_06,demo_batch,loc_apex_central,2026-08-15,8,ICU
+cons_item_pcm_1g_2026-08-15,item_pcm_1g,demo_batch,loc_apex_central,2026-08-15,29,General Surgery
+cons_item_fent_100_2026-08-15,item_fent_100,demo_batch,loc_apex_central,2026-08-15,14,General Surgery
+cons_item_midaz_5mg_2026-08-15,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-15,15,General Surgery
+cons_item_tram_100_2026-08-15,item_tram_100,demo_batch,loc_apex_central,2026-08-15,20,General Surgery
+cons_item_ns_500_2026-08-15,item_ns_500,demo_batch,loc_apex_central,2026-08-15,78,General Surgery
+cons_item_rl_500_2026-08-15,item_rl_500,demo_batch,loc_apex_central,2026-08-15,59,General Surgery
+cons_item_d5_500_2026-08-15,item_d5_500,demo_batch,loc_apex_central,2026-08-15,26,General Surgery
+cons_item_kcl_20_2026-08-15,item_kcl_20,demo_batch,loc_apex_central,2026-08-15,10,General Surgery
+cons_item_iv_set_2026-08-15,item_iv_set,demo_batch,loc_apex_central,2026-08-15,18,General Surgery
+cons_item_gloves_75_2026-08-15,item_gloves_75,demo_batch,loc_apex_central,2026-08-15,51,General Surgery
+cons_item_syr_10_2026-08-15,item_syr_10,demo_batch,loc_apex_central,2026-08-15,104,General Surgery
+cons_item_foley_16_2026-08-15,item_foley_16,demo_batch,loc_apex_central,2026-08-15,12,General Surgery
+cons_item_ett_75_2026-08-15,item_ett_75,demo_batch,loc_apex_central,2026-08-15,4,General Surgery
+cons_item_stopcock_3w_2026-08-15,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-15,22,General Surgery
+cons_item_pacli_100_2026-08-15,item_pacli_100,demo_batch,loc_apex_central,2026-08-15,3,General Surgery
+cons_item_carbo_450_2026-08-15,item_carbo_450,demo_batch,loc_apex_central,2026-08-15,2,General Surgery
+cons_item_albu_20_2026-08-15,item_albu_20,demo_batch,loc_apex_central,2026-08-15,3,General Surgery
+cons_item_blood_bag_2026-08-15,item_blood_bag,demo_batch,loc_apex_central,2026-08-15,8,General Surgery
+cons_item_trop_i_2026-08-15,item_trop_i,demo_batch,loc_apex_central,2026-08-15,8,General Surgery
+cons_item_covid_ag_2026-08-15,item_covid_ag,demo_batch,loc_apex_central,2026-08-15,10,General Surgery
+cons_item_edta_tube_2026-08-15,item_edta_tube,demo_batch,loc_apex_central,2026-08-15,63,General Surgery
+cons_item_cftx_1g_2026-08-16,item_cftx_1g,demo_batch,loc_apex_central,2026-08-16,33,Inpatient Medicine
+cons_item_mero_1g_2026-08-16,item_mero_1g,demo_batch,loc_apex_central,2026-08-16,10,Inpatient Medicine
+cons_item_piptaz_45_2026-08-16,item_piptaz_45,demo_batch,loc_apex_central,2026-08-16,22,Inpatient Medicine
+cons_item_vanco_500_2026-08-16,item_vanco_500,demo_batch,loc_apex_central,2026-08-16,12,Inpatient Medicine
+cons_item_amox_12_2026-08-16,item_amox_12,demo_batch,loc_apex_central,2026-08-16,20,Inpatient Medicine
+cons_item_epi_1mg_2026-08-16,item_epi_1mg,demo_batch,loc_apex_central,2026-08-16,12,ICU
+cons_item_norepi_4mg_2026-08-16,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-16,24,ICU
+cons_item_dopa_200_2026-08-16,item_dopa_200,demo_batch,loc_apex_central,2026-08-16,7,ICU
+cons_item_atro_06_2026-08-16,item_atro_06,demo_batch,loc_apex_central,2026-08-16,7,ICU
+cons_item_pcm_1g_2026-08-16,item_pcm_1g,demo_batch,loc_apex_central,2026-08-16,27,General Surgery
+cons_item_fent_100_2026-08-16,item_fent_100,demo_batch,loc_apex_central,2026-08-16,12,General Surgery
+cons_item_midaz_5mg_2026-08-16,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-16,16,General Surgery
+cons_item_tram_100_2026-08-16,item_tram_100,demo_batch,loc_apex_central,2026-08-16,17,General Surgery
+cons_item_ns_500_2026-08-16,item_ns_500,demo_batch,loc_apex_central,2026-08-16,73,General Surgery
+cons_item_rl_500_2026-08-16,item_rl_500,demo_batch,loc_apex_central,2026-08-16,55,General Surgery
+cons_item_d5_500_2026-08-16,item_d5_500,demo_batch,loc_apex_central,2026-08-16,24,General Surgery
+cons_item_kcl_20_2026-08-16,item_kcl_20,demo_batch,loc_apex_central,2026-08-16,9,General Surgery
+cons_item_iv_set_2026-08-16,item_iv_set,demo_batch,loc_apex_central,2026-08-16,17,General Surgery
+cons_item_gloves_75_2026-08-16,item_gloves_75,demo_batch,loc_apex_central,2026-08-16,52,General Surgery
+cons_item_syr_10_2026-08-16,item_syr_10,demo_batch,loc_apex_central,2026-08-16,97,General Surgery
+cons_item_foley_16_2026-08-16,item_foley_16,demo_batch,loc_apex_central,2026-08-16,10,General Surgery
+cons_item_ett_75_2026-08-16,item_ett_75,demo_batch,loc_apex_central,2026-08-16,4,General Surgery
+cons_item_stopcock_3w_2026-08-16,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-16,28,General Surgery
+cons_item_pacli_100_2026-08-16,item_pacli_100,demo_batch,loc_apex_central,2026-08-16,3,General Surgery
+cons_item_carbo_450_2026-08-16,item_carbo_450,demo_batch,loc_apex_central,2026-08-16,2,General Surgery
+cons_item_albu_20_2026-08-16,item_albu_20,demo_batch,loc_apex_central,2026-08-16,3,General Surgery
+cons_item_blood_bag_2026-08-16,item_blood_bag,demo_batch,loc_apex_central,2026-08-16,8,General Surgery
+cons_item_trop_i_2026-08-16,item_trop_i,demo_batch,loc_apex_central,2026-08-16,7,General Surgery
+cons_item_covid_ag_2026-08-16,item_covid_ag,demo_batch,loc_apex_central,2026-08-16,8,General Surgery
+cons_item_edta_tube_2026-08-16,item_edta_tube,demo_batch,loc_apex_central,2026-08-16,64,General Surgery
+cons_item_cftx_1g_2026-08-17,item_cftx_1g,demo_batch,loc_apex_central,2026-08-17,30,Inpatient Medicine
+cons_item_mero_1g_2026-08-17,item_mero_1g,demo_batch,loc_apex_central,2026-08-17,9,Inpatient Medicine
+cons_item_piptaz_45_2026-08-17,item_piptaz_45,demo_batch,loc_apex_central,2026-08-17,18,Inpatient Medicine
+cons_item_vanco_500_2026-08-17,item_vanco_500,demo_batch,loc_apex_central,2026-08-17,10,Inpatient Medicine
+cons_item_amox_12_2026-08-17,item_amox_12,demo_batch,loc_apex_central,2026-08-17,18,Inpatient Medicine
+cons_item_epi_1mg_2026-08-17,item_epi_1mg,demo_batch,loc_apex_central,2026-08-17,11,ICU
+cons_item_norepi_4mg_2026-08-17,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-17,25,ICU
+cons_item_dopa_200_2026-08-17,item_dopa_200,demo_batch,loc_apex_central,2026-08-17,5,ICU
+cons_item_atro_06_2026-08-17,item_atro_06,demo_batch,loc_apex_central,2026-08-17,6,ICU
+cons_item_pcm_1g_2026-08-17,item_pcm_1g,demo_batch,loc_apex_central,2026-08-17,33,General Surgery
+cons_item_fent_100_2026-08-17,item_fent_100,demo_batch,loc_apex_central,2026-08-17,9,General Surgery
+cons_item_midaz_5mg_2026-08-17,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-17,13,General Surgery
+cons_item_tram_100_2026-08-17,item_tram_100,demo_batch,loc_apex_central,2026-08-17,13,General Surgery
+cons_item_ns_500_2026-08-17,item_ns_500,demo_batch,loc_apex_central,2026-08-17,89,General Surgery
+cons_item_rl_500_2026-08-17,item_rl_500,demo_batch,loc_apex_central,2026-08-17,67,General Surgery
+cons_item_d5_500_2026-08-17,item_d5_500,demo_batch,loc_apex_central,2026-08-17,30,General Surgery
+cons_item_kcl_20_2026-08-17,item_kcl_20,demo_batch,loc_apex_central,2026-08-17,11,General Surgery
+cons_item_iv_set_2026-08-17,item_iv_set,demo_batch,loc_apex_central,2026-08-17,21,General Surgery
+cons_item_gloves_75_2026-08-17,item_gloves_75,demo_batch,loc_apex_central,2026-08-17,44,General Surgery
+cons_item_syr_10_2026-08-17,item_syr_10,demo_batch,loc_apex_central,2026-08-17,118,General Surgery
+cons_item_foley_16_2026-08-17,item_foley_16,demo_batch,loc_apex_central,2026-08-17,8,General Surgery
+cons_item_ett_75_2026-08-17,item_ett_75,demo_batch,loc_apex_central,2026-08-17,4,General Surgery
+cons_item_stopcock_3w_2026-08-17,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-17,34,General Surgery
+cons_item_pacli_100_2026-08-17,item_pacli_100,demo_batch,loc_apex_central,2026-08-17,3,General Surgery
+cons_item_carbo_450_2026-08-17,item_carbo_450,demo_batch,loc_apex_central,2026-08-17,2,General Surgery
+cons_item_albu_20_2026-08-17,item_albu_20,demo_batch,loc_apex_central,2026-08-17,2,General Surgery
+cons_item_blood_bag_2026-08-17,item_blood_bag,demo_batch,loc_apex_central,2026-08-17,7,General Surgery
+cons_item_trop_i_2026-08-17,item_trop_i,demo_batch,loc_apex_central,2026-08-17,9,General Surgery
+cons_item_covid_ag_2026-08-17,item_covid_ag,demo_batch,loc_apex_central,2026-08-17,7,General Surgery
+cons_item_edta_tube_2026-08-17,item_edta_tube,demo_batch,loc_apex_central,2026-08-17,54,General Surgery
+cons_item_cftx_1g_2026-08-18,item_cftx_1g,demo_batch,loc_apex_central,2026-08-18,37,Inpatient Medicine
+cons_item_mero_1g_2026-08-18,item_mero_1g,demo_batch,loc_apex_central,2026-08-18,11,Inpatient Medicine
+cons_item_piptaz_45_2026-08-18,item_piptaz_45,demo_batch,loc_apex_central,2026-08-18,14,Inpatient Medicine
+cons_item_vanco_500_2026-08-18,item_vanco_500,demo_batch,loc_apex_central,2026-08-18,8,Inpatient Medicine
+cons_item_amox_12_2026-08-18,item_amox_12,demo_batch,loc_apex_central,2026-08-18,22,Inpatient Medicine
+cons_item_epi_1mg_2026-08-18,item_epi_1mg,demo_batch,loc_apex_central,2026-08-18,13,ICU
+cons_item_norepi_4mg_2026-08-18,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-18,21,ICU
+cons_item_dopa_200_2026-08-18,item_dopa_200,demo_batch,loc_apex_central,2026-08-18,5,ICU
+cons_item_atro_06_2026-08-18,item_atro_06,demo_batch,loc_apex_central,2026-08-18,7,ICU
+cons_item_pcm_1g_2026-08-18,item_pcm_1g,demo_batch,loc_apex_central,2026-08-18,42,General Surgery
+cons_item_fent_100_2026-08-18,item_fent_100,demo_batch,loc_apex_central,2026-08-18,8,General Surgery
+cons_item_midaz_5mg_2026-08-18,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-18,10,General Surgery
+cons_item_tram_100_2026-08-18,item_tram_100,demo_batch,loc_apex_central,2026-08-18,12,General Surgery
+cons_item_ns_500_2026-08-18,item_ns_500,demo_batch,loc_apex_central,2026-08-18,111,General Surgery
+cons_item_rl_500_2026-08-18,item_rl_500,demo_batch,loc_apex_central,2026-08-18,83,General Surgery
+cons_item_d5_500_2026-08-18,item_d5_500,demo_batch,loc_apex_central,2026-08-18,37,General Surgery
+cons_item_kcl_20_2026-08-18,item_kcl_20,demo_batch,loc_apex_central,2026-08-18,14,General Surgery
+cons_item_iv_set_2026-08-18,item_iv_set,demo_batch,loc_apex_central,2026-08-18,26,General Surgery
+cons_item_gloves_75_2026-08-18,item_gloves_75,demo_batch,loc_apex_central,2026-08-18,35,General Surgery
+cons_item_syr_10_2026-08-18,item_syr_10,demo_batch,loc_apex_central,2026-08-18,148,General Surgery
+cons_item_foley_16_2026-08-18,item_foley_16,demo_batch,loc_apex_central,2026-08-18,7,General Surgery
+cons_item_ett_75_2026-08-18,item_ett_75,demo_batch,loc_apex_central,2026-08-18,6,General Surgery
+cons_item_stopcock_3w_2026-08-18,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-18,34,General Surgery
+cons_item_pacli_100_2026-08-18,item_pacli_100,demo_batch,loc_apex_central,2026-08-18,2,General Surgery
+cons_item_carbo_450_2026-08-18,item_carbo_450,demo_batch,loc_apex_central,2026-08-18,1,General Surgery
+cons_item_albu_20_2026-08-18,item_albu_20,demo_batch,loc_apex_central,2026-08-18,3,General Surgery
+cons_item_blood_bag_2026-08-18,item_blood_bag,demo_batch,loc_apex_central,2026-08-18,5,General Surgery
+cons_item_trop_i_2026-08-18,item_trop_i,demo_batch,loc_apex_central,2026-08-18,11,General Surgery
+cons_item_covid_ag_2026-08-18,item_covid_ag,demo_batch,loc_apex_central,2026-08-18,6,General Surgery
+cons_item_edta_tube_2026-08-18,item_edta_tube,demo_batch,loc_apex_central,2026-08-18,42,General Surgery
+cons_item_cftx_1g_2026-08-19,item_cftx_1g,demo_batch,loc_apex_central,2026-08-19,46,Inpatient Medicine
+cons_item_mero_1g_2026-08-19,item_mero_1g,demo_batch,loc_apex_central,2026-08-19,14,Inpatient Medicine
+cons_item_piptaz_45_2026-08-19,item_piptaz_45,demo_batch,loc_apex_central,2026-08-19,13,Inpatient Medicine
+cons_item_vanco_500_2026-08-19,item_vanco_500,demo_batch,loc_apex_central,2026-08-19,7,Inpatient Medicine
+cons_item_amox_12_2026-08-19,item_amox_12,demo_batch,loc_apex_central,2026-08-19,28,Inpatient Medicine
+cons_item_epi_1mg_2026-08-19,item_epi_1mg,demo_batch,loc_apex_central,2026-08-19,17,ICU
+cons_item_norepi_4mg_2026-08-19,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-19,16,ICU
+cons_item_dopa_200_2026-08-19,item_dopa_200,demo_batch,loc_apex_central,2026-08-19,6,ICU
+cons_item_atro_06_2026-08-19,item_atro_06,demo_batch,loc_apex_central,2026-08-19,9,ICU
+cons_item_pcm_1g_2026-08-19,item_pcm_1g,demo_batch,loc_apex_central,2026-08-19,45,General Surgery
+cons_item_fent_100_2026-08-19,item_fent_100,demo_batch,loc_apex_central,2026-08-19,10,General Surgery
+cons_item_midaz_5mg_2026-08-19,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-19,10,General Surgery
+cons_item_tram_100_2026-08-19,item_tram_100,demo_batch,loc_apex_central,2026-08-19,15,General Surgery
+cons_item_ns_500_2026-08-19,item_ns_500,demo_batch,loc_apex_central,2026-08-19,120,General Surgery
+cons_item_rl_500_2026-08-19,item_rl_500,demo_batch,loc_apex_central,2026-08-19,90,General Surgery
+cons_item_d5_500_2026-08-19,item_d5_500,demo_batch,loc_apex_central,2026-08-19,40,General Surgery
+cons_item_kcl_20_2026-08-19,item_kcl_20,demo_batch,loc_apex_central,2026-08-19,15,General Surgery
+cons_item_iv_set_2026-08-19,item_iv_set,demo_batch,loc_apex_central,2026-08-19,28,General Surgery
+cons_item_gloves_75_2026-08-19,item_gloves_75,demo_batch,loc_apex_central,2026-08-19,32,General Surgery
+cons_item_syr_10_2026-08-19,item_syr_10,demo_batch,loc_apex_central,2026-08-19,160,General Surgery
+cons_item_foley_16_2026-08-19,item_foley_16,demo_batch,loc_apex_central,2026-08-19,9,General Surgery
+cons_item_ett_75_2026-08-19,item_ett_75,demo_batch,loc_apex_central,2026-08-19,6,General Surgery
+cons_item_stopcock_3w_2026-08-19,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-19,29,General Surgery
+cons_item_pacli_100_2026-08-19,item_pacli_100,demo_batch,loc_apex_central,2026-08-19,2,General Surgery
+cons_item_carbo_450_2026-08-19,item_carbo_450,demo_batch,loc_apex_central,2026-08-19,1,General Surgery
+cons_item_albu_20_2026-08-19,item_albu_20,demo_batch,loc_apex_central,2026-08-19,4,General Surgery
+cons_item_blood_bag_2026-08-19,item_blood_bag,demo_batch,loc_apex_central,2026-08-19,5,General Surgery
+cons_item_trop_i_2026-08-19,item_trop_i,demo_batch,loc_apex_central,2026-08-19,12,General Surgery
+cons_item_covid_ag_2026-08-19,item_covid_ag,demo_batch,loc_apex_central,2026-08-19,7,General Surgery
+cons_item_edta_tube_2026-08-19,item_edta_tube,demo_batch,loc_apex_central,2026-08-19,39,General Surgery
+cons_item_cftx_1g_2026-08-20,item_cftx_1g,demo_batch,loc_apex_central,2026-08-20,50,Inpatient Medicine
+cons_item_mero_1g_2026-08-20,item_mero_1g,demo_batch,loc_apex_central,2026-08-20,15,Inpatient Medicine
+cons_item_piptaz_45_2026-08-20,item_piptaz_45,demo_batch,loc_apex_central,2026-08-20,16,Inpatient Medicine
+cons_item_vanco_500_2026-08-20,item_vanco_500,demo_batch,loc_apex_central,2026-08-20,9,Inpatient Medicine
+cons_item_amox_12_2026-08-20,item_amox_12,demo_batch,loc_apex_central,2026-08-20,30,Inpatient Medicine
+cons_item_epi_1mg_2026-08-20,item_epi_1mg,demo_batch,loc_apex_central,2026-08-20,18,ICU
+cons_item_norepi_4mg_2026-08-20,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-20,15,ICU
+cons_item_dopa_200_2026-08-20,item_dopa_200,demo_batch,loc_apex_central,2026-08-20,7,ICU
+cons_item_atro_06_2026-08-20,item_atro_06,demo_batch,loc_apex_central,2026-08-20,10,ICU
+cons_item_pcm_1g_2026-08-20,item_pcm_1g,demo_batch,loc_apex_central,2026-08-20,40,General Surgery
+cons_item_fent_100_2026-08-20,item_fent_100,demo_batch,loc_apex_central,2026-08-20,13,General Surgery
+cons_item_midaz_5mg_2026-08-20,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-20,12,General Surgery
+cons_item_tram_100_2026-08-20,item_tram_100,demo_batch,loc_apex_central,2026-08-20,19,General Surgery
+cons_item_ns_500_2026-08-20,item_ns_500,demo_batch,loc_apex_central,2026-08-20,106,General Surgery
+cons_item_rl_500_2026-08-20,item_rl_500,demo_batch,loc_apex_central,2026-08-20,80,General Surgery
+cons_item_d5_500_2026-08-20,item_d5_500,demo_batch,loc_apex_central,2026-08-20,35,General Surgery
+cons_item_kcl_20_2026-08-20,item_kcl_20,demo_batch,loc_apex_central,2026-08-20,13,General Surgery
+cons_item_iv_set_2026-08-20,item_iv_set,demo_batch,loc_apex_central,2026-08-20,25,General Surgery
+cons_item_gloves_75_2026-08-20,item_gloves_75,demo_batch,loc_apex_central,2026-08-20,39,General Surgery
+cons_item_syr_10_2026-08-20,item_syr_10,demo_batch,loc_apex_central,2026-08-20,142,General Surgery
+cons_item_foley_16_2026-08-20,item_foley_16,demo_batch,loc_apex_central,2026-08-20,11,General Surgery
+cons_item_ett_75_2026-08-20,item_ett_75,demo_batch,loc_apex_central,2026-08-20,5,General Surgery
+cons_item_stopcock_3w_2026-08-20,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-20,23,General Surgery
+cons_item_pacli_100_2026-08-20,item_pacli_100,demo_batch,loc_apex_central,2026-08-20,2,General Surgery
+cons_item_carbo_450_2026-08-20,item_carbo_450,demo_batch,loc_apex_central,2026-08-20,1,General Surgery
+cons_item_albu_20_2026-08-20,item_albu_20,demo_batch,loc_apex_central,2026-08-20,4,General Surgery
+cons_item_blood_bag_2026-08-20,item_blood_bag,demo_batch,loc_apex_central,2026-08-20,6,General Surgery
+cons_item_trop_i_2026-08-20,item_trop_i,demo_batch,loc_apex_central,2026-08-20,11,General Surgery
+cons_item_covid_ag_2026-08-20,item_covid_ag,demo_batch,loc_apex_central,2026-08-20,9,General Surgery
+cons_item_edta_tube_2026-08-20,item_edta_tube,demo_batch,loc_apex_central,2026-08-20,48,General Surgery
+cons_item_cftx_1g_2026-08-21,item_cftx_1g,demo_batch,loc_apex_central,2026-08-21,44,Inpatient Medicine
+cons_item_mero_1g_2026-08-21,item_mero_1g,demo_batch,loc_apex_central,2026-08-21,13,Inpatient Medicine
+cons_item_piptaz_45_2026-08-21,item_piptaz_45,demo_batch,loc_apex_central,2026-08-21,20,Inpatient Medicine
+cons_item_vanco_500_2026-08-21,item_vanco_500,demo_batch,loc_apex_central,2026-08-21,11,Inpatient Medicine
+cons_item_amox_12_2026-08-21,item_amox_12,demo_batch,loc_apex_central,2026-08-21,27,Inpatient Medicine
+cons_item_epi_1mg_2026-08-21,item_epi_1mg,demo_batch,loc_apex_central,2026-08-21,16,ICU
+cons_item_norepi_4mg_2026-08-21,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-21,18,ICU
+cons_item_dopa_200_2026-08-21,item_dopa_200,demo_batch,loc_apex_central,2026-08-21,8,ICU
+cons_item_atro_06_2026-08-21,item_atro_06,demo_batch,loc_apex_central,2026-08-21,9,ICU
+cons_item_pcm_1g_2026-08-21,item_pcm_1g,demo_batch,loc_apex_central,2026-08-21,31,General Surgery
+cons_item_fent_100_2026-08-21,item_fent_100,demo_batch,loc_apex_central,2026-08-21,14,General Surgery
+cons_item_midaz_5mg_2026-08-21,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-21,15,General Surgery
+cons_item_tram_100_2026-08-21,item_tram_100,demo_batch,loc_apex_central,2026-08-21,20,General Surgery
+cons_item_ns_500_2026-08-21,item_ns_500,demo_batch,loc_apex_central,2026-08-21,83,General Surgery
+cons_item_rl_500_2026-08-21,item_rl_500,demo_batch,loc_apex_central,2026-08-21,63,General Surgery
+cons_item_d5_500_2026-08-21,item_d5_500,demo_batch,loc_apex_central,2026-08-21,28,General Surgery
+cons_item_kcl_20_2026-08-21,item_kcl_20,demo_batch,loc_apex_central,2026-08-21,10,General Surgery
+cons_item_iv_set_2026-08-21,item_iv_set,demo_batch,loc_apex_central,2026-08-21,19,General Surgery
+cons_item_gloves_75_2026-08-21,item_gloves_75,demo_batch,loc_apex_central,2026-08-21,49,General Surgery
+cons_item_syr_10_2026-08-21,item_syr_10,demo_batch,loc_apex_central,2026-08-21,111,General Surgery
+cons_item_foley_16_2026-08-21,item_foley_16,demo_batch,loc_apex_central,2026-08-21,12,General Surgery
+cons_item_ett_75_2026-08-21,item_ett_75,demo_batch,loc_apex_central,2026-08-21,4,General Surgery
+cons_item_stopcock_3w_2026-08-21,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-21,21,General Surgery
+cons_item_pacli_100_2026-08-21,item_pacli_100,demo_batch,loc_apex_central,2026-08-21,3,General Surgery
+cons_item_carbo_450_2026-08-21,item_carbo_450,demo_batch,loc_apex_central,2026-08-21,2,General Surgery
+cons_item_albu_20_2026-08-21,item_albu_20,demo_batch,loc_apex_central,2026-08-21,4,General Surgery
+cons_item_blood_bag_2026-08-21,item_blood_bag,demo_batch,loc_apex_central,2026-08-21,7,General Surgery
+cons_item_trop_i_2026-08-21,item_trop_i,demo_batch,loc_apex_central,2026-08-21,8,General Surgery
+cons_item_covid_ag_2026-08-21,item_covid_ag,demo_batch,loc_apex_central,2026-08-21,10,General Surgery
+cons_item_edta_tube_2026-08-21,item_edta_tube,demo_batch,loc_apex_central,2026-08-21,60,General Surgery
+cons_item_cftx_1g_2026-08-22,item_cftx_1g,demo_batch,loc_apex_central,2026-08-22,35,Inpatient Medicine
+cons_item_mero_1g_2026-08-22,item_mero_1g,demo_batch,loc_apex_central,2026-08-22,10,Inpatient Medicine
+cons_item_piptaz_45_2026-08-22,item_piptaz_45,demo_batch,loc_apex_central,2026-08-22,22,Inpatient Medicine
+cons_item_vanco_500_2026-08-22,item_vanco_500,demo_batch,loc_apex_central,2026-08-22,12,Inpatient Medicine
+cons_item_amox_12_2026-08-22,item_amox_12,demo_batch,loc_apex_central,2026-08-22,21,Inpatient Medicine
+cons_item_epi_1mg_2026-08-22,item_epi_1mg,demo_batch,loc_apex_central,2026-08-22,13,ICU
+cons_item_norepi_4mg_2026-08-22,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-22,23,ICU
+cons_item_dopa_200_2026-08-22,item_dopa_200,demo_batch,loc_apex_central,2026-08-22,7,ICU
+cons_item_atro_06_2026-08-22,item_atro_06,demo_batch,loc_apex_central,2026-08-22,7,ICU
+cons_item_pcm_1g_2026-08-22,item_pcm_1g,demo_batch,loc_apex_central,2026-08-22,27,General Surgery
+cons_item_fent_100_2026-08-22,item_fent_100,demo_batch,loc_apex_central,2026-08-22,12,General Surgery
+cons_item_midaz_5mg_2026-08-22,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-22,16,General Surgery
+cons_item_tram_100_2026-08-22,item_tram_100,demo_batch,loc_apex_central,2026-08-22,18,General Surgery
+cons_item_ns_500_2026-08-22,item_ns_500,demo_batch,loc_apex_central,2026-08-22,72,General Surgery
+cons_item_rl_500_2026-08-22,item_rl_500,demo_batch,loc_apex_central,2026-08-22,54,General Surgery
+cons_item_d5_500_2026-08-22,item_d5_500,demo_batch,loc_apex_central,2026-08-22,24,General Surgery
+cons_item_kcl_20_2026-08-22,item_kcl_20,demo_batch,loc_apex_central,2026-08-22,9,General Surgery
+cons_item_iv_set_2026-08-22,item_iv_set,demo_batch,loc_apex_central,2026-08-22,17,General Surgery
+cons_item_gloves_75_2026-08-22,item_gloves_75,demo_batch,loc_apex_central,2026-08-22,53,General Surgery
+cons_item_syr_10_2026-08-22,item_syr_10,demo_batch,loc_apex_central,2026-08-22,96,General Surgery
+cons_item_foley_16_2026-08-22,item_foley_16,demo_batch,loc_apex_central,2026-08-22,11,General Surgery
+cons_item_ett_75_2026-08-22,item_ett_75,demo_batch,loc_apex_central,2026-08-22,4,General Surgery
+cons_item_stopcock_3w_2026-08-22,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-22,26,General Surgery
+cons_item_pacli_100_2026-08-22,item_pacli_100,demo_batch,loc_apex_central,2026-08-22,3,General Surgery
+cons_item_carbo_450_2026-08-22,item_carbo_450,demo_batch,loc_apex_central,2026-08-22,2,General Surgery
+cons_item_albu_20_2026-08-22,item_albu_20,demo_batch,loc_apex_central,2026-08-22,3,General Surgery
+cons_item_blood_bag_2026-08-22,item_blood_bag,demo_batch,loc_apex_central,2026-08-22,8,General Surgery
+cons_item_trop_i_2026-08-22,item_trop_i,demo_batch,loc_apex_central,2026-08-22,7,General Surgery
+cons_item_covid_ag_2026-08-22,item_covid_ag,demo_batch,loc_apex_central,2026-08-22,9,General Surgery
+cons_item_edta_tube_2026-08-22,item_edta_tube,demo_batch,loc_apex_central,2026-08-22,65,General Surgery
+cons_item_cftx_1g_2026-08-23,item_cftx_1g,demo_batch,loc_apex_central,2026-08-23,30,Inpatient Medicine
+cons_item_mero_1g_2026-08-23,item_mero_1g,demo_batch,loc_apex_central,2026-08-23,9,Inpatient Medicine
+cons_item_piptaz_45_2026-08-23,item_piptaz_45,demo_batch,loc_apex_central,2026-08-23,20,Inpatient Medicine
+cons_item_vanco_500_2026-08-23,item_vanco_500,demo_batch,loc_apex_central,2026-08-23,11,Inpatient Medicine
+cons_item_amox_12_2026-08-23,item_amox_12,demo_batch,loc_apex_central,2026-08-23,18,Inpatient Medicine
+cons_item_epi_1mg_2026-08-23,item_epi_1mg,demo_batch,loc_apex_central,2026-08-23,11,ICU
+cons_item_norepi_4mg_2026-08-23,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-23,25,ICU
+cons_item_dopa_200_2026-08-23,item_dopa_200,demo_batch,loc_apex_central,2026-08-23,6,ICU
+cons_item_atro_06_2026-08-23,item_atro_06,demo_batch,loc_apex_central,2026-08-23,6,ICU
+cons_item_pcm_1g_2026-08-23,item_pcm_1g,demo_batch,loc_apex_central,2026-08-23,31,General Surgery
+cons_item_fent_100_2026-08-23,item_fent_100,demo_batch,loc_apex_central,2026-08-23,10,General Surgery
+cons_item_midaz_5mg_2026-08-23,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-23,14,General Surgery
+cons_item_tram_100_2026-08-23,item_tram_100,demo_batch,loc_apex_central,2026-08-23,14,General Surgery
+cons_item_ns_500_2026-08-23,item_ns_500,demo_batch,loc_apex_central,2026-08-23,83,General Surgery
+cons_item_rl_500_2026-08-23,item_rl_500,demo_batch,loc_apex_central,2026-08-23,62,General Surgery
+cons_item_d5_500_2026-08-23,item_d5_500,demo_batch,loc_apex_central,2026-08-23,28,General Surgery
+cons_item_kcl_20_2026-08-23,item_kcl_20,demo_batch,loc_apex_central,2026-08-23,10,General Surgery
+cons_item_iv_set_2026-08-23,item_iv_set,demo_batch,loc_apex_central,2026-08-23,19,General Surgery
+cons_item_gloves_75_2026-08-23,item_gloves_75,demo_batch,loc_apex_central,2026-08-23,47,General Surgery
+cons_item_syr_10_2026-08-23,item_syr_10,demo_batch,loc_apex_central,2026-08-23,110,General Surgery
+cons_item_foley_16_2026-08-23,item_foley_16,demo_batch,loc_apex_central,2026-08-23,8,General Surgery
+cons_item_ett_75_2026-08-23,item_ett_75,demo_batch,loc_apex_central,2026-08-23,4,General Surgery
+cons_item_stopcock_3w_2026-08-23,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-23,32,General Surgery
+cons_item_pacli_100_2026-08-23,item_pacli_100,demo_batch,loc_apex_central,2026-08-23,3,General Surgery
+cons_item_carbo_450_2026-08-23,item_carbo_450,demo_batch,loc_apex_central,2026-08-23,2,General Surgery
+cons_item_albu_20_2026-08-23,item_albu_20,demo_batch,loc_apex_central,2026-08-23,2,General Surgery
+cons_item_blood_bag_2026-08-23,item_blood_bag,demo_batch,loc_apex_central,2026-08-23,7,General Surgery
+cons_item_trop_i_2026-08-23,item_trop_i,demo_batch,loc_apex_central,2026-08-23,8,General Surgery
+cons_item_covid_ag_2026-08-23,item_covid_ag,demo_batch,loc_apex_central,2026-08-23,7,General Surgery
+cons_item_edta_tube_2026-08-23,item_edta_tube,demo_batch,loc_apex_central,2026-08-23,58,General Surgery
+cons_item_cftx_1g_2026-08-24,item_cftx_1g,demo_batch,loc_apex_central,2026-08-24,34,Inpatient Medicine
+cons_item_mero_1g_2026-08-24,item_mero_1g,demo_batch,loc_apex_central,2026-08-24,10,Inpatient Medicine
+cons_item_piptaz_45_2026-08-24,item_piptaz_45,demo_batch,loc_apex_central,2026-08-24,15,Inpatient Medicine
+cons_item_vanco_500_2026-08-24,item_vanco_500,demo_batch,loc_apex_central,2026-08-24,8,Inpatient Medicine
+cons_item_amox_12_2026-08-24,item_amox_12,demo_batch,loc_apex_central,2026-08-24,21,Inpatient Medicine
+cons_item_epi_1mg_2026-08-24,item_epi_1mg,demo_batch,loc_apex_central,2026-08-24,12,ICU
+cons_item_norepi_4mg_2026-08-24,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-24,22,ICU
+cons_item_dopa_200_2026-08-24,item_dopa_200,demo_batch,loc_apex_central,2026-08-24,5,ICU
+cons_item_atro_06_2026-08-24,item_atro_06,demo_batch,loc_apex_central,2026-08-24,7,ICU
+cons_item_pcm_1g_2026-08-24,item_pcm_1g,demo_batch,loc_apex_central,2026-08-24,40,General Surgery
+cons_item_fent_100_2026-08-24,item_fent_100,demo_batch,loc_apex_central,2026-08-24,8,General Surgery
+cons_item_midaz_5mg_2026-08-24,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-24,11,General Surgery
+cons_item_tram_100_2026-08-24,item_tram_100,demo_batch,loc_apex_central,2026-08-24,12,General Surgery
+cons_item_ns_500_2026-08-24,item_ns_500,demo_batch,loc_apex_central,2026-08-24,106,General Surgery
+cons_item_rl_500_2026-08-24,item_rl_500,demo_batch,loc_apex_central,2026-08-24,79,General Surgery
+cons_item_d5_500_2026-08-24,item_d5_500,demo_batch,loc_apex_central,2026-08-24,35,General Surgery
+cons_item_kcl_20_2026-08-24,item_kcl_20,demo_batch,loc_apex_central,2026-08-24,13,General Surgery
+cons_item_iv_set_2026-08-24,item_iv_set,demo_batch,loc_apex_central,2026-08-24,25,General Surgery
+cons_item_gloves_75_2026-08-24,item_gloves_75,demo_batch,loc_apex_central,2026-08-24,37,General Surgery
+cons_item_syr_10_2026-08-24,item_syr_10,demo_batch,loc_apex_central,2026-08-24,141,General Surgery
+cons_item_foley_16_2026-08-24,item_foley_16,demo_batch,loc_apex_central,2026-08-24,7,General Surgery
+cons_item_ett_75_2026-08-24,item_ett_75,demo_batch,loc_apex_central,2026-08-24,5,General Surgery
+cons_item_stopcock_3w_2026-08-24,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-24,35,General Surgery
+cons_item_pacli_100_2026-08-24,item_pacli_100,demo_batch,loc_apex_central,2026-08-24,2,General Surgery
+cons_item_carbo_450_2026-08-24,item_carbo_450,demo_batch,loc_apex_central,2026-08-24,1,General Surgery
+cons_item_albu_20_2026-08-24,item_albu_20,demo_batch,loc_apex_central,2026-08-24,3,General Surgery
+cons_item_blood_bag_2026-08-24,item_blood_bag,demo_batch,loc_apex_central,2026-08-24,6,General Surgery
+cons_item_trop_i_2026-08-24,item_trop_i,demo_batch,loc_apex_central,2026-08-24,11,General Surgery
+cons_item_covid_ag_2026-08-24,item_covid_ag,demo_batch,loc_apex_central,2026-08-24,6,General Surgery
+cons_item_edta_tube_2026-08-24,item_edta_tube,demo_batch,loc_apex_central,2026-08-24,45,General Surgery
+cons_item_cftx_1g_2026-08-25,item_cftx_1g,demo_batch,loc_apex_central,2026-08-25,44,Inpatient Medicine
+cons_item_mero_1g_2026-08-25,item_mero_1g,demo_batch,loc_apex_central,2026-08-25,13,Inpatient Medicine
+cons_item_piptaz_45_2026-08-25,item_piptaz_45,demo_batch,loc_apex_central,2026-08-25,13,Inpatient Medicine
+cons_item_vanco_500_2026-08-25,item_vanco_500,demo_batch,loc_apex_central,2026-08-25,7,Inpatient Medicine
+cons_item_amox_12_2026-08-25,item_amox_12,demo_batch,loc_apex_central,2026-08-25,26,Inpatient Medicine
+cons_item_epi_1mg_2026-08-25,item_epi_1mg,demo_batch,loc_apex_central,2026-08-25,16,ICU
+cons_item_norepi_4mg_2026-08-25,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-25,17,ICU
+cons_item_dopa_200_2026-08-25,item_dopa_200,demo_batch,loc_apex_central,2026-08-25,6,ICU
+cons_item_atro_06_2026-08-25,item_atro_06,demo_batch,loc_apex_central,2026-08-25,9,ICU
+cons_item_pcm_1g_2026-08-25,item_pcm_1g,demo_batch,loc_apex_central,2026-08-25,45,General Surgery
+cons_item_fent_100_2026-08-25,item_fent_100,demo_batch,loc_apex_central,2026-08-25,10,General Surgery
+cons_item_midaz_5mg_2026-08-25,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-25,10,General Surgery
+cons_item_tram_100_2026-08-25,item_tram_100,demo_batch,loc_apex_central,2026-08-25,14,General Surgery
+cons_item_ns_500_2026-08-25,item_ns_500,demo_batch,loc_apex_central,2026-08-25,120,General Surgery
+cons_item_rl_500_2026-08-25,item_rl_500,demo_batch,loc_apex_central,2026-08-25,90,General Surgery
+cons_item_d5_500_2026-08-25,item_d5_500,demo_batch,loc_apex_central,2026-08-25,40,General Surgery
+cons_item_kcl_20_2026-08-25,item_kcl_20,demo_batch,loc_apex_central,2026-08-25,15,General Surgery
+cons_item_iv_set_2026-08-25,item_iv_set,demo_batch,loc_apex_central,2026-08-25,28,General Surgery
+cons_item_gloves_75_2026-08-25,item_gloves_75,demo_batch,loc_apex_central,2026-08-25,32,General Surgery
+cons_item_syr_10_2026-08-25,item_syr_10,demo_batch,loc_apex_central,2026-08-25,160,General Surgery
+cons_item_foley_16_2026-08-25,item_foley_16,demo_batch,loc_apex_central,2026-08-25,8,General Surgery
+cons_item_ett_75_2026-08-25,item_ett_75,demo_batch,loc_apex_central,2026-08-25,6,General Surgery
+cons_item_stopcock_3w_2026-08-25,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-25,31,General Surgery
+cons_item_pacli_100_2026-08-25,item_pacli_100,demo_batch,loc_apex_central,2026-08-25,2,General Surgery
+cons_item_carbo_450_2026-08-25,item_carbo_450,demo_batch,loc_apex_central,2026-08-25,1,General Surgery
+cons_item_albu_20_2026-08-25,item_albu_20,demo_batch,loc_apex_central,2026-08-25,4,General Surgery
+cons_item_blood_bag_2026-08-25,item_blood_bag,demo_batch,loc_apex_central,2026-08-25,5,General Surgery
+cons_item_trop_i_2026-08-25,item_trop_i,demo_batch,loc_apex_central,2026-08-25,12,General Surgery
+cons_item_covid_ag_2026-08-25,item_covid_ag,demo_batch,loc_apex_central,2026-08-25,7,General Surgery
+cons_item_edta_tube_2026-08-25,item_edta_tube,demo_batch,loc_apex_central,2026-08-25,39,General Surgery
+cons_item_cftx_1g_2026-08-26,item_cftx_1g,demo_batch,loc_apex_central,2026-08-26,50,Inpatient Medicine
+cons_item_mero_1g_2026-08-26,item_mero_1g,demo_batch,loc_apex_central,2026-08-26,15,Inpatient Medicine
+cons_item_piptaz_45_2026-08-26,item_piptaz_45,demo_batch,loc_apex_central,2026-08-26,15,Inpatient Medicine
+cons_item_vanco_500_2026-08-26,item_vanco_500,demo_batch,loc_apex_central,2026-08-26,8,Inpatient Medicine
+cons_item_amox_12_2026-08-26,item_amox_12,demo_batch,loc_apex_central,2026-08-26,30,Inpatient Medicine
+cons_item_epi_1mg_2026-08-26,item_epi_1mg,demo_batch,loc_apex_central,2026-08-26,18,ICU
+cons_item_norepi_4mg_2026-08-26,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-26,15,ICU
+cons_item_dopa_200_2026-08-26,item_dopa_200,demo_batch,loc_apex_central,2026-08-26,7,ICU
+cons_item_atro_06_2026-08-26,item_atro_06,demo_batch,loc_apex_central,2026-08-26,10,ICU
+cons_item_pcm_1g_2026-08-26,item_pcm_1g,demo_batch,loc_apex_central,2026-08-26,42,General Surgery
+cons_item_fent_100_2026-08-26,item_fent_100,demo_batch,loc_apex_central,2026-08-26,12,General Surgery
+cons_item_midaz_5mg_2026-08-26,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-26,11,General Surgery
+cons_item_tram_100_2026-08-26,item_tram_100,demo_batch,loc_apex_central,2026-08-26,18,General Surgery
+cons_item_ns_500_2026-08-26,item_ns_500,demo_batch,loc_apex_central,2026-08-26,112,General Surgery
+cons_item_rl_500_2026-08-26,item_rl_500,demo_batch,loc_apex_central,2026-08-26,84,General Surgery
+cons_item_d5_500_2026-08-26,item_d5_500,demo_batch,loc_apex_central,2026-08-26,37,General Surgery
+cons_item_kcl_20_2026-08-26,item_kcl_20,demo_batch,loc_apex_central,2026-08-26,14,General Surgery
+cons_item_iv_set_2026-08-26,item_iv_set,demo_batch,loc_apex_central,2026-08-26,26,General Surgery
+cons_item_gloves_75_2026-08-26,item_gloves_75,demo_batch,loc_apex_central,2026-08-26,36,General Surgery
+cons_item_syr_10_2026-08-26,item_syr_10,demo_batch,loc_apex_central,2026-08-26,149,General Surgery
+cons_item_foley_16_2026-08-26,item_foley_16,demo_batch,loc_apex_central,2026-08-26,11,General Surgery
+cons_item_ett_75_2026-08-26,item_ett_75,demo_batch,loc_apex_central,2026-08-26,6,General Surgery
+cons_item_stopcock_3w_2026-08-26,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-26,24,General Surgery
+cons_item_pacli_100_2026-08-26,item_pacli_100,demo_batch,loc_apex_central,2026-08-26,2,General Surgery
+cons_item_carbo_450_2026-08-26,item_carbo_450,demo_batch,loc_apex_central,2026-08-26,1,General Surgery
+cons_item_albu_20_2026-08-26,item_albu_20,demo_batch,loc_apex_central,2026-08-26,4,General Surgery
+cons_item_blood_bag_2026-08-26,item_blood_bag,demo_batch,loc_apex_central,2026-08-26,6,General Surgery
+cons_item_trop_i_2026-08-26,item_trop_i,demo_batch,loc_apex_central,2026-08-26,11,General Surgery
+cons_item_covid_ag_2026-08-26,item_covid_ag,demo_batch,loc_apex_central,2026-08-26,9,General Surgery
+cons_item_edta_tube_2026-08-26,item_edta_tube,demo_batch,loc_apex_central,2026-08-26,45,General Surgery
+cons_item_cftx_1g_2026-08-27,item_cftx_1g,demo_batch,loc_apex_central,2026-08-27,47,Inpatient Medicine
+cons_item_mero_1g_2026-08-27,item_mero_1g,demo_batch,loc_apex_central,2026-08-27,14,Inpatient Medicine
+cons_item_piptaz_45_2026-08-27,item_piptaz_45,demo_batch,loc_apex_central,2026-08-27,19,Inpatient Medicine
+cons_item_vanco_500_2026-08-27,item_vanco_500,demo_batch,loc_apex_central,2026-08-27,11,Inpatient Medicine
+cons_item_amox_12_2026-08-27,item_amox_12,demo_batch,loc_apex_central,2026-08-27,28,Inpatient Medicine
+cons_item_epi_1mg_2026-08-27,item_epi_1mg,demo_batch,loc_apex_central,2026-08-27,17,ICU
+cons_item_norepi_4mg_2026-08-27,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-27,17,ICU
+cons_item_dopa_200_2026-08-27,item_dopa_200,demo_batch,loc_apex_central,2026-08-27,8,ICU
+cons_item_atro_06_2026-08-27,item_atro_06,demo_batch,loc_apex_central,2026-08-27,9,ICU
+cons_item_pcm_1g_2026-08-27,item_pcm_1g,demo_batch,loc_apex_central,2026-08-27,34,General Surgery
+cons_item_fent_100_2026-08-27,item_fent_100,demo_batch,loc_apex_central,2026-08-27,14,General Surgery
+cons_item_midaz_5mg_2026-08-27,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-27,14,General Surgery
+cons_item_tram_100_2026-08-27,item_tram_100,demo_batch,loc_apex_central,2026-08-27,20,General Surgery
+cons_item_ns_500_2026-08-27,item_ns_500,demo_batch,loc_apex_central,2026-08-27,90,General Surgery
+cons_item_rl_500_2026-08-27,item_rl_500,demo_batch,loc_apex_central,2026-08-27,67,General Surgery
+cons_item_d5_500_2026-08-27,item_d5_500,demo_batch,loc_apex_central,2026-08-27,30,General Surgery
+cons_item_kcl_20_2026-08-27,item_kcl_20,demo_batch,loc_apex_central,2026-08-27,11,General Surgery
+cons_item_iv_set_2026-08-27,item_iv_set,demo_batch,loc_apex_central,2026-08-27,21,General Surgery
+cons_item_gloves_75_2026-08-27,item_gloves_75,demo_batch,loc_apex_central,2026-08-27,47,General Surgery
+cons_item_syr_10_2026-08-27,item_syr_10,demo_batch,loc_apex_central,2026-08-27,120,General Surgery
+cons_item_foley_16_2026-08-27,item_foley_16,demo_batch,loc_apex_central,2026-08-27,12,General Surgery
+cons_item_ett_75_2026-08-27,item_ett_75,demo_batch,loc_apex_central,2026-08-27,4,General Surgery
+cons_item_stopcock_3w_2026-08-27,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-27,21,General Surgery
+cons_item_pacli_100_2026-08-27,item_pacli_100,demo_batch,loc_apex_central,2026-08-27,3,General Surgery
+cons_item_carbo_450_2026-08-27,item_carbo_450,demo_batch,loc_apex_central,2026-08-27,2,General Surgery
+cons_item_albu_20_2026-08-27,item_albu_20,demo_batch,loc_apex_central,2026-08-27,4,General Surgery
+cons_item_blood_bag_2026-08-27,item_blood_bag,demo_batch,loc_apex_central,2026-08-27,7,General Surgery
+cons_item_trop_i_2026-08-27,item_trop_i,demo_batch,loc_apex_central,2026-08-27,9,General Surgery
+cons_item_covid_ag_2026-08-27,item_covid_ag,demo_batch,loc_apex_central,2026-08-27,10,General Surgery
+cons_item_edta_tube_2026-08-27,item_edta_tube,demo_batch,loc_apex_central,2026-08-27,57,General Surgery
+cons_item_cftx_1g_2026-08-28,item_cftx_1g,demo_batch,loc_apex_central,2026-08-28,37,Inpatient Medicine
+cons_item_mero_1g_2026-08-28,item_mero_1g,demo_batch,loc_apex_central,2026-08-28,11,Inpatient Medicine
+cons_item_piptaz_45_2026-08-28,item_piptaz_45,demo_batch,loc_apex_central,2026-08-28,22,Inpatient Medicine
+cons_item_vanco_500_2026-08-28,item_vanco_500,demo_batch,loc_apex_central,2026-08-28,12,Inpatient Medicine
+cons_item_amox_12_2026-08-28,item_amox_12,demo_batch,loc_apex_central,2026-08-28,22,Inpatient Medicine
+cons_item_epi_1mg_2026-08-28,item_epi_1mg,demo_batch,loc_apex_central,2026-08-28,13,ICU
+cons_item_norepi_4mg_2026-08-28,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-28,22,ICU
+cons_item_dopa_200_2026-08-28,item_dopa_200,demo_batch,loc_apex_central,2026-08-28,7,ICU
+cons_item_atro_06_2026-08-28,item_atro_06,demo_batch,loc_apex_central,2026-08-28,7,ICU
+cons_item_pcm_1g_2026-08-28,item_pcm_1g,demo_batch,loc_apex_central,2026-08-28,27,General Surgery
+cons_item_fent_100_2026-08-28,item_fent_100,demo_batch,loc_apex_central,2026-08-28,13,General Surgery
+cons_item_midaz_5mg_2026-08-28,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-28,16,General Surgery
+cons_item_tram_100_2026-08-28,item_tram_100,demo_batch,loc_apex_central,2026-08-28,19,General Surgery
+cons_item_ns_500_2026-08-28,item_ns_500,demo_batch,loc_apex_central,2026-08-28,73,General Surgery
+cons_item_rl_500_2026-08-28,item_rl_500,demo_batch,loc_apex_central,2026-08-28,55,General Surgery
+cons_item_d5_500_2026-08-28,item_d5_500,demo_batch,loc_apex_central,2026-08-28,24,General Surgery
+cons_item_kcl_20_2026-08-28,item_kcl_20,demo_batch,loc_apex_central,2026-08-28,9,General Surgery
+cons_item_iv_set_2026-08-28,item_iv_set,demo_batch,loc_apex_central,2026-08-28,17,General Surgery
+cons_item_gloves_75_2026-08-28,item_gloves_75,demo_batch,loc_apex_central,2026-08-28,53,General Surgery
+cons_item_syr_10_2026-08-28,item_syr_10,demo_batch,loc_apex_central,2026-08-28,97,General Surgery
+cons_item_foley_16_2026-08-28,item_foley_16,demo_batch,loc_apex_central,2026-08-28,11,General Surgery
+cons_item_ett_75_2026-08-28,item_ett_75,demo_batch,loc_apex_central,2026-08-28,4,General Surgery
+cons_item_stopcock_3w_2026-08-28,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-28,24,General Surgery
+cons_item_pacli_100_2026-08-28,item_pacli_100,demo_batch,loc_apex_central,2026-08-28,3,General Surgery
+cons_item_carbo_450_2026-08-28,item_carbo_450,demo_batch,loc_apex_central,2026-08-28,2,General Surgery
+cons_item_albu_20_2026-08-28,item_albu_20,demo_batch,loc_apex_central,2026-08-28,3,General Surgery
+cons_item_blood_bag_2026-08-28,item_blood_bag,demo_batch,loc_apex_central,2026-08-28,8,General Surgery
+cons_item_trop_i_2026-08-28,item_trop_i,demo_batch,loc_apex_central,2026-08-28,7,General Surgery
+cons_item_covid_ag_2026-08-28,item_covid_ag,demo_batch,loc_apex_central,2026-08-28,9,General Surgery
+cons_item_edta_tube_2026-08-28,item_edta_tube,demo_batch,loc_apex_central,2026-08-28,65,General Surgery
+cons_item_cftx_1g_2026-08-29,item_cftx_1g,demo_batch,loc_apex_central,2026-08-29,30,Inpatient Medicine
+cons_item_mero_1g_2026-08-29,item_mero_1g,demo_batch,loc_apex_central,2026-08-29,9,Inpatient Medicine
+cons_item_piptaz_45_2026-08-29,item_piptaz_45,demo_batch,loc_apex_central,2026-08-29,21,Inpatient Medicine
+cons_item_vanco_500_2026-08-29,item_vanco_500,demo_batch,loc_apex_central,2026-08-29,11,Inpatient Medicine
+cons_item_amox_12_2026-08-29,item_amox_12,demo_batch,loc_apex_central,2026-08-29,18,Inpatient Medicine
+cons_item_epi_1mg_2026-08-29,item_epi_1mg,demo_batch,loc_apex_central,2026-08-29,11,ICU
+cons_item_norepi_4mg_2026-08-29,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-29,25,ICU
+cons_item_dopa_200_2026-08-29,item_dopa_200,demo_batch,loc_apex_central,2026-08-29,6,ICU
+cons_item_atro_06_2026-08-29,item_atro_06,demo_batch,loc_apex_central,2026-08-29,6,ICU
+cons_item_pcm_1g_2026-08-29,item_pcm_1g,demo_batch,loc_apex_central,2026-08-29,29,General Surgery
+cons_item_fent_100_2026-08-29,item_fent_100,demo_batch,loc_apex_central,2026-08-29,10,General Surgery
+cons_item_midaz_5mg_2026-08-29,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-29,15,General Surgery
+cons_item_tram_100_2026-08-29,item_tram_100,demo_batch,loc_apex_central,2026-08-29,15,General Surgery
+cons_item_ns_500_2026-08-29,item_ns_500,demo_batch,loc_apex_central,2026-08-29,78,General Surgery
+cons_item_rl_500_2026-08-29,item_rl_500,demo_batch,loc_apex_central,2026-08-29,58,General Surgery
+cons_item_d5_500_2026-08-29,item_d5_500,demo_batch,loc_apex_central,2026-08-29,26,General Surgery
+cons_item_kcl_20_2026-08-29,item_kcl_20,demo_batch,loc_apex_central,2026-08-29,10,General Surgery
+cons_item_iv_set_2026-08-29,item_iv_set,demo_batch,loc_apex_central,2026-08-29,18,General Surgery
+cons_item_gloves_75_2026-08-29,item_gloves_75,demo_batch,loc_apex_central,2026-08-29,50,General Surgery
+cons_item_syr_10_2026-08-29,item_syr_10,demo_batch,loc_apex_central,2026-08-29,103,General Surgery
+cons_item_foley_16_2026-08-29,item_foley_16,demo_batch,loc_apex_central,2026-08-29,9,General Surgery
+cons_item_ett_75_2026-08-29,item_ett_75,demo_batch,loc_apex_central,2026-08-29,4,General Surgery
+cons_item_stopcock_3w_2026-08-29,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-29,31,General Surgery
+cons_item_pacli_100_2026-08-29,item_pacli_100,demo_batch,loc_apex_central,2026-08-29,3,General Surgery
+cons_item_carbo_450_2026-08-29,item_carbo_450,demo_batch,loc_apex_central,2026-08-29,2,General Surgery
+cons_item_albu_20_2026-08-29,item_albu_20,demo_batch,loc_apex_central,2026-08-29,2,General Surgery
+cons_item_blood_bag_2026-08-29,item_blood_bag,demo_batch,loc_apex_central,2026-08-29,7,General Surgery
+cons_item_trop_i_2026-08-29,item_trop_i,demo_batch,loc_apex_central,2026-08-29,8,General Surgery
+cons_item_covid_ag_2026-08-29,item_covid_ag,demo_batch,loc_apex_central,2026-08-29,7,General Surgery
+cons_item_edta_tube_2026-08-29,item_edta_tube,demo_batch,loc_apex_central,2026-08-29,61,General Surgery
+cons_item_cftx_1g_2026-08-30,item_cftx_1g,demo_batch,loc_apex_central,2026-08-30,32,Inpatient Medicine
+cons_item_mero_1g_2026-08-30,item_mero_1g,demo_batch,loc_apex_central,2026-08-30,10,Inpatient Medicine
+cons_item_piptaz_45_2026-08-30,item_piptaz_45,demo_batch,loc_apex_central,2026-08-30,16,Inpatient Medicine
+cons_item_vanco_500_2026-08-30,item_vanco_500,demo_batch,loc_apex_central,2026-08-30,9,Inpatient Medicine
+cons_item_amox_12_2026-08-30,item_amox_12,demo_batch,loc_apex_central,2026-08-30,19,Inpatient Medicine
+cons_item_epi_1mg_2026-08-30,item_epi_1mg,demo_batch,loc_apex_central,2026-08-30,12,ICU
+cons_item_norepi_4mg_2026-08-30,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-30,23,ICU
+cons_item_dopa_200_2026-08-30,item_dopa_200,demo_batch,loc_apex_central,2026-08-30,5,ICU
+cons_item_atro_06_2026-08-30,item_atro_06,demo_batch,loc_apex_central,2026-08-30,6,ICU
+cons_item_pcm_1g_2026-08-30,item_pcm_1g,demo_batch,loc_apex_central,2026-08-30,37,General Surgery
+cons_item_fent_100_2026-08-30,item_fent_100,demo_batch,loc_apex_central,2026-08-30,9,General Surgery
+cons_item_midaz_5mg_2026-08-30,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-30,12,General Surgery
+cons_item_tram_100_2026-08-30,item_tram_100,demo_batch,loc_apex_central,2026-08-30,12,General Surgery
+cons_item_ns_500_2026-08-30,item_ns_500,demo_batch,loc_apex_central,2026-08-30,99,General Surgery
+cons_item_rl_500_2026-08-30,item_rl_500,demo_batch,loc_apex_central,2026-08-30,74,General Surgery
+cons_item_d5_500_2026-08-30,item_d5_500,demo_batch,loc_apex_central,2026-08-30,33,General Surgery
+cons_item_kcl_20_2026-08-30,item_kcl_20,demo_batch,loc_apex_central,2026-08-30,12,General Surgery
+cons_item_iv_set_2026-08-30,item_iv_set,demo_batch,loc_apex_central,2026-08-30,23,General Surgery
+cons_item_gloves_75_2026-08-30,item_gloves_75,demo_batch,loc_apex_central,2026-08-30,40,General Surgery
+cons_item_syr_10_2026-08-30,item_syr_10,demo_batch,loc_apex_central,2026-08-30,132,General Surgery
+cons_item_foley_16_2026-08-30,item_foley_16,demo_batch,loc_apex_central,2026-08-30,7,General Surgery
+cons_item_ett_75_2026-08-30,item_ett_75,demo_batch,loc_apex_central,2026-08-30,5,General Surgery
+cons_item_stopcock_3w_2026-08-30,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-30,35,General Surgery
+cons_item_pacli_100_2026-08-30,item_pacli_100,demo_batch,loc_apex_central,2026-08-30,2,General Surgery
+cons_item_carbo_450_2026-08-30,item_carbo_450,demo_batch,loc_apex_central,2026-08-30,1,General Surgery
+cons_item_albu_20_2026-08-30,item_albu_20,demo_batch,loc_apex_central,2026-08-30,3,General Surgery
+cons_item_blood_bag_2026-08-30,item_blood_bag,demo_batch,loc_apex_central,2026-08-30,6,General Surgery
+cons_item_trop_i_2026-08-30,item_trop_i,demo_batch,loc_apex_central,2026-08-30,10,General Surgery
+cons_item_covid_ag_2026-08-30,item_covid_ag,demo_batch,loc_apex_central,2026-08-30,6,General Surgery
+cons_item_edta_tube_2026-08-30,item_edta_tube,demo_batch,loc_apex_central,2026-08-30,49,General Surgery
+cons_item_cftx_1g_2026-08-31,item_cftx_1g,demo_batch,loc_apex_central,2026-08-31,41,Inpatient Medicine
+cons_item_mero_1g_2026-08-31,item_mero_1g,demo_batch,loc_apex_central,2026-08-31,12,Inpatient Medicine
+cons_item_piptaz_45_2026-08-31,item_piptaz_45,demo_batch,loc_apex_central,2026-08-31,13,Inpatient Medicine
+cons_item_vanco_500_2026-08-31,item_vanco_500,demo_batch,loc_apex_central,2026-08-31,7,Inpatient Medicine
+cons_item_amox_12_2026-08-31,item_amox_12,demo_batch,loc_apex_central,2026-08-31,25,Inpatient Medicine
+cons_item_epi_1mg_2026-08-31,item_epi_1mg,demo_batch,loc_apex_central,2026-08-31,15,ICU
+cons_item_norepi_4mg_2026-08-31,item_norepi_4mg,demo_batch,loc_apex_central,2026-08-31,19,ICU
+cons_item_dopa_200_2026-08-31,item_dopa_200,demo_batch,loc_apex_central,2026-08-31,5,ICU
+cons_item_atro_06_2026-08-31,item_atro_06,demo_batch,loc_apex_central,2026-08-31,8,ICU
+cons_item_pcm_1g_2026-08-31,item_pcm_1g,demo_batch,loc_apex_central,2026-08-31,44,General Surgery
+cons_item_fent_100_2026-08-31,item_fent_100,demo_batch,loc_apex_central,2026-08-31,9,General Surgery
+cons_item_midaz_5mg_2026-08-31,item_midaz_5mg,demo_batch,loc_apex_central,2026-08-31,10,General Surgery
+cons_item_tram_100_2026-08-31,item_tram_100,demo_batch,loc_apex_central,2026-08-31,13,General Surgery
+cons_item_ns_500_2026-08-31,item_ns_500,demo_batch,loc_apex_central,2026-08-31,118,General Surgery
+cons_item_rl_500_2026-08-31,item_rl_500,demo_batch,loc_apex_central,2026-08-31,88,General Surgery
+cons_item_d5_500_2026-08-31,item_d5_500,demo_batch,loc_apex_central,2026-08-31,39,General Surgery
+cons_item_kcl_20_2026-08-31,item_kcl_20,demo_batch,loc_apex_central,2026-08-31,15,General Surgery
+cons_item_iv_set_2026-08-31,item_iv_set,demo_batch,loc_apex_central,2026-08-31,27,General Surgery
+cons_item_gloves_75_2026-08-31,item_gloves_75,demo_batch,loc_apex_central,2026-08-31,32,General Surgery
+cons_item_syr_10_2026-08-31,item_syr_10,demo_batch,loc_apex_central,2026-08-31,157,General Surgery
+cons_item_foley_16_2026-08-31,item_foley_16,demo_batch,loc_apex_central,2026-08-31,8,General Surgery
+cons_item_ett_75_2026-08-31,item_ett_75,demo_batch,loc_apex_central,2026-08-31,6,General Surgery
+cons_item_stopcock_3w_2026-08-31,item_stopcock_3w,demo_batch,loc_apex_central,2026-08-31,33,General Surgery
+cons_item_pacli_100_2026-08-31,item_pacli_100,demo_batch,loc_apex_central,2026-08-31,2,General Surgery
+cons_item_carbo_450_2026-08-31,item_carbo_450,demo_batch,loc_apex_central,2026-08-31,1,General Surgery
+cons_item_albu_20_2026-08-31,item_albu_20,demo_batch,loc_apex_central,2026-08-31,3,General Surgery
+cons_item_blood_bag_2026-08-31,item_blood_bag,demo_batch,loc_apex_central,2026-08-31,5,General Surgery
+cons_item_trop_i_2026-08-31,item_trop_i,demo_batch,loc_apex_central,2026-08-31,12,General Surgery
+cons_item_covid_ag_2026-08-31,item_covid_ag,demo_batch,loc_apex_central,2026-08-31,6,General Surgery
+cons_item_edta_tube_2026-08-31,item_edta_tube,demo_batch,loc_apex_central,2026-08-31,40,General Surgery
+cons_item_cftx_1g_2026-09-01,item_cftx_1g,demo_batch,loc_apex_central,2026-09-01,49,Inpatient Medicine
+cons_item_mero_1g_2026-09-01,item_mero_1g,demo_batch,loc_apex_central,2026-09-01,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-01,item_piptaz_45,demo_batch,loc_apex_central,2026-09-01,14,Inpatient Medicine
+cons_item_vanco_500_2026-09-01,item_vanco_500,demo_batch,loc_apex_central,2026-09-01,8,Inpatient Medicine
+cons_item_amox_12_2026-09-01,item_amox_12,demo_batch,loc_apex_central,2026-09-01,29,Inpatient Medicine
+cons_item_epi_1mg_2026-09-01,item_epi_1mg,demo_batch,loc_apex_central,2026-09-01,18,ICU
+cons_item_norepi_4mg_2026-09-01,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-01,15,ICU
+cons_item_dopa_200_2026-09-01,item_dopa_200,demo_batch,loc_apex_central,2026-09-01,7,ICU
+cons_item_atro_06_2026-09-01,item_atro_06,demo_batch,loc_apex_central,2026-09-01,10,ICU
+cons_item_pcm_1g_2026-09-01,item_pcm_1g,demo_batch,loc_apex_central,2026-09-01,44,General Surgery
+cons_item_fent_100_2026-09-01,item_fent_100,demo_batch,loc_apex_central,2026-09-01,12,General Surgery
+cons_item_midaz_5mg_2026-09-01,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-01,10,General Surgery
+cons_item_tram_100_2026-09-01,item_tram_100,demo_batch,loc_apex_central,2026-09-01,16,General Surgery
+cons_item_ns_500_2026-09-01,item_ns_500,demo_batch,loc_apex_central,2026-09-01,116,General Surgery
+cons_item_rl_500_2026-09-01,item_rl_500,demo_batch,loc_apex_central,2026-09-01,87,General Surgery
+cons_item_d5_500_2026-09-01,item_d5_500,demo_batch,loc_apex_central,2026-09-01,39,General Surgery
+cons_item_kcl_20_2026-09-01,item_kcl_20,demo_batch,loc_apex_central,2026-09-01,15,General Surgery
+cons_item_iv_set_2026-09-01,item_iv_set,demo_batch,loc_apex_central,2026-09-01,27,General Surgery
+cons_item_gloves_75_2026-09-01,item_gloves_75,demo_batch,loc_apex_central,2026-09-01,34,General Surgery
+cons_item_syr_10_2026-09-01,item_syr_10,demo_batch,loc_apex_central,2026-09-01,155,General Surgery
+cons_item_foley_16_2026-09-01,item_foley_16,demo_batch,loc_apex_central,2026-09-01,10,General Surgery
+cons_item_ett_75_2026-09-01,item_ett_75,demo_batch,loc_apex_central,2026-09-01,6,General Surgery
+cons_item_stopcock_3w_2026-09-01,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-01,26,General Surgery
+cons_item_pacli_100_2026-09-01,item_pacli_100,demo_batch,loc_apex_central,2026-09-01,2,General Surgery
+cons_item_carbo_450_2026-09-01,item_carbo_450,demo_batch,loc_apex_central,2026-09-01,1,General Surgery
+cons_item_albu_20_2026-09-01,item_albu_20,demo_batch,loc_apex_central,2026-09-01,4,General Surgery
+cons_item_blood_bag_2026-09-01,item_blood_bag,demo_batch,loc_apex_central,2026-09-01,5,General Surgery
+cons_item_trop_i_2026-09-01,item_trop_i,demo_batch,loc_apex_central,2026-09-01,12,General Surgery
+cons_item_covid_ag_2026-09-01,item_covid_ag,demo_batch,loc_apex_central,2026-09-01,8,General Surgery
+cons_item_edta_tube_2026-09-01,item_edta_tube,demo_batch,loc_apex_central,2026-09-01,42,General Surgery
+cons_item_cftx_1g_2026-09-02,item_cftx_1g,demo_batch,loc_apex_central,2026-09-02,49,Inpatient Medicine
+cons_item_mero_1g_2026-09-02,item_mero_1g,demo_batch,loc_apex_central,2026-09-02,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-02,item_piptaz_45,demo_batch,loc_apex_central,2026-09-02,18,Inpatient Medicine
+cons_item_vanco_500_2026-09-02,item_vanco_500,demo_batch,loc_apex_central,2026-09-02,10,Inpatient Medicine
+cons_item_amox_12_2026-09-02,item_amox_12,demo_batch,loc_apex_central,2026-09-02,29,Inpatient Medicine
+cons_item_epi_1mg_2026-09-02,item_epi_1mg,demo_batch,loc_apex_central,2026-09-02,17,ICU
+cons_item_norepi_4mg_2026-09-02,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-02,16,ICU
+cons_item_dopa_200_2026-09-02,item_dopa_200,demo_batch,loc_apex_central,2026-09-02,8,ICU
+cons_item_atro_06_2026-09-02,item_atro_06,demo_batch,loc_apex_central,2026-09-02,10,ICU
+cons_item_pcm_1g_2026-09-02,item_pcm_1g,demo_batch,loc_apex_central,2026-09-02,36,General Surgery
+cons_item_fent_100_2026-09-02,item_fent_100,demo_batch,loc_apex_central,2026-09-02,14,General Surgery
+cons_item_midaz_5mg_2026-09-02,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-02,13,General Surgery
+cons_item_tram_100_2026-09-02,item_tram_100,demo_batch,loc_apex_central,2026-09-02,20,General Surgery
+cons_item_ns_500_2026-09-02,item_ns_500,demo_batch,loc_apex_central,2026-09-02,96,General Surgery
+cons_item_rl_500_2026-09-02,item_rl_500,demo_batch,loc_apex_central,2026-09-02,72,General Surgery
+cons_item_d5_500_2026-09-02,item_d5_500,demo_batch,loc_apex_central,2026-09-02,32,General Surgery
+cons_item_kcl_20_2026-09-02,item_kcl_20,demo_batch,loc_apex_central,2026-09-02,12,General Surgery
+cons_item_iv_set_2026-09-02,item_iv_set,demo_batch,loc_apex_central,2026-09-02,22,General Surgery
+cons_item_gloves_75_2026-09-02,item_gloves_75,demo_batch,loc_apex_central,2026-09-02,44,General Surgery
+cons_item_syr_10_2026-09-02,item_syr_10,demo_batch,loc_apex_central,2026-09-02,129,General Surgery
+cons_item_foley_16_2026-09-02,item_foley_16,demo_batch,loc_apex_central,2026-09-02,12,General Surgery
+cons_item_ett_75_2026-09-02,item_ett_75,demo_batch,loc_apex_central,2026-09-02,5,General Surgery
+cons_item_stopcock_3w_2026-09-02,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-02,21,General Surgery
+cons_item_pacli_100_2026-09-02,item_pacli_100,demo_batch,loc_apex_central,2026-09-02,2,General Surgery
+cons_item_carbo_450_2026-09-02,item_carbo_450,demo_batch,loc_apex_central,2026-09-02,2,General Surgery
+cons_item_albu_20_2026-09-02,item_albu_20,demo_batch,loc_apex_central,2026-09-02,4,General Surgery
+cons_item_blood_bag_2026-09-02,item_blood_bag,demo_batch,loc_apex_central,2026-09-02,7,General Surgery
+cons_item_trop_i_2026-09-02,item_trop_i,demo_batch,loc_apex_central,2026-09-02,10,General Surgery
+cons_item_covid_ag_2026-09-02,item_covid_ag,demo_batch,loc_apex_central,2026-09-02,10,General Surgery
+cons_item_edta_tube_2026-09-02,item_edta_tube,demo_batch,loc_apex_central,2026-09-02,54,General Surgery
+cons_item_cftx_1g_2026-09-03,item_cftx_1g,demo_batch,loc_apex_central,2026-09-03,40,Inpatient Medicine
+cons_item_mero_1g_2026-09-03,item_mero_1g,demo_batch,loc_apex_central,2026-09-03,12,Inpatient Medicine
+cons_item_piptaz_45_2026-09-03,item_piptaz_45,demo_batch,loc_apex_central,2026-09-03,22,Inpatient Medicine
+cons_item_vanco_500_2026-09-03,item_vanco_500,demo_batch,loc_apex_central,2026-09-03,12,Inpatient Medicine
+cons_item_amox_12_2026-09-03,item_amox_12,demo_batch,loc_apex_central,2026-09-03,24,Inpatient Medicine
+cons_item_epi_1mg_2026-09-03,item_epi_1mg,demo_batch,loc_apex_central,2026-09-03,14,ICU
+cons_item_norepi_4mg_2026-09-03,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-03,21,ICU
+cons_item_dopa_200_2026-09-03,item_dopa_200,demo_batch,loc_apex_central,2026-09-03,8,ICU
+cons_item_atro_06_2026-09-03,item_atro_06,demo_batch,loc_apex_central,2026-09-03,8,ICU
+cons_item_pcm_1g_2026-09-03,item_pcm_1g,demo_batch,loc_apex_central,2026-09-03,29,General Surgery
+cons_item_fent_100_2026-09-03,item_fent_100,demo_batch,loc_apex_central,2026-09-03,14,General Surgery
+cons_item_midaz_5mg_2026-09-03,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-03,16,General Surgery
+cons_item_tram_100_2026-09-03,item_tram_100,demo_batch,loc_apex_central,2026-09-03,19,General Surgery
+cons_item_ns_500_2026-09-03,item_ns_500,demo_batch,loc_apex_central,2026-09-03,76,General Surgery
+cons_item_rl_500_2026-09-03,item_rl_500,demo_batch,loc_apex_central,2026-09-03,57,General Surgery
+cons_item_d5_500_2026-09-03,item_d5_500,demo_batch,loc_apex_central,2026-09-03,25,General Surgery
+cons_item_kcl_20_2026-09-03,item_kcl_20,demo_batch,loc_apex_central,2026-09-03,10,General Surgery
+cons_item_iv_set_2026-09-03,item_iv_set,demo_batch,loc_apex_central,2026-09-03,18,General Surgery
+cons_item_gloves_75_2026-09-03,item_gloves_75,demo_batch,loc_apex_central,2026-09-03,52,General Surgery
+cons_item_syr_10_2026-09-03,item_syr_10,demo_batch,loc_apex_central,2026-09-03,101,General Surgery
+cons_item_foley_16_2026-09-03,item_foley_16,demo_batch,loc_apex_central,2026-09-03,12,General Surgery
+cons_item_ett_75_2026-09-03,item_ett_75,demo_batch,loc_apex_central,2026-09-03,4,General Surgery
+cons_item_stopcock_3w_2026-09-03,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-03,23,General Surgery
+cons_item_pacli_100_2026-09-03,item_pacli_100,demo_batch,loc_apex_central,2026-09-03,3,General Surgery
+cons_item_carbo_450_2026-09-03,item_carbo_450,demo_batch,loc_apex_central,2026-09-03,2,General Surgery
+cons_item_albu_20_2026-09-03,item_albu_20,demo_batch,loc_apex_central,2026-09-03,3,General Surgery
+cons_item_blood_bag_2026-09-03,item_blood_bag,demo_batch,loc_apex_central,2026-09-03,8,General Surgery
+cons_item_trop_i_2026-09-03,item_trop_i,demo_batch,loc_apex_central,2026-09-03,8,General Surgery
+cons_item_covid_ag_2026-09-03,item_covid_ag,demo_batch,loc_apex_central,2026-09-03,10,General Surgery
+cons_item_edta_tube_2026-09-03,item_edta_tube,demo_batch,loc_apex_central,2026-09-03,64,General Surgery
+cons_item_cftx_1g_2026-09-04,item_cftx_1g,demo_batch,loc_apex_central,2026-09-04,32,Inpatient Medicine
+cons_item_mero_1g_2026-09-04,item_mero_1g,demo_batch,loc_apex_central,2026-09-04,10,Inpatient Medicine
+cons_item_piptaz_45_2026-09-04,item_piptaz_45,demo_batch,loc_apex_central,2026-09-04,21,Inpatient Medicine
+cons_item_vanco_500_2026-09-04,item_vanco_500,demo_batch,loc_apex_central,2026-09-04,12,Inpatient Medicine
+cons_item_amox_12_2026-09-04,item_amox_12,demo_batch,loc_apex_central,2026-09-04,19,Inpatient Medicine
+cons_item_epi_1mg_2026-09-04,item_epi_1mg,demo_batch,loc_apex_central,2026-09-04,11,ICU
+cons_item_norepi_4mg_2026-09-04,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-04,25,ICU
+cons_item_dopa_200_2026-09-04,item_dopa_200,demo_batch,loc_apex_central,2026-09-04,6,ICU
+cons_item_atro_06_2026-09-04,item_atro_06,demo_batch,loc_apex_central,2026-09-04,6,ICU
+cons_item_pcm_1g_2026-09-04,item_pcm_1g,demo_batch,loc_apex_central,2026-09-04,28,General Surgery
+cons_item_fent_100_2026-09-04,item_fent_100,demo_batch,loc_apex_central,2026-09-04,11,General Surgery
+cons_item_midaz_5mg_2026-09-04,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-04,16,General Surgery
+cons_item_tram_100_2026-09-04,item_tram_100,demo_batch,loc_apex_central,2026-09-04,16,General Surgery
+cons_item_ns_500_2026-09-04,item_ns_500,demo_batch,loc_apex_central,2026-09-04,74,General Surgery
+cons_item_rl_500_2026-09-04,item_rl_500,demo_batch,loc_apex_central,2026-09-04,56,General Surgery
+cons_item_d5_500_2026-09-04,item_d5_500,demo_batch,loc_apex_central,2026-09-04,25,General Surgery
+cons_item_kcl_20_2026-09-04,item_kcl_20,demo_batch,loc_apex_central,2026-09-04,9,General Surgery
+cons_item_iv_set_2026-09-04,item_iv_set,demo_batch,loc_apex_central,2026-09-04,17,General Surgery
+cons_item_gloves_75_2026-09-04,item_gloves_75,demo_batch,loc_apex_central,2026-09-04,51,General Surgery
+cons_item_syr_10_2026-09-04,item_syr_10,demo_batch,loc_apex_central,2026-09-04,99,General Surgery
+cons_item_foley_16_2026-09-04,item_foley_16,demo_batch,loc_apex_central,2026-09-04,10,General Surgery
+cons_item_ett_75_2026-09-04,item_ett_75,demo_batch,loc_apex_central,2026-09-04,4,General Surgery
+cons_item_stopcock_3w_2026-09-04,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-04,29,General Surgery
+cons_item_pacli_100_2026-09-04,item_pacli_100,demo_batch,loc_apex_central,2026-09-04,3,General Surgery
+cons_item_carbo_450_2026-09-04,item_carbo_450,demo_batch,loc_apex_central,2026-09-04,2,General Surgery
+cons_item_albu_20_2026-09-04,item_albu_20,demo_batch,loc_apex_central,2026-09-04,3,General Surgery
+cons_item_blood_bag_2026-09-04,item_blood_bag,demo_batch,loc_apex_central,2026-09-04,8,General Surgery
+cons_item_trop_i_2026-09-04,item_trop_i,demo_batch,loc_apex_central,2026-09-04,7,General Surgery
+cons_item_covid_ag_2026-09-04,item_covid_ag,demo_batch,loc_apex_central,2026-09-04,8,General Surgery
+cons_item_edta_tube_2026-09-04,item_edta_tube,demo_batch,loc_apex_central,2026-09-04,63,General Surgery
+cons_item_cftx_1g_2026-09-05,item_cftx_1g,demo_batch,loc_apex_central,2026-09-05,31,Inpatient Medicine
+cons_item_mero_1g_2026-09-05,item_mero_1g,demo_batch,loc_apex_central,2026-09-05,9,Inpatient Medicine
+cons_item_piptaz_45_2026-09-05,item_piptaz_45,demo_batch,loc_apex_central,2026-09-05,18,Inpatient Medicine
+cons_item_vanco_500_2026-09-05,item_vanco_500,demo_batch,loc_apex_central,2026-09-05,10,Inpatient Medicine
+cons_item_amox_12_2026-09-05,item_amox_12,demo_batch,loc_apex_central,2026-09-05,19,Inpatient Medicine
+cons_item_epi_1mg_2026-09-05,item_epi_1mg,demo_batch,loc_apex_central,2026-09-05,11,ICU
+cons_item_norepi_4mg_2026-09-05,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-05,24,ICU
+cons_item_dopa_200_2026-09-05,item_dopa_200,demo_batch,loc_apex_central,2026-09-05,5,ICU
+cons_item_atro_06_2026-09-05,item_atro_06,demo_batch,loc_apex_central,2026-09-05,6,ICU
+cons_item_pcm_1g_2026-09-05,item_pcm_1g,demo_batch,loc_apex_central,2026-09-05,35,General Surgery
+cons_item_fent_100_2026-09-05,item_fent_100,demo_batch,loc_apex_central,2026-09-05,9,General Surgery
+cons_item_midaz_5mg_2026-09-05,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-05,13,General Surgery
+cons_item_tram_100_2026-09-05,item_tram_100,demo_batch,loc_apex_central,2026-09-05,13,General Surgery
+cons_item_ns_500_2026-09-05,item_ns_500,demo_batch,loc_apex_central,2026-09-05,92,General Surgery
+cons_item_rl_500_2026-09-05,item_rl_500,demo_batch,loc_apex_central,2026-09-05,69,General Surgery
+cons_item_d5_500_2026-09-05,item_d5_500,demo_batch,loc_apex_central,2026-09-05,31,General Surgery
+cons_item_kcl_20_2026-09-05,item_kcl_20,demo_batch,loc_apex_central,2026-09-05,12,General Surgery
+cons_item_iv_set_2026-09-05,item_iv_set,demo_batch,loc_apex_central,2026-09-05,22,General Surgery
+cons_item_gloves_75_2026-09-05,item_gloves_75,demo_batch,loc_apex_central,2026-09-05,43,General Surgery
+cons_item_syr_10_2026-09-05,item_syr_10,demo_batch,loc_apex_central,2026-09-05,123,General Surgery
+cons_item_foley_16_2026-09-05,item_foley_16,demo_batch,loc_apex_central,2026-09-05,8,General Surgery
+cons_item_ett_75_2026-09-05,item_ett_75,demo_batch,loc_apex_central,2026-09-05,5,General Surgery
+cons_item_stopcock_3w_2026-09-05,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-05,34,General Surgery
+cons_item_pacli_100_2026-09-05,item_pacli_100,demo_batch,loc_apex_central,2026-09-05,2,General Surgery
+cons_item_carbo_450_2026-09-05,item_carbo_450,demo_batch,loc_apex_central,2026-09-05,2,General Surgery
+cons_item_albu_20_2026-09-05,item_albu_20,demo_batch,loc_apex_central,2026-09-05,2,General Surgery
+cons_item_blood_bag_2026-09-05,item_blood_bag,demo_batch,loc_apex_central,2026-09-05,6,General Surgery
+cons_item_trop_i_2026-09-05,item_trop_i,demo_batch,loc_apex_central,2026-09-05,9,General Surgery
+cons_item_covid_ag_2026-09-05,item_covid_ag,demo_batch,loc_apex_central,2026-09-05,6,General Surgery
+cons_item_edta_tube_2026-09-05,item_edta_tube,demo_batch,loc_apex_central,2026-09-05,52,General Surgery
+cons_item_cftx_1g_2026-09-06,item_cftx_1g,demo_batch,loc_apex_central,2026-09-06,38,Inpatient Medicine
+cons_item_mero_1g_2026-09-06,item_mero_1g,demo_batch,loc_apex_central,2026-09-06,12,Inpatient Medicine
+cons_item_piptaz_45_2026-09-06,item_piptaz_45,demo_batch,loc_apex_central,2026-09-06,14,Inpatient Medicine
+cons_item_vanco_500_2026-09-06,item_vanco_500,demo_batch,loc_apex_central,2026-09-06,8,Inpatient Medicine
+cons_item_amox_12_2026-09-06,item_amox_12,demo_batch,loc_apex_central,2026-09-06,23,Inpatient Medicine
+cons_item_epi_1mg_2026-09-06,item_epi_1mg,demo_batch,loc_apex_central,2026-09-06,14,ICU
+cons_item_norepi_4mg_2026-09-06,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-06,20,ICU
+cons_item_dopa_200_2026-09-06,item_dopa_200,demo_batch,loc_apex_central,2026-09-06,5,ICU
+cons_item_atro_06_2026-09-06,item_atro_06,demo_batch,loc_apex_central,2026-09-06,8,ICU
+cons_item_pcm_1g_2026-09-06,item_pcm_1g,demo_batch,loc_apex_central,2026-09-06,43,General Surgery
+cons_item_fent_100_2026-09-06,item_fent_100,demo_batch,loc_apex_central,2026-09-06,9,General Surgery
+cons_item_midaz_5mg_2026-09-06,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-06,10,General Surgery
+cons_item_tram_100_2026-09-06,item_tram_100,demo_batch,loc_apex_central,2026-09-06,12,General Surgery
+cons_item_ns_500_2026-09-06,item_ns_500,demo_batch,loc_apex_central,2026-09-06,114,General Surgery
+cons_item_rl_500_2026-09-06,item_rl_500,demo_batch,loc_apex_central,2026-09-06,85,General Surgery
+cons_item_d5_500_2026-09-06,item_d5_500,demo_batch,loc_apex_central,2026-09-06,38,General Surgery
+cons_item_kcl_20_2026-09-06,item_kcl_20,demo_batch,loc_apex_central,2026-09-06,14,General Surgery
+cons_item_iv_set_2026-09-06,item_iv_set,demo_batch,loc_apex_central,2026-09-06,27,General Surgery
+cons_item_gloves_75_2026-09-06,item_gloves_75,demo_batch,loc_apex_central,2026-09-06,34,General Surgery
+cons_item_syr_10_2026-09-06,item_syr_10,demo_batch,loc_apex_central,2026-09-06,152,General Surgery
+cons_item_foley_16_2026-09-06,item_foley_16,demo_batch,loc_apex_central,2026-09-06,7,General Surgery
+cons_item_ett_75_2026-09-06,item_ett_75,demo_batch,loc_apex_central,2026-09-06,6,General Surgery
+cons_item_stopcock_3w_2026-09-06,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-06,34,General Surgery
+cons_item_pacli_100_2026-09-06,item_pacli_100,demo_batch,loc_apex_central,2026-09-06,2,General Surgery
+cons_item_carbo_450_2026-09-06,item_carbo_450,demo_batch,loc_apex_central,2026-09-06,1,General Surgery
+cons_item_albu_20_2026-09-06,item_albu_20,demo_batch,loc_apex_central,2026-09-06,3,General Surgery
+cons_item_blood_bag_2026-09-06,item_blood_bag,demo_batch,loc_apex_central,2026-09-06,5,General Surgery
+cons_item_trop_i_2026-09-06,item_trop_i,demo_batch,loc_apex_central,2026-09-06,11,General Surgery
+cons_item_covid_ag_2026-09-06,item_covid_ag,demo_batch,loc_apex_central,2026-09-06,6,General Surgery
+cons_item_edta_tube_2026-09-06,item_edta_tube,demo_batch,loc_apex_central,2026-09-06,41,General Surgery
+cons_item_cftx_1g_2026-09-07,item_cftx_1g,demo_batch,loc_apex_central,2026-09-07,47,Inpatient Medicine
+cons_item_mero_1g_2026-09-07,item_mero_1g,demo_batch,loc_apex_central,2026-09-07,14,Inpatient Medicine
+cons_item_piptaz_45_2026-09-07,item_piptaz_45,demo_batch,loc_apex_central,2026-09-07,14,Inpatient Medicine
+cons_item_vanco_500_2026-09-07,item_vanco_500,demo_batch,loc_apex_central,2026-09-07,7,Inpatient Medicine
+cons_item_amox_12_2026-09-07,item_amox_12,demo_batch,loc_apex_central,2026-09-07,28,Inpatient Medicine
+cons_item_epi_1mg_2026-09-07,item_epi_1mg,demo_batch,loc_apex_central,2026-09-07,17,ICU
+cons_item_norepi_4mg_2026-09-07,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-07,16,ICU
+cons_item_dopa_200_2026-09-07,item_dopa_200,demo_batch,loc_apex_central,2026-09-07,6,ICU
+cons_item_atro_06_2026-09-07,item_atro_06,demo_batch,loc_apex_central,2026-09-07,9,ICU
+cons_item_pcm_1g_2026-09-07,item_pcm_1g,demo_batch,loc_apex_central,2026-09-07,45,General Surgery
+cons_item_fent_100_2026-09-07,item_fent_100,demo_batch,loc_apex_central,2026-09-07,11,General Surgery
+cons_item_midaz_5mg_2026-09-07,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-07,10,General Surgery
+cons_item_tram_100_2026-09-07,item_tram_100,demo_batch,loc_apex_central,2026-09-07,15,General Surgery
+cons_item_ns_500_2026-09-07,item_ns_500,demo_batch,loc_apex_central,2026-09-07,119,General Surgery
+cons_item_rl_500_2026-09-07,item_rl_500,demo_batch,loc_apex_central,2026-09-07,89,General Surgery
+cons_item_d5_500_2026-09-07,item_d5_500,demo_batch,loc_apex_central,2026-09-07,40,General Surgery
+cons_item_kcl_20_2026-09-07,item_kcl_20,demo_batch,loc_apex_central,2026-09-07,15,General Surgery
+cons_item_iv_set_2026-09-07,item_iv_set,demo_batch,loc_apex_central,2026-09-07,28,General Surgery
+cons_item_gloves_75_2026-09-07,item_gloves_75,demo_batch,loc_apex_central,2026-09-07,33,General Surgery
+cons_item_syr_10_2026-09-07,item_syr_10,demo_batch,loc_apex_central,2026-09-07,159,General Surgery
+cons_item_foley_16_2026-09-07,item_foley_16,demo_batch,loc_apex_central,2026-09-07,9,General Surgery
+cons_item_ett_75_2026-09-07,item_ett_75,demo_batch,loc_apex_central,2026-09-07,6,General Surgery
+cons_item_stopcock_3w_2026-09-07,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-07,28,General Surgery
+cons_item_pacli_100_2026-09-07,item_pacli_100,demo_batch,loc_apex_central,2026-09-07,2,General Surgery
+cons_item_carbo_450_2026-09-07,item_carbo_450,demo_batch,loc_apex_central,2026-09-07,1,General Surgery
+cons_item_albu_20_2026-09-07,item_albu_20,demo_batch,loc_apex_central,2026-09-07,4,General Surgery
+cons_item_blood_bag_2026-09-07,item_blood_bag,demo_batch,loc_apex_central,2026-09-07,5,General Surgery
+cons_item_trop_i_2026-09-07,item_trop_i,demo_batch,loc_apex_central,2026-09-07,12,General Surgery
+cons_item_covid_ag_2026-09-07,item_covid_ag,demo_batch,loc_apex_central,2026-09-07,8,General Surgery
+cons_item_edta_tube_2026-09-07,item_edta_tube,demo_batch,loc_apex_central,2026-09-07,40,General Surgery
+cons_item_cftx_1g_2026-09-08,item_cftx_1g,demo_batch,loc_apex_central,2026-09-08,50,Inpatient Medicine
+cons_item_mero_1g_2026-09-08,item_mero_1g,demo_batch,loc_apex_central,2026-09-08,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-08,item_piptaz_45,demo_batch,loc_apex_central,2026-09-08,17,Inpatient Medicine
+cons_item_vanco_500_2026-09-08,item_vanco_500,demo_batch,loc_apex_central,2026-09-08,9,Inpatient Medicine
+cons_item_amox_12_2026-09-08,item_amox_12,demo_batch,loc_apex_central,2026-09-08,30,Inpatient Medicine
+cons_item_epi_1mg_2026-09-08,item_epi_1mg,demo_batch,loc_apex_central,2026-09-08,18,ICU
+cons_item_norepi_4mg_2026-09-08,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-08,15,ICU
+cons_item_dopa_200_2026-09-08,item_dopa_200,demo_batch,loc_apex_central,2026-09-08,8,ICU
+cons_item_atro_06_2026-09-08,item_atro_06,demo_batch,loc_apex_central,2026-09-08,10,ICU
+cons_item_pcm_1g_2026-09-08,item_pcm_1g,demo_batch,loc_apex_central,2026-09-08,39,General Surgery
+cons_item_fent_100_2026-09-08,item_fent_100,demo_batch,loc_apex_central,2026-09-08,13,General Surgery
+cons_item_midaz_5mg_2026-09-08,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-08,12,General Surgery
+cons_item_tram_100_2026-09-08,item_tram_100,demo_batch,loc_apex_central,2026-09-08,19,General Surgery
+cons_item_ns_500_2026-09-08,item_ns_500,demo_batch,loc_apex_central,2026-09-08,103,General Surgery
+cons_item_rl_500_2026-09-08,item_rl_500,demo_batch,loc_apex_central,2026-09-08,77,General Surgery
+cons_item_d5_500_2026-09-08,item_d5_500,demo_batch,loc_apex_central,2026-09-08,34,General Surgery
+cons_item_kcl_20_2026-09-08,item_kcl_20,demo_batch,loc_apex_central,2026-09-08,13,General Surgery
+cons_item_iv_set_2026-09-08,item_iv_set,demo_batch,loc_apex_central,2026-09-08,24,General Surgery
+cons_item_gloves_75_2026-09-08,item_gloves_75,demo_batch,loc_apex_central,2026-09-08,41,General Surgery
+cons_item_syr_10_2026-09-08,item_syr_10,demo_batch,loc_apex_central,2026-09-08,137,General Surgery
+cons_item_foley_16_2026-09-08,item_foley_16,demo_batch,loc_apex_central,2026-09-08,11,General Surgery
+cons_item_ett_75_2026-09-08,item_ett_75,demo_batch,loc_apex_central,2026-09-08,5,General Surgery
+cons_item_stopcock_3w_2026-09-08,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-08,22,General Surgery
+cons_item_pacli_100_2026-09-08,item_pacli_100,demo_batch,loc_apex_central,2026-09-08,2,General Surgery
+cons_item_carbo_450_2026-09-08,item_carbo_450,demo_batch,loc_apex_central,2026-09-08,2,General Surgery
+cons_item_albu_20_2026-09-08,item_albu_20,demo_batch,loc_apex_central,2026-09-08,4,General Surgery
+cons_item_blood_bag_2026-09-08,item_blood_bag,demo_batch,loc_apex_central,2026-09-08,6,General Surgery
+cons_item_trop_i_2026-09-08,item_trop_i,demo_batch,loc_apex_central,2026-09-08,10,General Surgery
+cons_item_covid_ag_2026-09-08,item_covid_ag,demo_batch,loc_apex_central,2026-09-08,9,General Surgery
+cons_item_edta_tube_2026-09-08,item_edta_tube,demo_batch,loc_apex_central,2026-09-08,50,General Surgery
+cons_item_cftx_1g_2026-09-09,item_cftx_1g,demo_batch,loc_apex_central,2026-09-09,43,Inpatient Medicine
+cons_item_mero_1g_2026-09-09,item_mero_1g,demo_batch,loc_apex_central,2026-09-09,13,Inpatient Medicine
+cons_item_piptaz_45_2026-09-09,item_piptaz_45,demo_batch,loc_apex_central,2026-09-09,21,Inpatient Medicine
+cons_item_vanco_500_2026-09-09,item_vanco_500,demo_batch,loc_apex_central,2026-09-09,11,Inpatient Medicine
+cons_item_amox_12_2026-09-09,item_amox_12,demo_batch,loc_apex_central,2026-09-09,26,Inpatient Medicine
+cons_item_epi_1mg_2026-09-09,item_epi_1mg,demo_batch,loc_apex_central,2026-09-09,15,ICU
+cons_item_norepi_4mg_2026-09-09,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-09,19,ICU
+cons_item_dopa_200_2026-09-09,item_dopa_200,demo_batch,loc_apex_central,2026-09-09,8,ICU
+cons_item_atro_06_2026-09-09,item_atro_06,demo_batch,loc_apex_central,2026-09-09,9,ICU
+cons_item_pcm_1g_2026-09-09,item_pcm_1g,demo_batch,loc_apex_central,2026-09-09,30,General Surgery
+cons_item_fent_100_2026-09-09,item_fent_100,demo_batch,loc_apex_central,2026-09-09,14,General Surgery
+cons_item_midaz_5mg_2026-09-09,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-09,15,General Surgery
+cons_item_tram_100_2026-09-09,item_tram_100,demo_batch,loc_apex_central,2026-09-09,20,General Surgery
+cons_item_ns_500_2026-09-09,item_ns_500,demo_batch,loc_apex_central,2026-09-09,81,General Surgery
+cons_item_rl_500_2026-09-09,item_rl_500,demo_batch,loc_apex_central,2026-09-09,60,General Surgery
+cons_item_d5_500_2026-09-09,item_d5_500,demo_batch,loc_apex_central,2026-09-09,27,General Surgery
+cons_item_kcl_20_2026-09-09,item_kcl_20,demo_batch,loc_apex_central,2026-09-09,10,General Surgery
+cons_item_iv_set_2026-09-09,item_iv_set,demo_batch,loc_apex_central,2026-09-09,19,General Surgery
+cons_item_gloves_75_2026-09-09,item_gloves_75,demo_batch,loc_apex_central,2026-09-09,50,General Surgery
+cons_item_syr_10_2026-09-09,item_syr_10,demo_batch,loc_apex_central,2026-09-09,107,General Surgery
+cons_item_foley_16_2026-09-09,item_foley_16,demo_batch,loc_apex_central,2026-09-09,12,General Surgery
+cons_item_ett_75_2026-09-09,item_ett_75,demo_batch,loc_apex_central,2026-09-09,4,General Surgery
+cons_item_stopcock_3w_2026-09-09,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-09,22,General Surgery
+cons_item_pacli_100_2026-09-09,item_pacli_100,demo_batch,loc_apex_central,2026-09-09,3,General Surgery
+cons_item_carbo_450_2026-09-09,item_carbo_450,demo_batch,loc_apex_central,2026-09-09,2,General Surgery
+cons_item_albu_20_2026-09-09,item_albu_20,demo_batch,loc_apex_central,2026-09-09,3,General Surgery
+cons_item_blood_bag_2026-09-09,item_blood_bag,demo_batch,loc_apex_central,2026-09-09,8,General Surgery
+cons_item_trop_i_2026-09-09,item_trop_i,demo_batch,loc_apex_central,2026-09-09,8,General Surgery
+cons_item_covid_ag_2026-09-09,item_covid_ag,demo_batch,loc_apex_central,2026-09-09,10,General Surgery
+cons_item_edta_tube_2026-09-09,item_edta_tube,demo_batch,loc_apex_central,2026-09-09,62,General Surgery
+cons_item_cftx_1g_2026-09-10,item_cftx_1g,demo_batch,loc_apex_central,2026-09-10,34,Inpatient Medicine
+cons_item_mero_1g_2026-09-10,item_mero_1g,demo_batch,loc_apex_central,2026-09-10,10,Inpatient Medicine
+cons_item_piptaz_45_2026-09-10,item_piptaz_45,demo_batch,loc_apex_central,2026-09-10,22,Inpatient Medicine
+cons_item_vanco_500_2026-09-10,item_vanco_500,demo_batch,loc_apex_central,2026-09-10,12,Inpatient Medicine
+cons_item_amox_12_2026-09-10,item_amox_12,demo_batch,loc_apex_central,2026-09-10,20,Inpatient Medicine
+cons_item_epi_1mg_2026-09-10,item_epi_1mg,demo_batch,loc_apex_central,2026-09-10,12,ICU
+cons_item_norepi_4mg_2026-09-10,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-10,24,ICU
+cons_item_dopa_200_2026-09-10,item_dopa_200,demo_batch,loc_apex_central,2026-09-10,7,ICU
+cons_item_atro_06_2026-09-10,item_atro_06,demo_batch,loc_apex_central,2026-09-10,7,ICU
+cons_item_pcm_1g_2026-09-10,item_pcm_1g,demo_batch,loc_apex_central,2026-09-10,27,General Surgery
+cons_item_fent_100_2026-09-10,item_fent_100,demo_batch,loc_apex_central,2026-09-10,12,General Surgery
+cons_item_midaz_5mg_2026-09-10,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-10,16,General Surgery
+cons_item_tram_100_2026-09-10,item_tram_100,demo_batch,loc_apex_central,2026-09-10,17,General Surgery
+cons_item_ns_500_2026-09-10,item_ns_500,demo_batch,loc_apex_central,2026-09-10,72,General Surgery
+cons_item_rl_500_2026-09-10,item_rl_500,demo_batch,loc_apex_central,2026-09-10,54,General Surgery
+cons_item_d5_500_2026-09-10,item_d5_500,demo_batch,loc_apex_central,2026-09-10,24,General Surgery
+cons_item_kcl_20_2026-09-10,item_kcl_20,demo_batch,loc_apex_central,2026-09-10,9,General Surgery
+cons_item_iv_set_2026-09-10,item_iv_set,demo_batch,loc_apex_central,2026-09-10,17,General Surgery
+cons_item_gloves_75_2026-09-10,item_gloves_75,demo_batch,loc_apex_central,2026-09-10,53,General Surgery
+cons_item_syr_10_2026-09-10,item_syr_10,demo_batch,loc_apex_central,2026-09-10,96,General Surgery
+cons_item_foley_16_2026-09-10,item_foley_16,demo_batch,loc_apex_central,2026-09-10,10,General Surgery
+cons_item_ett_75_2026-09-10,item_ett_75,demo_batch,loc_apex_central,2026-09-10,4,General Surgery
+cons_item_stopcock_3w_2026-09-10,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-10,27,General Surgery
+cons_item_pacli_100_2026-09-10,item_pacli_100,demo_batch,loc_apex_central,2026-09-10,3,General Surgery
+cons_item_carbo_450_2026-09-10,item_carbo_450,demo_batch,loc_apex_central,2026-09-10,2,General Surgery
+cons_item_albu_20_2026-09-10,item_albu_20,demo_batch,loc_apex_central,2026-09-10,3,General Surgery
+cons_item_blood_bag_2026-09-10,item_blood_bag,demo_batch,loc_apex_central,2026-09-10,8,General Surgery
+cons_item_trop_i_2026-09-10,item_trop_i,demo_batch,loc_apex_central,2026-09-10,7,General Surgery
+cons_item_covid_ag_2026-09-10,item_covid_ag,demo_batch,loc_apex_central,2026-09-10,9,General Surgery
+cons_item_edta_tube_2026-09-10,item_edta_tube,demo_batch,loc_apex_central,2026-09-10,65,General Surgery
+cons_item_cftx_1g_2026-09-11,item_cftx_1g,demo_batch,loc_apex_central,2026-09-11,30,Inpatient Medicine
+cons_item_mero_1g_2026-09-11,item_mero_1g,demo_batch,loc_apex_central,2026-09-11,9,Inpatient Medicine
+cons_item_piptaz_45_2026-09-11,item_piptaz_45,demo_batch,loc_apex_central,2026-09-11,19,Inpatient Medicine
+cons_item_vanco_500_2026-09-11,item_vanco_500,demo_batch,loc_apex_central,2026-09-11,10,Inpatient Medicine
+cons_item_amox_12_2026-09-11,item_amox_12,demo_batch,loc_apex_central,2026-09-11,18,Inpatient Medicine
+cons_item_epi_1mg_2026-09-11,item_epi_1mg,demo_batch,loc_apex_central,2026-09-11,11,ICU
+cons_item_norepi_4mg_2026-09-11,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-11,25,ICU
+cons_item_dopa_200_2026-09-11,item_dopa_200,demo_batch,loc_apex_central,2026-09-11,5,ICU
+cons_item_atro_06_2026-09-11,item_atro_06,demo_batch,loc_apex_central,2026-09-11,6,ICU
+cons_item_pcm_1g_2026-09-11,item_pcm_1g,demo_batch,loc_apex_central,2026-09-11,32,General Surgery
+cons_item_fent_100_2026-09-11,item_fent_100,demo_batch,loc_apex_central,2026-09-11,9,General Surgery
+cons_item_midaz_5mg_2026-09-11,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-11,14,General Surgery
+cons_item_tram_100_2026-09-11,item_tram_100,demo_batch,loc_apex_central,2026-09-11,13,General Surgery
+cons_item_ns_500_2026-09-11,item_ns_500,demo_batch,loc_apex_central,2026-09-11,86,General Surgery
+cons_item_rl_500_2026-09-11,item_rl_500,demo_batch,loc_apex_central,2026-09-11,64,General Surgery
+cons_item_d5_500_2026-09-11,item_d5_500,demo_batch,loc_apex_central,2026-09-11,29,General Surgery
+cons_item_kcl_20_2026-09-11,item_kcl_20,demo_batch,loc_apex_central,2026-09-11,11,General Surgery
+cons_item_iv_set_2026-09-11,item_iv_set,demo_batch,loc_apex_central,2026-09-11,20,General Surgery
+cons_item_gloves_75_2026-09-11,item_gloves_75,demo_batch,loc_apex_central,2026-09-11,46,General Surgery
+cons_item_syr_10_2026-09-11,item_syr_10,demo_batch,loc_apex_central,2026-09-11,114,General Surgery
+cons_item_foley_16_2026-09-11,item_foley_16,demo_batch,loc_apex_central,2026-09-11,8,General Surgery
+cons_item_ett_75_2026-09-11,item_ett_75,demo_batch,loc_apex_central,2026-09-11,4,General Surgery
+cons_item_stopcock_3w_2026-09-11,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-11,33,General Surgery
+cons_item_pacli_100_2026-09-11,item_pacli_100,demo_batch,loc_apex_central,2026-09-11,3,General Surgery
+cons_item_carbo_450_2026-09-11,item_carbo_450,demo_batch,loc_apex_central,2026-09-11,2,General Surgery
+cons_item_albu_20_2026-09-11,item_albu_20,demo_batch,loc_apex_central,2026-09-11,2,General Surgery
+cons_item_blood_bag_2026-09-11,item_blood_bag,demo_batch,loc_apex_central,2026-09-11,7,General Surgery
+cons_item_trop_i_2026-09-11,item_trop_i,demo_batch,loc_apex_central,2026-09-11,9,General Surgery
+cons_item_covid_ag_2026-09-11,item_covid_ag,demo_batch,loc_apex_central,2026-09-11,7,General Surgery
+cons_item_edta_tube_2026-09-11,item_edta_tube,demo_batch,loc_apex_central,2026-09-11,56,General Surgery
+cons_item_cftx_1g_2026-09-12,item_cftx_1g,demo_batch,loc_apex_central,2026-09-12,36,Inpatient Medicine
+cons_item_mero_1g_2026-09-12,item_mero_1g,demo_batch,loc_apex_central,2026-09-12,11,Inpatient Medicine
+cons_item_piptaz_45_2026-09-12,item_piptaz_45,demo_batch,loc_apex_central,2026-09-12,15,Inpatient Medicine
+cons_item_vanco_500_2026-09-12,item_vanco_500,demo_batch,loc_apex_central,2026-09-12,8,Inpatient Medicine
+cons_item_amox_12_2026-09-12,item_amox_12,demo_batch,loc_apex_central,2026-09-12,21,Inpatient Medicine
+cons_item_epi_1mg_2026-09-12,item_epi_1mg,demo_batch,loc_apex_central,2026-09-12,13,ICU
+cons_item_norepi_4mg_2026-09-12,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-12,21,ICU
+cons_item_dopa_200_2026-09-12,item_dopa_200,demo_batch,loc_apex_central,2026-09-12,5,ICU
+cons_item_atro_06_2026-09-12,item_atro_06,demo_batch,loc_apex_central,2026-09-12,7,ICU
+cons_item_pcm_1g_2026-09-12,item_pcm_1g,demo_batch,loc_apex_central,2026-09-12,41,General Surgery
+cons_item_fent_100_2026-09-12,item_fent_100,demo_batch,loc_apex_central,2026-09-12,8,General Surgery
+cons_item_midaz_5mg_2026-09-12,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-12,11,General Surgery
+cons_item_tram_100_2026-09-12,item_tram_100,demo_batch,loc_apex_central,2026-09-12,12,General Surgery
+cons_item_ns_500_2026-09-12,item_ns_500,demo_batch,loc_apex_central,2026-09-12,109,General Surgery
+cons_item_rl_500_2026-09-12,item_rl_500,demo_batch,loc_apex_central,2026-09-12,82,General Surgery
+cons_item_d5_500_2026-09-12,item_d5_500,demo_batch,loc_apex_central,2026-09-12,36,General Surgery
+cons_item_kcl_20_2026-09-12,item_kcl_20,demo_batch,loc_apex_central,2026-09-12,14,General Surgery
+cons_item_iv_set_2026-09-12,item_iv_set,demo_batch,loc_apex_central,2026-09-12,25,General Surgery
+cons_item_gloves_75_2026-09-12,item_gloves_75,demo_batch,loc_apex_central,2026-09-12,36,General Surgery
+cons_item_syr_10_2026-09-12,item_syr_10,demo_batch,loc_apex_central,2026-09-12,145,General Surgery
+cons_item_foley_16_2026-09-12,item_foley_16,demo_batch,loc_apex_central,2026-09-12,7,General Surgery
+cons_item_ett_75_2026-09-12,item_ett_75,demo_batch,loc_apex_central,2026-09-12,5,General Surgery
+cons_item_stopcock_3w_2026-09-12,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-12,35,General Surgery
+cons_item_pacli_100_2026-09-12,item_pacli_100,demo_batch,loc_apex_central,2026-09-12,2,General Surgery
+cons_item_carbo_450_2026-09-12,item_carbo_450,demo_batch,loc_apex_central,2026-09-12,1,General Surgery
+cons_item_albu_20_2026-09-12,item_albu_20,demo_batch,loc_apex_central,2026-09-12,3,General Surgery
+cons_item_blood_bag_2026-09-12,item_blood_bag,demo_batch,loc_apex_central,2026-09-12,5,General Surgery
+cons_item_trop_i_2026-09-12,item_trop_i,demo_batch,loc_apex_central,2026-09-12,11,General Surgery
+cons_item_covid_ag_2026-09-12,item_covid_ag,demo_batch,loc_apex_central,2026-09-12,6,General Surgery
+cons_item_edta_tube_2026-09-12,item_edta_tube,demo_batch,loc_apex_central,2026-09-12,44,General Surgery
+cons_item_cftx_1g_2026-09-13,item_cftx_1g,demo_batch,loc_apex_central,2026-09-13,45,Inpatient Medicine
+cons_item_mero_1g_2026-09-13,item_mero_1g,demo_batch,loc_apex_central,2026-09-13,14,Inpatient Medicine
+cons_item_piptaz_45_2026-09-13,item_piptaz_45,demo_batch,loc_apex_central,2026-09-13,13,Inpatient Medicine
+cons_item_vanco_500_2026-09-13,item_vanco_500,demo_batch,loc_apex_central,2026-09-13,7,Inpatient Medicine
+cons_item_amox_12_2026-09-13,item_amox_12,demo_batch,loc_apex_central,2026-09-13,27,Inpatient Medicine
+cons_item_epi_1mg_2026-09-13,item_epi_1mg,demo_batch,loc_apex_central,2026-09-13,16,ICU
+cons_item_norepi_4mg_2026-09-13,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-13,17,ICU
+cons_item_dopa_200_2026-09-13,item_dopa_200,demo_batch,loc_apex_central,2026-09-13,6,ICU
+cons_item_atro_06_2026-09-13,item_atro_06,demo_batch,loc_apex_central,2026-09-13,9,ICU
+cons_item_pcm_1g_2026-09-13,item_pcm_1g,demo_batch,loc_apex_central,2026-09-13,45,General Surgery
+cons_item_fent_100_2026-09-13,item_fent_100,demo_batch,loc_apex_central,2026-09-13,10,General Surgery
+cons_item_midaz_5mg_2026-09-13,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-13,10,General Surgery
+cons_item_tram_100_2026-09-13,item_tram_100,demo_batch,loc_apex_central,2026-09-13,14,General Surgery
+cons_item_ns_500_2026-09-13,item_ns_500,demo_batch,loc_apex_central,2026-09-13,120,General Surgery
+cons_item_rl_500_2026-09-13,item_rl_500,demo_batch,loc_apex_central,2026-09-13,90,General Surgery
+cons_item_d5_500_2026-09-13,item_d5_500,demo_batch,loc_apex_central,2026-09-13,40,General Surgery
+cons_item_kcl_20_2026-09-13,item_kcl_20,demo_batch,loc_apex_central,2026-09-13,15,General Surgery
+cons_item_iv_set_2026-09-13,item_iv_set,demo_batch,loc_apex_central,2026-09-13,28,General Surgery
+cons_item_gloves_75_2026-09-13,item_gloves_75,demo_batch,loc_apex_central,2026-09-13,32,General Surgery
+cons_item_syr_10_2026-09-13,item_syr_10,demo_batch,loc_apex_central,2026-09-13,160,General Surgery
+cons_item_foley_16_2026-09-13,item_foley_16,demo_batch,loc_apex_central,2026-09-13,9,General Surgery
+cons_item_ett_75_2026-09-13,item_ett_75,demo_batch,loc_apex_central,2026-09-13,6,General Surgery
+cons_item_stopcock_3w_2026-09-13,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-13,30,General Surgery
+cons_item_pacli_100_2026-09-13,item_pacli_100,demo_batch,loc_apex_central,2026-09-13,2,General Surgery
+cons_item_carbo_450_2026-09-13,item_carbo_450,demo_batch,loc_apex_central,2026-09-13,1,General Surgery
+cons_item_albu_20_2026-09-13,item_albu_20,demo_batch,loc_apex_central,2026-09-13,4,General Surgery
+cons_item_blood_bag_2026-09-13,item_blood_bag,demo_batch,loc_apex_central,2026-09-13,5,General Surgery
+cons_item_trop_i_2026-09-13,item_trop_i,demo_batch,loc_apex_central,2026-09-13,12,General Surgery
+cons_item_covid_ag_2026-09-13,item_covid_ag,demo_batch,loc_apex_central,2026-09-13,7,General Surgery
+cons_item_edta_tube_2026-09-13,item_edta_tube,demo_batch,loc_apex_central,2026-09-13,39,General Surgery
+cons_item_cftx_1g_2026-09-14,item_cftx_1g,demo_batch,loc_apex_central,2026-09-14,50,Inpatient Medicine
+cons_item_mero_1g_2026-09-14,item_mero_1g,demo_batch,loc_apex_central,2026-09-14,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-14,item_piptaz_45,demo_batch,loc_apex_central,2026-09-14,16,Inpatient Medicine
+cons_item_vanco_500_2026-09-14,item_vanco_500,demo_batch,loc_apex_central,2026-09-14,9,Inpatient Medicine
+cons_item_amox_12_2026-09-14,item_amox_12,demo_batch,loc_apex_central,2026-09-14,30,Inpatient Medicine
+cons_item_epi_1mg_2026-09-14,item_epi_1mg,demo_batch,loc_apex_central,2026-09-14,18,ICU
+cons_item_norepi_4mg_2026-09-14,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-14,15,ICU
+cons_item_dopa_200_2026-09-14,item_dopa_200,demo_batch,loc_apex_central,2026-09-14,7,ICU
+cons_item_atro_06_2026-09-14,item_atro_06,demo_batch,loc_apex_central,2026-09-14,10,ICU
+cons_item_pcm_1g_2026-09-14,item_pcm_1g,demo_batch,loc_apex_central,2026-09-14,41,General Surgery
+cons_item_fent_100_2026-09-14,item_fent_100,demo_batch,loc_apex_central,2026-09-14,13,General Surgery
+cons_item_midaz_5mg_2026-09-14,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-14,11,General Surgery
+cons_item_tram_100_2026-09-14,item_tram_100,demo_batch,loc_apex_central,2026-09-14,18,General Surgery
+cons_item_ns_500_2026-09-14,item_ns_500,demo_batch,loc_apex_central,2026-09-14,109,General Surgery
+cons_item_rl_500_2026-09-14,item_rl_500,demo_batch,loc_apex_central,2026-09-14,82,General Surgery
+cons_item_d5_500_2026-09-14,item_d5_500,demo_batch,loc_apex_central,2026-09-14,36,General Surgery
+cons_item_kcl_20_2026-09-14,item_kcl_20,demo_batch,loc_apex_central,2026-09-14,14,General Surgery
+cons_item_iv_set_2026-09-14,item_iv_set,demo_batch,loc_apex_central,2026-09-14,25,General Surgery
+cons_item_gloves_75_2026-09-14,item_gloves_75,demo_batch,loc_apex_central,2026-09-14,38,General Surgery
+cons_item_syr_10_2026-09-14,item_syr_10,demo_batch,loc_apex_central,2026-09-14,146,General Surgery
+cons_item_foley_16_2026-09-14,item_foley_16,demo_batch,loc_apex_central,2026-09-14,11,General Surgery
+cons_item_ett_75_2026-09-14,item_ett_75,demo_batch,loc_apex_central,2026-09-14,5,General Surgery
+cons_item_stopcock_3w_2026-09-14,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-14,23,General Surgery
+cons_item_pacli_100_2026-09-14,item_pacli_100,demo_batch,loc_apex_central,2026-09-14,2,General Surgery
+cons_item_carbo_450_2026-09-14,item_carbo_450,demo_batch,loc_apex_central,2026-09-14,1,General Surgery
+cons_item_albu_20_2026-09-14,item_albu_20,demo_batch,loc_apex_central,2026-09-14,4,General Surgery
+cons_item_blood_bag_2026-09-14,item_blood_bag,demo_batch,loc_apex_central,2026-09-14,6,General Surgery
+cons_item_trop_i_2026-09-14,item_trop_i,demo_batch,loc_apex_central,2026-09-14,11,General Surgery
+cons_item_covid_ag_2026-09-14,item_covid_ag,demo_batch,loc_apex_central,2026-09-14,9,General Surgery
+cons_item_edta_tube_2026-09-14,item_edta_tube,demo_batch,loc_apex_central,2026-09-14,46,General Surgery
+cons_item_cftx_1g_2026-09-15,item_cftx_1g,demo_batch,loc_apex_central,2026-09-15,46,Inpatient Medicine
+cons_item_mero_1g_2026-09-15,item_mero_1g,demo_batch,loc_apex_central,2026-09-15,14,Inpatient Medicine
+cons_item_piptaz_45_2026-09-15,item_piptaz_45,demo_batch,loc_apex_central,2026-09-15,20,Inpatient Medicine
+cons_item_vanco_500_2026-09-15,item_vanco_500,demo_batch,loc_apex_central,2026-09-15,11,Inpatient Medicine
+cons_item_amox_12_2026-09-15,item_amox_12,demo_batch,loc_apex_central,2026-09-15,27,Inpatient Medicine
+cons_item_epi_1mg_2026-09-15,item_epi_1mg,demo_batch,loc_apex_central,2026-09-15,16,ICU
+cons_item_norepi_4mg_2026-09-15,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-15,18,ICU
+cons_item_dopa_200_2026-09-15,item_dopa_200,demo_batch,loc_apex_central,2026-09-15,8,ICU
+cons_item_atro_06_2026-09-15,item_atro_06,demo_batch,loc_apex_central,2026-09-15,9,ICU
+cons_item_pcm_1g_2026-09-15,item_pcm_1g,demo_batch,loc_apex_central,2026-09-15,32,General Surgery
+cons_item_fent_100_2026-09-15,item_fent_100,demo_batch,loc_apex_central,2026-09-15,14,General Surgery
+cons_item_midaz_5mg_2026-09-15,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-15,14,General Surgery
+cons_item_tram_100_2026-09-15,item_tram_100,demo_batch,loc_apex_central,2026-09-15,20,General Surgery
+cons_item_ns_500_2026-09-15,item_ns_500,demo_batch,loc_apex_central,2026-09-15,86,General Surgery
+cons_item_rl_500_2026-09-15,item_rl_500,demo_batch,loc_apex_central,2026-09-15,65,General Surgery
+cons_item_d5_500_2026-09-15,item_d5_500,demo_batch,loc_apex_central,2026-09-15,29,General Surgery
+cons_item_kcl_20_2026-09-15,item_kcl_20,demo_batch,loc_apex_central,2026-09-15,11,General Surgery
+cons_item_iv_set_2026-09-15,item_iv_set,demo_batch,loc_apex_central,2026-09-15,20,General Surgery
+cons_item_gloves_75_2026-09-15,item_gloves_75,demo_batch,loc_apex_central,2026-09-15,48,General Surgery
+cons_item_syr_10_2026-09-15,item_syr_10,demo_batch,loc_apex_central,2026-09-15,115,General Surgery
+cons_item_foley_16_2026-09-15,item_foley_16,demo_batch,loc_apex_central,2026-09-15,12,General Surgery
+cons_item_ett_75_2026-09-15,item_ett_75,demo_batch,loc_apex_central,2026-09-15,4,General Surgery
+cons_item_stopcock_3w_2026-09-15,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-15,21,General Surgery
+cons_item_pacli_100_2026-09-15,item_pacli_100,demo_batch,loc_apex_central,2026-09-15,3,General Surgery
+cons_item_carbo_450_2026-09-15,item_carbo_450,demo_batch,loc_apex_central,2026-09-15,2,General Surgery
+cons_item_albu_20_2026-09-15,item_albu_20,demo_batch,loc_apex_central,2026-09-15,4,General Surgery
+cons_item_blood_bag_2026-09-15,item_blood_bag,demo_batch,loc_apex_central,2026-09-15,7,General Surgery
+cons_item_trop_i_2026-09-15,item_trop_i,demo_batch,loc_apex_central,2026-09-15,9,General Surgery
+cons_item_covid_ag_2026-09-15,item_covid_ag,demo_batch,loc_apex_central,2026-09-15,10,General Surgery
+cons_item_edta_tube_2026-09-15,item_edta_tube,demo_batch,loc_apex_central,2026-09-15,59,General Surgery
+cons_item_cftx_1g_2026-09-16,item_cftx_1g,demo_batch,loc_apex_central,2026-09-16,36,Inpatient Medicine
+cons_item_mero_1g_2026-09-16,item_mero_1g,demo_batch,loc_apex_central,2026-09-16,11,Inpatient Medicine
+cons_item_piptaz_45_2026-09-16,item_piptaz_45,demo_batch,loc_apex_central,2026-09-16,22,Inpatient Medicine
+cons_item_vanco_500_2026-09-16,item_vanco_500,demo_batch,loc_apex_central,2026-09-16,12,Inpatient Medicine
+cons_item_amox_12_2026-09-16,item_amox_12,demo_batch,loc_apex_central,2026-09-16,22,Inpatient Medicine
+cons_item_epi_1mg_2026-09-16,item_epi_1mg,demo_batch,loc_apex_central,2026-09-16,13,ICU
+cons_item_norepi_4mg_2026-09-16,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-16,23,ICU
+cons_item_dopa_200_2026-09-16,item_dopa_200,demo_batch,loc_apex_central,2026-09-16,7,ICU
+cons_item_atro_06_2026-09-16,item_atro_06,demo_batch,loc_apex_central,2026-09-16,7,ICU
+cons_item_pcm_1g_2026-09-16,item_pcm_1g,demo_batch,loc_apex_central,2026-09-16,27,General Surgery
+cons_item_fent_100_2026-09-16,item_fent_100,demo_batch,loc_apex_central,2026-09-16,13,General Surgery
+cons_item_midaz_5mg_2026-09-16,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-16,16,General Surgery
+cons_item_tram_100_2026-09-16,item_tram_100,demo_batch,loc_apex_central,2026-09-16,18,General Surgery
+cons_item_ns_500_2026-09-16,item_ns_500,demo_batch,loc_apex_central,2026-09-16,72,General Surgery
+cons_item_rl_500_2026-09-16,item_rl_500,demo_batch,loc_apex_central,2026-09-16,54,General Surgery
+cons_item_d5_500_2026-09-16,item_d5_500,demo_batch,loc_apex_central,2026-09-16,24,General Surgery
+cons_item_kcl_20_2026-09-16,item_kcl_20,demo_batch,loc_apex_central,2026-09-16,9,General Surgery
+cons_item_iv_set_2026-09-16,item_iv_set,demo_batch,loc_apex_central,2026-09-16,17,General Surgery
+cons_item_gloves_75_2026-09-16,item_gloves_75,demo_batch,loc_apex_central,2026-09-16,53,General Surgery
+cons_item_syr_10_2026-09-16,item_syr_10,demo_batch,loc_apex_central,2026-09-16,96,General Surgery
+cons_item_foley_16_2026-09-16,item_foley_16,demo_batch,loc_apex_central,2026-09-16,11,General Surgery
+cons_item_ett_75_2026-09-16,item_ett_75,demo_batch,loc_apex_central,2026-09-16,4,General Surgery
+cons_item_stopcock_3w_2026-09-16,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-16,25,General Surgery
+cons_item_pacli_100_2026-09-16,item_pacli_100,demo_batch,loc_apex_central,2026-09-16,3,General Surgery
+cons_item_carbo_450_2026-09-16,item_carbo_450,demo_batch,loc_apex_central,2026-09-16,2,General Surgery
+cons_item_albu_20_2026-09-16,item_albu_20,demo_batch,loc_apex_central,2026-09-16,3,General Surgery
+cons_item_blood_bag_2026-09-16,item_blood_bag,demo_batch,loc_apex_central,2026-09-16,8,General Surgery
+cons_item_trop_i_2026-09-16,item_trop_i,demo_batch,loc_apex_central,2026-09-16,7,General Surgery
+cons_item_covid_ag_2026-09-16,item_covid_ag,demo_batch,loc_apex_central,2026-09-16,9,General Surgery
+cons_item_edta_tube_2026-09-16,item_edta_tube,demo_batch,loc_apex_central,2026-09-16,65,General Surgery
+cons_item_cftx_1g_2026-09-17,item_cftx_1g,demo_batch,loc_apex_central,2026-09-17,30,Inpatient Medicine
+cons_item_mero_1g_2026-09-17,item_mero_1g,demo_batch,loc_apex_central,2026-09-17,9,Inpatient Medicine
+cons_item_piptaz_45_2026-09-17,item_piptaz_45,demo_batch,loc_apex_central,2026-09-17,20,Inpatient Medicine
+cons_item_vanco_500_2026-09-17,item_vanco_500,demo_batch,loc_apex_central,2026-09-17,11,Inpatient Medicine
+cons_item_amox_12_2026-09-17,item_amox_12,demo_batch,loc_apex_central,2026-09-17,18,Inpatient Medicine
+cons_item_epi_1mg_2026-09-17,item_epi_1mg,demo_batch,loc_apex_central,2026-09-17,11,ICU
+cons_item_norepi_4mg_2026-09-17,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-17,25,ICU
+cons_item_dopa_200_2026-09-17,item_dopa_200,demo_batch,loc_apex_central,2026-09-17,6,ICU
+cons_item_atro_06_2026-09-17,item_atro_06,demo_batch,loc_apex_central,2026-09-17,6,ICU
+cons_item_pcm_1g_2026-09-17,item_pcm_1g,demo_batch,loc_apex_central,2026-09-17,30,General Surgery
+cons_item_fent_100_2026-09-17,item_fent_100,demo_batch,loc_apex_central,2026-09-17,10,General Surgery
+cons_item_midaz_5mg_2026-09-17,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-17,15,General Surgery
+cons_item_tram_100_2026-09-17,item_tram_100,demo_batch,loc_apex_central,2026-09-17,14,General Surgery
+cons_item_ns_500_2026-09-17,item_ns_500,demo_batch,loc_apex_central,2026-09-17,80,General Surgery
+cons_item_rl_500_2026-09-17,item_rl_500,demo_batch,loc_apex_central,2026-09-17,60,General Surgery
+cons_item_d5_500_2026-09-17,item_d5_500,demo_batch,loc_apex_central,2026-09-17,27,General Surgery
+cons_item_kcl_20_2026-09-17,item_kcl_20,demo_batch,loc_apex_central,2026-09-17,10,General Surgery
+cons_item_iv_set_2026-09-17,item_iv_set,demo_batch,loc_apex_central,2026-09-17,19,General Surgery
+cons_item_gloves_75_2026-09-17,item_gloves_75,demo_batch,loc_apex_central,2026-09-17,48,General Surgery
+cons_item_syr_10_2026-09-17,item_syr_10,demo_batch,loc_apex_central,2026-09-17,107,General Surgery
+cons_item_foley_16_2026-09-17,item_foley_16,demo_batch,loc_apex_central,2026-09-17,9,General Surgery
+cons_item_ett_75_2026-09-17,item_ett_75,demo_batch,loc_apex_central,2026-09-17,4,General Surgery
+cons_item_stopcock_3w_2026-09-17,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-17,32,General Surgery
+cons_item_pacli_100_2026-09-17,item_pacli_100,demo_batch,loc_apex_central,2026-09-17,3,General Surgery
+cons_item_carbo_450_2026-09-17,item_carbo_450,demo_batch,loc_apex_central,2026-09-17,2,General Surgery
+cons_item_albu_20_2026-09-17,item_albu_20,demo_batch,loc_apex_central,2026-09-17,2,General Surgery
+cons_item_blood_bag_2026-09-17,item_blood_bag,demo_batch,loc_apex_central,2026-09-17,7,General Surgery
+cons_item_trop_i_2026-09-17,item_trop_i,demo_batch,loc_apex_central,2026-09-17,8,General Surgery
+cons_item_covid_ag_2026-09-17,item_covid_ag,demo_batch,loc_apex_central,2026-09-17,7,General Surgery
+cons_item_edta_tube_2026-09-17,item_edta_tube,demo_batch,loc_apex_central,2026-09-17,59,General Surgery
+cons_item_cftx_1g_2026-09-18,item_cftx_1g,demo_batch,loc_apex_central,2026-09-18,33,Inpatient Medicine
+cons_item_mero_1g_2026-09-18,item_mero_1g,demo_batch,loc_apex_central,2026-09-18,10,Inpatient Medicine
+cons_item_piptaz_45_2026-09-18,item_piptaz_45,demo_batch,loc_apex_central,2026-09-18,16,Inpatient Medicine
+cons_item_vanco_500_2026-09-18,item_vanco_500,demo_batch,loc_apex_central,2026-09-18,9,Inpatient Medicine
+cons_item_amox_12_2026-09-18,item_amox_12,demo_batch,loc_apex_central,2026-09-18,20,Inpatient Medicine
+cons_item_epi_1mg_2026-09-18,item_epi_1mg,demo_batch,loc_apex_central,2026-09-18,12,ICU
+cons_item_norepi_4mg_2026-09-18,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-18,23,ICU
+cons_item_dopa_200_2026-09-18,item_dopa_200,demo_batch,loc_apex_central,2026-09-18,5,ICU
+cons_item_atro_06_2026-09-18,item_atro_06,demo_batch,loc_apex_central,2026-09-18,7,ICU
+cons_item_pcm_1g_2026-09-18,item_pcm_1g,demo_batch,loc_apex_central,2026-09-18,38,General Surgery
+cons_item_fent_100_2026-09-18,item_fent_100,demo_batch,loc_apex_central,2026-09-18,8,General Surgery
+cons_item_midaz_5mg_2026-09-18,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-18,12,General Surgery
+cons_item_tram_100_2026-09-18,item_tram_100,demo_batch,loc_apex_central,2026-09-18,12,General Surgery
+cons_item_ns_500_2026-09-18,item_ns_500,demo_batch,loc_apex_central,2026-09-18,103,General Surgery
+cons_item_rl_500_2026-09-18,item_rl_500,demo_batch,loc_apex_central,2026-09-18,77,General Surgery
+cons_item_d5_500_2026-09-18,item_d5_500,demo_batch,loc_apex_central,2026-09-18,34,General Surgery
+cons_item_kcl_20_2026-09-18,item_kcl_20,demo_batch,loc_apex_central,2026-09-18,13,General Surgery
+cons_item_iv_set_2026-09-18,item_iv_set,demo_batch,loc_apex_central,2026-09-18,24,General Surgery
+cons_item_gloves_75_2026-09-18,item_gloves_75,demo_batch,loc_apex_central,2026-09-18,38,General Surgery
+cons_item_syr_10_2026-09-18,item_syr_10,demo_batch,loc_apex_central,2026-09-18,137,General Surgery
+cons_item_foley_16_2026-09-18,item_foley_16,demo_batch,loc_apex_central,2026-09-18,7,General Surgery
+cons_item_ett_75_2026-09-18,item_ett_75,demo_batch,loc_apex_central,2026-09-18,5,General Surgery
+cons_item_stopcock_3w_2026-09-18,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-18,35,General Surgery
+cons_item_pacli_100_2026-09-18,item_pacli_100,demo_batch,loc_apex_central,2026-09-18,2,General Surgery
+cons_item_carbo_450_2026-09-18,item_carbo_450,demo_batch,loc_apex_central,2026-09-18,1,General Surgery
+cons_item_albu_20_2026-09-18,item_albu_20,demo_batch,loc_apex_central,2026-09-18,3,General Surgery
+cons_item_blood_bag_2026-09-18,item_blood_bag,demo_batch,loc_apex_central,2026-09-18,6,General Surgery
+cons_item_trop_i_2026-09-18,item_trop_i,demo_batch,loc_apex_central,2026-09-18,10,General Surgery
+cons_item_covid_ag_2026-09-18,item_covid_ag,demo_batch,loc_apex_central,2026-09-18,6,General Surgery
+cons_item_edta_tube_2026-09-18,item_edta_tube,demo_batch,loc_apex_central,2026-09-18,47,General Surgery
+cons_item_cftx_1g_2026-09-19,item_cftx_1g,demo_batch,loc_apex_central,2026-09-19,43,Inpatient Medicine
+cons_item_mero_1g_2026-09-19,item_mero_1g,demo_batch,loc_apex_central,2026-09-19,13,Inpatient Medicine
+cons_item_piptaz_45_2026-09-19,item_piptaz_45,demo_batch,loc_apex_central,2026-09-19,13,Inpatient Medicine
+cons_item_vanco_500_2026-09-19,item_vanco_500,demo_batch,loc_apex_central,2026-09-19,7,Inpatient Medicine
+cons_item_amox_12_2026-09-19,item_amox_12,demo_batch,loc_apex_central,2026-09-19,26,Inpatient Medicine
+cons_item_epi_1mg_2026-09-19,item_epi_1mg,demo_batch,loc_apex_central,2026-09-19,15,ICU
+cons_item_norepi_4mg_2026-09-19,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-19,18,ICU
+cons_item_dopa_200_2026-09-19,item_dopa_200,demo_batch,loc_apex_central,2026-09-19,5,ICU
+cons_item_atro_06_2026-09-19,item_atro_06,demo_batch,loc_apex_central,2026-09-19,9,ICU
+cons_item_pcm_1g_2026-09-19,item_pcm_1g,demo_batch,loc_apex_central,2026-09-19,45,General Surgery
+cons_item_fent_100_2026-09-19,item_fent_100,demo_batch,loc_apex_central,2026-09-19,9,General Surgery
+cons_item_midaz_5mg_2026-09-19,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-19,10,General Surgery
+cons_item_tram_100_2026-09-19,item_tram_100,demo_batch,loc_apex_central,2026-09-19,13,General Surgery
+cons_item_ns_500_2026-09-19,item_ns_500,demo_batch,loc_apex_central,2026-09-19,119,General Surgery
+cons_item_rl_500_2026-09-19,item_rl_500,demo_batch,loc_apex_central,2026-09-19,89,General Surgery
+cons_item_d5_500_2026-09-19,item_d5_500,demo_batch,loc_apex_central,2026-09-19,40,General Surgery
+cons_item_kcl_20_2026-09-19,item_kcl_20,demo_batch,loc_apex_central,2026-09-19,15,General Surgery
+cons_item_iv_set_2026-09-19,item_iv_set,demo_batch,loc_apex_central,2026-09-19,28,General Surgery
+cons_item_gloves_75_2026-09-19,item_gloves_75,demo_batch,loc_apex_central,2026-09-19,32,General Surgery
+cons_item_syr_10_2026-09-19,item_syr_10,demo_batch,loc_apex_central,2026-09-19,159,General Surgery
+cons_item_foley_16_2026-09-19,item_foley_16,demo_batch,loc_apex_central,2026-09-19,8,General Surgery
+cons_item_ett_75_2026-09-19,item_ett_75,demo_batch,loc_apex_central,2026-09-19,6,General Surgery
+cons_item_stopcock_3w_2026-09-19,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-19,32,General Surgery
+cons_item_pacli_100_2026-09-19,item_pacli_100,demo_batch,loc_apex_central,2026-09-19,2,General Surgery
+cons_item_carbo_450_2026-09-19,item_carbo_450,demo_batch,loc_apex_central,2026-09-19,1,General Surgery
+cons_item_albu_20_2026-09-19,item_albu_20,demo_batch,loc_apex_central,2026-09-19,3,General Surgery
+cons_item_blood_bag_2026-09-19,item_blood_bag,demo_batch,loc_apex_central,2026-09-19,5,General Surgery
+cons_item_trop_i_2026-09-19,item_trop_i,demo_batch,loc_apex_central,2026-09-19,12,General Surgery
+cons_item_covid_ag_2026-09-19,item_covid_ag,demo_batch,loc_apex_central,2026-09-19,7,General Surgery
+cons_item_edta_tube_2026-09-19,item_edta_tube,demo_batch,loc_apex_central,2026-09-19,39,General Surgery
+cons_item_cftx_1g_2026-09-20,item_cftx_1g,demo_batch,loc_apex_central,2026-09-20,50,Inpatient Medicine
+cons_item_mero_1g_2026-09-20,item_mero_1g,demo_batch,loc_apex_central,2026-09-20,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-20,item_piptaz_45,demo_batch,loc_apex_central,2026-09-20,15,Inpatient Medicine
+cons_item_vanco_500_2026-09-20,item_vanco_500,demo_batch,loc_apex_central,2026-09-20,8,Inpatient Medicine
+cons_item_amox_12_2026-09-20,item_amox_12,demo_batch,loc_apex_central,2026-09-20,30,Inpatient Medicine
+cons_item_epi_1mg_2026-09-20,item_epi_1mg,demo_batch,loc_apex_central,2026-09-20,18,ICU
+cons_item_norepi_4mg_2026-09-20,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-20,15,ICU
+cons_item_dopa_200_2026-09-20,item_dopa_200,demo_batch,loc_apex_central,2026-09-20,7,ICU
+cons_item_atro_06_2026-09-20,item_atro_06,demo_batch,loc_apex_central,2026-09-20,10,ICU
+cons_item_pcm_1g_2026-09-20,item_pcm_1g,demo_batch,loc_apex_central,2026-09-20,43,General Surgery
+cons_item_fent_100_2026-09-20,item_fent_100,demo_batch,loc_apex_central,2026-09-20,12,General Surgery
+cons_item_midaz_5mg_2026-09-20,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-20,11,General Surgery
+cons_item_tram_100_2026-09-20,item_tram_100,demo_batch,loc_apex_central,2026-09-20,17,General Surgery
+cons_item_ns_500_2026-09-20,item_ns_500,demo_batch,loc_apex_central,2026-09-20,114,General Surgery
+cons_item_rl_500_2026-09-20,item_rl_500,demo_batch,loc_apex_central,2026-09-20,86,General Surgery
+cons_item_d5_500_2026-09-20,item_d5_500,demo_batch,loc_apex_central,2026-09-20,38,General Surgery
+cons_item_kcl_20_2026-09-20,item_kcl_20,demo_batch,loc_apex_central,2026-09-20,14,General Surgery
+cons_item_iv_set_2026-09-20,item_iv_set,demo_batch,loc_apex_central,2026-09-20,27,General Surgery
+cons_item_gloves_75_2026-09-20,item_gloves_75,demo_batch,loc_apex_central,2026-09-20,35,General Surgery
+cons_item_syr_10_2026-09-20,item_syr_10,demo_batch,loc_apex_central,2026-09-20,152,General Surgery
+cons_item_foley_16_2026-09-20,item_foley_16,demo_batch,loc_apex_central,2026-09-20,10,General Surgery
+cons_item_ett_75_2026-09-20,item_ett_75,demo_batch,loc_apex_central,2026-09-20,6,General Surgery
+cons_item_stopcock_3w_2026-09-20,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-20,25,General Surgery
+cons_item_pacli_100_2026-09-20,item_pacli_100,demo_batch,loc_apex_central,2026-09-20,2,General Surgery
+cons_item_carbo_450_2026-09-20,item_carbo_450,demo_batch,loc_apex_central,2026-09-20,1,General Surgery
+cons_item_albu_20_2026-09-20,item_albu_20,demo_batch,loc_apex_central,2026-09-20,4,General Surgery
+cons_item_blood_bag_2026-09-20,item_blood_bag,demo_batch,loc_apex_central,2026-09-20,5,General Surgery
+cons_item_trop_i_2026-09-20,item_trop_i,demo_batch,loc_apex_central,2026-09-20,11,General Surgery
+cons_item_covid_ag_2026-09-20,item_covid_ag,demo_batch,loc_apex_central,2026-09-20,9,General Surgery
+cons_item_edta_tube_2026-09-20,item_edta_tube,demo_batch,loc_apex_central,2026-09-20,43,General Surgery
+cons_item_cftx_1g_2026-09-21,item_cftx_1g,demo_batch,loc_apex_central,2026-09-21,48,Inpatient Medicine
+cons_item_mero_1g_2026-09-21,item_mero_1g,demo_batch,loc_apex_central,2026-09-21,14,Inpatient Medicine
+cons_item_piptaz_45_2026-09-21,item_piptaz_45,demo_batch,loc_apex_central,2026-09-21,19,Inpatient Medicine
+cons_item_vanco_500_2026-09-21,item_vanco_500,demo_batch,loc_apex_central,2026-09-21,10,Inpatient Medicine
+cons_item_amox_12_2026-09-21,item_amox_12,demo_batch,loc_apex_central,2026-09-21,29,Inpatient Medicine
+cons_item_epi_1mg_2026-09-21,item_epi_1mg,demo_batch,loc_apex_central,2026-09-21,17,ICU
+cons_item_norepi_4mg_2026-09-21,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-21,17,ICU
+cons_item_dopa_200_2026-09-21,item_dopa_200,demo_batch,loc_apex_central,2026-09-21,8,ICU
+cons_item_atro_06_2026-09-21,item_atro_06,demo_batch,loc_apex_central,2026-09-21,10,ICU
+cons_item_pcm_1g_2026-09-21,item_pcm_1g,demo_batch,loc_apex_central,2026-09-21,35,General Surgery
+cons_item_fent_100_2026-09-21,item_fent_100,demo_batch,loc_apex_central,2026-09-21,14,General Surgery
+cons_item_midaz_5mg_2026-09-21,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-21,14,General Surgery
+cons_item_tram_100_2026-09-21,item_tram_100,demo_batch,loc_apex_central,2026-09-21,20,General Surgery
+cons_item_ns_500_2026-09-21,item_ns_500,demo_batch,loc_apex_central,2026-09-21,93,General Surgery
+cons_item_rl_500_2026-09-21,item_rl_500,demo_batch,loc_apex_central,2026-09-21,70,General Surgery
+cons_item_d5_500_2026-09-21,item_d5_500,demo_batch,loc_apex_central,2026-09-21,31,General Surgery
+cons_item_kcl_20_2026-09-21,item_kcl_20,demo_batch,loc_apex_central,2026-09-21,12,General Surgery
+cons_item_iv_set_2026-09-21,item_iv_set,demo_batch,loc_apex_central,2026-09-21,22,General Surgery
+cons_item_gloves_75_2026-09-21,item_gloves_75,demo_batch,loc_apex_central,2026-09-21,45,General Surgery
+cons_item_syr_10_2026-09-21,item_syr_10,demo_batch,loc_apex_central,2026-09-21,124,General Surgery
+cons_item_foley_16_2026-09-21,item_foley_16,demo_batch,loc_apex_central,2026-09-21,12,General Surgery
+cons_item_ett_75_2026-09-21,item_ett_75,demo_batch,loc_apex_central,2026-09-21,5,General Surgery
+cons_item_stopcock_3w_2026-09-21,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-21,21,General Surgery
+cons_item_pacli_100_2026-09-21,item_pacli_100,demo_batch,loc_apex_central,2026-09-21,3,General Surgery
+cons_item_carbo_450_2026-09-21,item_carbo_450,demo_batch,loc_apex_central,2026-09-21,2,General Surgery
+cons_item_albu_20_2026-09-21,item_albu_20,demo_batch,loc_apex_central,2026-09-21,4,General Surgery
+cons_item_blood_bag_2026-09-21,item_blood_bag,demo_batch,loc_apex_central,2026-09-21,7,General Surgery
+cons_item_trop_i_2026-09-21,item_trop_i,demo_batch,loc_apex_central,2026-09-21,9,General Surgery
+cons_item_covid_ag_2026-09-21,item_covid_ag,demo_batch,loc_apex_central,2026-09-21,10,General Surgery
+cons_item_edta_tube_2026-09-21,item_edta_tube,demo_batch,loc_apex_central,2026-09-21,56,General Surgery
+cons_item_cftx_1g_2026-09-22,item_cftx_1g,demo_batch,loc_apex_central,2026-09-22,39,Inpatient Medicine
+cons_item_mero_1g_2026-09-22,item_mero_1g,demo_batch,loc_apex_central,2026-09-22,12,Inpatient Medicine
+cons_item_piptaz_45_2026-09-22,item_piptaz_45,demo_batch,loc_apex_central,2026-09-22,22,Inpatient Medicine
+cons_item_vanco_500_2026-09-22,item_vanco_500,demo_batch,loc_apex_central,2026-09-22,12,Inpatient Medicine
+cons_item_amox_12_2026-09-22,item_amox_12,demo_batch,loc_apex_central,2026-09-22,23,Inpatient Medicine
+cons_item_epi_1mg_2026-09-22,item_epi_1mg,demo_batch,loc_apex_central,2026-09-22,14,ICU
+cons_item_norepi_4mg_2026-09-22,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-22,21,ICU
+cons_item_dopa_200_2026-09-22,item_dopa_200,demo_batch,loc_apex_central,2026-09-22,8,ICU
+cons_item_atro_06_2026-09-22,item_atro_06,demo_batch,loc_apex_central,2026-09-22,8,ICU
+cons_item_pcm_1g_2026-09-22,item_pcm_1g,demo_batch,loc_apex_central,2026-09-22,28,General Surgery
+cons_item_fent_100_2026-09-22,item_fent_100,demo_batch,loc_apex_central,2026-09-22,13,General Surgery
+cons_item_midaz_5mg_2026-09-22,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-22,16,General Surgery
+cons_item_tram_100_2026-09-22,item_tram_100,demo_batch,loc_apex_central,2026-09-22,19,General Surgery
+cons_item_ns_500_2026-09-22,item_ns_500,demo_batch,loc_apex_central,2026-09-22,74,General Surgery
+cons_item_rl_500_2026-09-22,item_rl_500,demo_batch,loc_apex_central,2026-09-22,56,General Surgery
+cons_item_d5_500_2026-09-22,item_d5_500,demo_batch,loc_apex_central,2026-09-22,25,General Surgery
+cons_item_kcl_20_2026-09-22,item_kcl_20,demo_batch,loc_apex_central,2026-09-22,9,General Surgery
+cons_item_iv_set_2026-09-22,item_iv_set,demo_batch,loc_apex_central,2026-09-22,17,General Surgery
+cons_item_gloves_75_2026-09-22,item_gloves_75,demo_batch,loc_apex_central,2026-09-22,53,General Surgery
+cons_item_syr_10_2026-09-22,item_syr_10,demo_batch,loc_apex_central,2026-09-22,99,General Surgery
+cons_item_foley_16_2026-09-22,item_foley_16,demo_batch,loc_apex_central,2026-09-22,11,General Surgery
+cons_item_ett_75_2026-09-22,item_ett_75,demo_batch,loc_apex_central,2026-09-22,4,General Surgery
+cons_item_stopcock_3w_2026-09-22,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-22,23,General Surgery
+cons_item_pacli_100_2026-09-22,item_pacli_100,demo_batch,loc_apex_central,2026-09-22,3,General Surgery
+cons_item_carbo_450_2026-09-22,item_carbo_450,demo_batch,loc_apex_central,2026-09-22,2,General Surgery
+cons_item_albu_20_2026-09-22,item_albu_20,demo_batch,loc_apex_central,2026-09-22,3,General Surgery
+cons_item_blood_bag_2026-09-22,item_blood_bag,demo_batch,loc_apex_central,2026-09-22,8,General Surgery
+cons_item_trop_i_2026-09-22,item_trop_i,demo_batch,loc_apex_central,2026-09-22,7,General Surgery
+cons_item_covid_ag_2026-09-22,item_covid_ag,demo_batch,loc_apex_central,2026-09-22,10,General Surgery
+cons_item_edta_tube_2026-09-22,item_edta_tube,demo_batch,loc_apex_central,2026-09-22,64,General Surgery
+cons_item_cftx_1g_2026-09-23,item_cftx_1g,demo_batch,loc_apex_central,2026-09-23,31,Inpatient Medicine
+cons_item_mero_1g_2026-09-23,item_mero_1g,demo_batch,loc_apex_central,2026-09-23,9,Inpatient Medicine
+cons_item_piptaz_45_2026-09-23,item_piptaz_45,demo_batch,loc_apex_central,2026-09-23,21,Inpatient Medicine
+cons_item_vanco_500_2026-09-23,item_vanco_500,demo_batch,loc_apex_central,2026-09-23,11,Inpatient Medicine
+cons_item_amox_12_2026-09-23,item_amox_12,demo_batch,loc_apex_central,2026-09-23,19,Inpatient Medicine
+cons_item_epi_1mg_2026-09-23,item_epi_1mg,demo_batch,loc_apex_central,2026-09-23,11,ICU
+cons_item_norepi_4mg_2026-09-23,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-23,25,ICU
+cons_item_dopa_200_2026-09-23,item_dopa_200,demo_batch,loc_apex_central,2026-09-23,6,ICU
+cons_item_atro_06_2026-09-23,item_atro_06,demo_batch,loc_apex_central,2026-09-23,6,ICU
+cons_item_pcm_1g_2026-09-23,item_pcm_1g,demo_batch,loc_apex_central,2026-09-23,28,General Surgery
+cons_item_fent_100_2026-09-23,item_fent_100,demo_batch,loc_apex_central,2026-09-23,11,General Surgery
+cons_item_midaz_5mg_2026-09-23,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-23,15,General Surgery
+cons_item_tram_100_2026-09-23,item_tram_100,demo_batch,loc_apex_central,2026-09-23,15,General Surgery
+cons_item_ns_500_2026-09-23,item_ns_500,demo_batch,loc_apex_central,2026-09-23,76,General Surgery
+cons_item_rl_500_2026-09-23,item_rl_500,demo_batch,loc_apex_central,2026-09-23,57,General Surgery
+cons_item_d5_500_2026-09-23,item_d5_500,demo_batch,loc_apex_central,2026-09-23,25,General Surgery
+cons_item_kcl_20_2026-09-23,item_kcl_20,demo_batch,loc_apex_central,2026-09-23,9,General Surgery
+cons_item_iv_set_2026-09-23,item_iv_set,demo_batch,loc_apex_central,2026-09-23,18,General Surgery
+cons_item_gloves_75_2026-09-23,item_gloves_75,demo_batch,loc_apex_central,2026-09-23,50,General Surgery
+cons_item_syr_10_2026-09-23,item_syr_10,demo_batch,loc_apex_central,2026-09-23,101,General Surgery
+cons_item_foley_16_2026-09-23,item_foley_16,demo_batch,loc_apex_central,2026-09-23,9,General Surgery
+cons_item_ett_75_2026-09-23,item_ett_75,demo_batch,loc_apex_central,2026-09-23,4,General Surgery
+cons_item_stopcock_3w_2026-09-23,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-23,30,General Surgery
+cons_item_pacli_100_2026-09-23,item_pacli_100,demo_batch,loc_apex_central,2026-09-23,3,General Surgery
+cons_item_carbo_450_2026-09-23,item_carbo_450,demo_batch,loc_apex_central,2026-09-23,2,General Surgery
+cons_item_albu_20_2026-09-23,item_albu_20,demo_batch,loc_apex_central,2026-09-23,2,General Surgery
+cons_item_blood_bag_2026-09-23,item_blood_bag,demo_batch,loc_apex_central,2026-09-23,8,General Surgery
+cons_item_trop_i_2026-09-23,item_trop_i,demo_batch,loc_apex_central,2026-09-23,8,General Surgery
+cons_item_covid_ag_2026-09-23,item_covid_ag,demo_batch,loc_apex_central,2026-09-23,8,General Surgery
+cons_item_edta_tube_2026-09-23,item_edta_tube,demo_batch,loc_apex_central,2026-09-23,62,General Surgery
+cons_item_cftx_1g_2026-09-24,item_cftx_1g,demo_batch,loc_apex_central,2026-09-24,32,Inpatient Medicine
+cons_item_mero_1g_2026-09-24,item_mero_1g,demo_batch,loc_apex_central,2026-09-24,9,Inpatient Medicine
+cons_item_piptaz_45_2026-09-24,item_piptaz_45,demo_batch,loc_apex_central,2026-09-24,17,Inpatient Medicine
+cons_item_vanco_500_2026-09-24,item_vanco_500,demo_batch,loc_apex_central,2026-09-24,9,Inpatient Medicine
+cons_item_amox_12_2026-09-24,item_amox_12,demo_batch,loc_apex_central,2026-09-24,19,Inpatient Medicine
+cons_item_epi_1mg_2026-09-24,item_epi_1mg,demo_batch,loc_apex_central,2026-09-24,11,ICU
+cons_item_norepi_4mg_2026-09-24,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-24,24,ICU
+cons_item_dopa_200_2026-09-24,item_dopa_200,demo_batch,loc_apex_central,2026-09-24,5,ICU
+cons_item_atro_06_2026-09-24,item_atro_06,demo_batch,loc_apex_central,2026-09-24,6,ICU
+cons_item_pcm_1g_2026-09-24,item_pcm_1g,demo_batch,loc_apex_central,2026-09-24,36,General Surgery
+cons_item_fent_100_2026-09-24,item_fent_100,demo_batch,loc_apex_central,2026-09-24,9,General Surgery
+cons_item_midaz_5mg_2026-09-24,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-24,12,General Surgery
+cons_item_tram_100_2026-09-24,item_tram_100,demo_batch,loc_apex_central,2026-09-24,12,General Surgery
+cons_item_ns_500_2026-09-24,item_ns_500,demo_batch,loc_apex_central,2026-09-24,96,General Surgery
+cons_item_rl_500_2026-09-24,item_rl_500,demo_batch,loc_apex_central,2026-09-24,72,General Surgery
+cons_item_d5_500_2026-09-24,item_d5_500,demo_batch,loc_apex_central,2026-09-24,32,General Surgery
+cons_item_kcl_20_2026-09-24,item_kcl_20,demo_batch,loc_apex_central,2026-09-24,12,General Surgery
+cons_item_iv_set_2026-09-24,item_iv_set,demo_batch,loc_apex_central,2026-09-24,22,General Surgery
+cons_item_gloves_75_2026-09-24,item_gloves_75,demo_batch,loc_apex_central,2026-09-24,41,General Surgery
+cons_item_syr_10_2026-09-24,item_syr_10,demo_batch,loc_apex_central,2026-09-24,128,General Surgery
+cons_item_foley_16_2026-09-24,item_foley_16,demo_batch,loc_apex_central,2026-09-24,7,General Surgery
+cons_item_ett_75_2026-09-24,item_ett_75,demo_batch,loc_apex_central,2026-09-24,5,General Surgery
+cons_item_stopcock_3w_2026-09-24,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-24,35,General Surgery
+cons_item_pacli_100_2026-09-24,item_pacli_100,demo_batch,loc_apex_central,2026-09-24,2,General Surgery
+cons_item_carbo_450_2026-09-24,item_carbo_450,demo_batch,loc_apex_central,2026-09-24,2,General Surgery
+cons_item_albu_20_2026-09-24,item_albu_20,demo_batch,loc_apex_central,2026-09-24,3,General Surgery
+cons_item_blood_bag_2026-09-24,item_blood_bag,demo_batch,loc_apex_central,2026-09-24,6,General Surgery
+cons_item_trop_i_2026-09-24,item_trop_i,demo_batch,loc_apex_central,2026-09-24,10,General Surgery
+cons_item_covid_ag_2026-09-24,item_covid_ag,demo_batch,loc_apex_central,2026-09-24,6,General Surgery
+cons_item_edta_tube_2026-09-24,item_edta_tube,demo_batch,loc_apex_central,2026-09-24,50,General Surgery
+cons_item_cftx_1g_2026-09-25,item_cftx_1g,demo_batch,loc_apex_central,2026-09-25,40,Inpatient Medicine
+cons_item_mero_1g_2026-09-25,item_mero_1g,demo_batch,loc_apex_central,2026-09-25,12,Inpatient Medicine
+cons_item_piptaz_45_2026-09-25,item_piptaz_45,demo_batch,loc_apex_central,2026-09-25,14,Inpatient Medicine
+cons_item_vanco_500_2026-09-25,item_vanco_500,demo_batch,loc_apex_central,2026-09-25,7,Inpatient Medicine
+cons_item_amox_12_2026-09-25,item_amox_12,demo_batch,loc_apex_central,2026-09-25,24,Inpatient Medicine
+cons_item_epi_1mg_2026-09-25,item_epi_1mg,demo_batch,loc_apex_central,2026-09-25,14,ICU
+cons_item_norepi_4mg_2026-09-25,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-25,19,ICU
+cons_item_dopa_200_2026-09-25,item_dopa_200,demo_batch,loc_apex_central,2026-09-25,5,ICU
+cons_item_atro_06_2026-09-25,item_atro_06,demo_batch,loc_apex_central,2026-09-25,8,ICU
+cons_item_pcm_1g_2026-09-25,item_pcm_1g,demo_batch,loc_apex_central,2026-09-25,44,General Surgery
+cons_item_fent_100_2026-09-25,item_fent_100,demo_batch,loc_apex_central,2026-09-25,9,General Surgery
+cons_item_midaz_5mg_2026-09-25,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-25,10,General Surgery
+cons_item_tram_100_2026-09-25,item_tram_100,demo_batch,loc_apex_central,2026-09-25,13,General Surgery
+cons_item_ns_500_2026-09-25,item_ns_500,demo_batch,loc_apex_central,2026-09-25,116,General Surgery
+cons_item_rl_500_2026-09-25,item_rl_500,demo_batch,loc_apex_central,2026-09-25,87,General Surgery
+cons_item_d5_500_2026-09-25,item_d5_500,demo_batch,loc_apex_central,2026-09-25,39,General Surgery
+cons_item_kcl_20_2026-09-25,item_kcl_20,demo_batch,loc_apex_central,2026-09-25,15,General Surgery
+cons_item_iv_set_2026-09-25,item_iv_set,demo_batch,loc_apex_central,2026-09-25,27,General Surgery
+cons_item_gloves_75_2026-09-25,item_gloves_75,demo_batch,loc_apex_central,2026-09-25,33,General Surgery
+cons_item_syr_10_2026-09-25,item_syr_10,demo_batch,loc_apex_central,2026-09-25,155,General Surgery
+cons_item_foley_16_2026-09-25,item_foley_16,demo_batch,loc_apex_central,2026-09-25,8,General Surgery
+cons_item_ett_75_2026-09-25,item_ett_75,demo_batch,loc_apex_central,2026-09-25,6,General Surgery
+cons_item_stopcock_3w_2026-09-25,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-25,33,General Surgery
+cons_item_pacli_100_2026-09-25,item_pacli_100,demo_batch,loc_apex_central,2026-09-25,2,General Surgery
+cons_item_carbo_450_2026-09-25,item_carbo_450,demo_batch,loc_apex_central,2026-09-25,1,General Surgery
+cons_item_albu_20_2026-09-25,item_albu_20,demo_batch,loc_apex_central,2026-09-25,3,General Surgery
+cons_item_blood_bag_2026-09-25,item_blood_bag,demo_batch,loc_apex_central,2026-09-25,5,General Surgery
+cons_item_trop_i_2026-09-25,item_trop_i,demo_batch,loc_apex_central,2026-09-25,12,General Surgery
+cons_item_covid_ag_2026-09-25,item_covid_ag,demo_batch,loc_apex_central,2026-09-25,6,General Surgery
+cons_item_edta_tube_2026-09-25,item_edta_tube,demo_batch,loc_apex_central,2026-09-25,40,General Surgery
+cons_item_cftx_1g_2026-09-26,item_cftx_1g,demo_batch,loc_apex_central,2026-09-26,48,Inpatient Medicine
+cons_item_mero_1g_2026-09-26,item_mero_1g,demo_batch,loc_apex_central,2026-09-26,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-26,item_piptaz_45,demo_batch,loc_apex_central,2026-09-26,14,Inpatient Medicine
+cons_item_vanco_500_2026-09-26,item_vanco_500,demo_batch,loc_apex_central,2026-09-26,8,Inpatient Medicine
+cons_item_amox_12_2026-09-26,item_amox_12,demo_batch,loc_apex_central,2026-09-26,29,Inpatient Medicine
+cons_item_epi_1mg_2026-09-26,item_epi_1mg,demo_batch,loc_apex_central,2026-09-26,17,ICU
+cons_item_norepi_4mg_2026-09-26,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-26,15,ICU
+cons_item_dopa_200_2026-09-26,item_dopa_200,demo_batch,loc_apex_central,2026-09-26,6,ICU
+cons_item_atro_06_2026-09-26,item_atro_06,demo_batch,loc_apex_central,2026-09-26,10,ICU
+cons_item_pcm_1g_2026-09-26,item_pcm_1g,demo_batch,loc_apex_central,2026-09-26,44,General Surgery
+cons_item_fent_100_2026-09-26,item_fent_100,demo_batch,loc_apex_central,2026-09-26,11,General Surgery
+cons_item_midaz_5mg_2026-09-26,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-26,10,General Surgery
+cons_item_tram_100_2026-09-26,item_tram_100,demo_batch,loc_apex_central,2026-09-26,16,General Surgery
+cons_item_ns_500_2026-09-26,item_ns_500,demo_batch,loc_apex_central,2026-09-26,118,General Surgery
+cons_item_rl_500_2026-09-26,item_rl_500,demo_batch,loc_apex_central,2026-09-26,88,General Surgery
+cons_item_d5_500_2026-09-26,item_d5_500,demo_batch,loc_apex_central,2026-09-26,39,General Surgery
+cons_item_kcl_20_2026-09-26,item_kcl_20,demo_batch,loc_apex_central,2026-09-26,15,General Surgery
+cons_item_iv_set_2026-09-26,item_iv_set,demo_batch,loc_apex_central,2026-09-26,28,General Surgery
+cons_item_gloves_75_2026-09-26,item_gloves_75,demo_batch,loc_apex_central,2026-09-26,33,General Surgery
+cons_item_syr_10_2026-09-26,item_syr_10,demo_batch,loc_apex_central,2026-09-26,157,General Surgery
+cons_item_foley_16_2026-09-26,item_foley_16,demo_batch,loc_apex_central,2026-09-26,10,General Surgery
+cons_item_ett_75_2026-09-26,item_ett_75,demo_batch,loc_apex_central,2026-09-26,6,General Surgery
+cons_item_stopcock_3w_2026-09-26,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-26,27,General Surgery
+cons_item_pacli_100_2026-09-26,item_pacli_100,demo_batch,loc_apex_central,2026-09-26,2,General Surgery
+cons_item_carbo_450_2026-09-26,item_carbo_450,demo_batch,loc_apex_central,2026-09-26,1,General Surgery
+cons_item_albu_20_2026-09-26,item_albu_20,demo_batch,loc_apex_central,2026-09-26,4,General Surgery
+cons_item_blood_bag_2026-09-26,item_blood_bag,demo_batch,loc_apex_central,2026-09-26,5,General Surgery
+cons_item_trop_i_2026-09-26,item_trop_i,demo_batch,loc_apex_central,2026-09-26,12,General Surgery
+cons_item_covid_ag_2026-09-26,item_covid_ag,demo_batch,loc_apex_central,2026-09-26,8,General Surgery
+cons_item_edta_tube_2026-09-26,item_edta_tube,demo_batch,loc_apex_central,2026-09-26,41,General Surgery
+cons_item_cftx_1g_2026-09-27,item_cftx_1g,demo_batch,loc_apex_central,2026-09-27,49,Inpatient Medicine
+cons_item_mero_1g_2026-09-27,item_mero_1g,demo_batch,loc_apex_central,2026-09-27,15,Inpatient Medicine
+cons_item_piptaz_45_2026-09-27,item_piptaz_45,demo_batch,loc_apex_central,2026-09-27,18,Inpatient Medicine
+cons_item_vanco_500_2026-09-27,item_vanco_500,demo_batch,loc_apex_central,2026-09-27,10,Inpatient Medicine
+cons_item_amox_12_2026-09-27,item_amox_12,demo_batch,loc_apex_central,2026-09-27,29,Inpatient Medicine
+cons_item_epi_1mg_2026-09-27,item_epi_1mg,demo_batch,loc_apex_central,2026-09-27,18,ICU
+cons_item_norepi_4mg_2026-09-27,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-27,16,ICU
+cons_item_dopa_200_2026-09-27,item_dopa_200,demo_batch,loc_apex_central,2026-09-27,8,ICU
+cons_item_atro_06_2026-09-27,item_atro_06,demo_batch,loc_apex_central,2026-09-27,10,ICU
+cons_item_pcm_1g_2026-09-27,item_pcm_1g,demo_batch,loc_apex_central,2026-09-27,37,General Surgery
+cons_item_fent_100_2026-09-27,item_fent_100,demo_batch,loc_apex_central,2026-09-27,14,General Surgery
+cons_item_midaz_5mg_2026-09-27,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-27,13,General Surgery
+cons_item_tram_100_2026-09-27,item_tram_100,demo_batch,loc_apex_central,2026-09-27,19,General Surgery
+cons_item_ns_500_2026-09-27,item_ns_500,demo_batch,loc_apex_central,2026-09-27,100,General Surgery
+cons_item_rl_500_2026-09-27,item_rl_500,demo_batch,loc_apex_central,2026-09-27,75,General Surgery
+cons_item_d5_500_2026-09-27,item_d5_500,demo_batch,loc_apex_central,2026-09-27,33,General Surgery
+cons_item_kcl_20_2026-09-27,item_kcl_20,demo_batch,loc_apex_central,2026-09-27,12,General Surgery
+cons_item_iv_set_2026-09-27,item_iv_set,demo_batch,loc_apex_central,2026-09-27,23,General Surgery
+cons_item_gloves_75_2026-09-27,item_gloves_75,demo_batch,loc_apex_central,2026-09-27,42,General Surgery
+cons_item_syr_10_2026-09-27,item_syr_10,demo_batch,loc_apex_central,2026-09-27,133,General Surgery
+cons_item_foley_16_2026-09-27,item_foley_16,demo_batch,loc_apex_central,2026-09-27,12,General Surgery
+cons_item_ett_75_2026-09-27,item_ett_75,demo_batch,loc_apex_central,2026-09-27,5,General Surgery
+cons_item_stopcock_3w_2026-09-27,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-27,22,General Surgery
+cons_item_pacli_100_2026-09-27,item_pacli_100,demo_batch,loc_apex_central,2026-09-27,2,General Surgery
+cons_item_carbo_450_2026-09-27,item_carbo_450,demo_batch,loc_apex_central,2026-09-27,2,General Surgery
+cons_item_albu_20_2026-09-27,item_albu_20,demo_batch,loc_apex_central,2026-09-27,4,General Surgery
+cons_item_blood_bag_2026-09-27,item_blood_bag,demo_batch,loc_apex_central,2026-09-27,6,General Surgery
+cons_item_trop_i_2026-09-27,item_trop_i,demo_batch,loc_apex_central,2026-09-27,10,General Surgery
+cons_item_covid_ag_2026-09-27,item_covid_ag,demo_batch,loc_apex_central,2026-09-27,10,General Surgery
+cons_item_edta_tube_2026-09-27,item_edta_tube,demo_batch,loc_apex_central,2026-09-27,52,General Surgery
+cons_item_cftx_1g_2026-09-28,item_cftx_1g,demo_batch,loc_apex_central,2026-09-28,41,Inpatient Medicine
+cons_item_mero_1g_2026-09-28,item_mero_1g,demo_batch,loc_apex_central,2026-09-28,12,Inpatient Medicine
+cons_item_piptaz_45_2026-09-28,item_piptaz_45,demo_batch,loc_apex_central,2026-09-28,21,Inpatient Medicine
+cons_item_vanco_500_2026-09-28,item_vanco_500,demo_batch,loc_apex_central,2026-09-28,12,Inpatient Medicine
+cons_item_amox_12_2026-09-28,item_amox_12,demo_batch,loc_apex_central,2026-09-28,25,Inpatient Medicine
+cons_item_epi_1mg_2026-09-28,item_epi_1mg,demo_batch,loc_apex_central,2026-09-28,15,ICU
+cons_item_norepi_4mg_2026-09-28,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-28,20,ICU
+cons_item_dopa_200_2026-09-28,item_dopa_200,demo_batch,loc_apex_central,2026-09-28,8,ICU
+cons_item_atro_06_2026-09-28,item_atro_06,demo_batch,loc_apex_central,2026-09-28,8,ICU
+cons_item_pcm_1g_2026-09-28,item_pcm_1g,demo_batch,loc_apex_central,2026-09-28,29,General Surgery
+cons_item_fent_100_2026-09-28,item_fent_100,demo_batch,loc_apex_central,2026-09-28,14,General Surgery
+cons_item_midaz_5mg_2026-09-28,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-28,15,General Surgery
+cons_item_tram_100_2026-09-28,item_tram_100,demo_batch,loc_apex_central,2026-09-28,20,General Surgery
+cons_item_ns_500_2026-09-28,item_ns_500,demo_batch,loc_apex_central,2026-09-28,78,General Surgery
+cons_item_rl_500_2026-09-28,item_rl_500,demo_batch,loc_apex_central,2026-09-28,58,General Surgery
+cons_item_d5_500_2026-09-28,item_d5_500,demo_batch,loc_apex_central,2026-09-28,26,General Surgery
+cons_item_kcl_20_2026-09-28,item_kcl_20,demo_batch,loc_apex_central,2026-09-28,10,General Surgery
+cons_item_iv_set_2026-09-28,item_iv_set,demo_batch,loc_apex_central,2026-09-28,18,General Surgery
+cons_item_gloves_75_2026-09-28,item_gloves_75,demo_batch,loc_apex_central,2026-09-28,51,General Surgery
+cons_item_syr_10_2026-09-28,item_syr_10,demo_batch,loc_apex_central,2026-09-28,104,General Surgery
+cons_item_foley_16_2026-09-28,item_foley_16,demo_batch,loc_apex_central,2026-09-28,12,General Surgery
+cons_item_ett_75_2026-09-28,item_ett_75,demo_batch,loc_apex_central,2026-09-28,4,General Surgery
+cons_item_stopcock_3w_2026-09-28,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-28,22,General Surgery
+cons_item_pacli_100_2026-09-28,item_pacli_100,demo_batch,loc_apex_central,2026-09-28,3,General Surgery
+cons_item_carbo_450_2026-09-28,item_carbo_450,demo_batch,loc_apex_central,2026-09-28,2,General Surgery
+cons_item_albu_20_2026-09-28,item_albu_20,demo_batch,loc_apex_central,2026-09-28,3,General Surgery
+cons_item_blood_bag_2026-09-28,item_blood_bag,demo_batch,loc_apex_central,2026-09-28,8,General Surgery
+cons_item_trop_i_2026-09-28,item_trop_i,demo_batch,loc_apex_central,2026-09-28,8,General Surgery
+cons_item_covid_ag_2026-09-28,item_covid_ag,demo_batch,loc_apex_central,2026-09-28,10,General Surgery
+cons_item_edta_tube_2026-09-28,item_edta_tube,demo_batch,loc_apex_central,2026-09-28,63,General Surgery
+cons_item_cftx_1g_2026-09-29,item_cftx_1g,demo_batch,loc_apex_central,2026-09-29,32,Inpatient Medicine
+cons_item_mero_1g_2026-09-29,item_mero_1g,demo_batch,loc_apex_central,2026-09-29,10,Inpatient Medicine
+cons_item_piptaz_45_2026-09-29,item_piptaz_45,demo_batch,loc_apex_central,2026-09-29,22,Inpatient Medicine
+cons_item_vanco_500_2026-09-29,item_vanco_500,demo_batch,loc_apex_central,2026-09-29,12,Inpatient Medicine
+cons_item_amox_12_2026-09-29,item_amox_12,demo_batch,loc_apex_central,2026-09-29,19,Inpatient Medicine
+cons_item_epi_1mg_2026-09-29,item_epi_1mg,demo_batch,loc_apex_central,2026-09-29,12,ICU
+cons_item_norepi_4mg_2026-09-29,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-29,24,ICU
+cons_item_dopa_200_2026-09-29,item_dopa_200,demo_batch,loc_apex_central,2026-09-29,7,ICU
+cons_item_atro_06_2026-09-29,item_atro_06,demo_batch,loc_apex_central,2026-09-29,6,ICU
+cons_item_pcm_1g_2026-09-29,item_pcm_1g,demo_batch,loc_apex_central,2026-09-29,27,General Surgery
+cons_item_fent_100_2026-09-29,item_fent_100,demo_batch,loc_apex_central,2026-09-29,12,General Surgery
+cons_item_midaz_5mg_2026-09-29,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-29,16,General Surgery
+cons_item_tram_100_2026-09-29,item_tram_100,demo_batch,loc_apex_central,2026-09-29,17,General Surgery
+cons_item_ns_500_2026-09-29,item_ns_500,demo_batch,loc_apex_central,2026-09-29,73,General Surgery
+cons_item_rl_500_2026-09-29,item_rl_500,demo_batch,loc_apex_central,2026-09-29,55,General Surgery
+cons_item_d5_500_2026-09-29,item_d5_500,demo_batch,loc_apex_central,2026-09-29,24,General Surgery
+cons_item_kcl_20_2026-09-29,item_kcl_20,demo_batch,loc_apex_central,2026-09-29,9,General Surgery
+cons_item_iv_set_2026-09-29,item_iv_set,demo_batch,loc_apex_central,2026-09-29,17,General Surgery
+cons_item_gloves_75_2026-09-29,item_gloves_75,demo_batch,loc_apex_central,2026-09-29,52,General Surgery
+cons_item_syr_10_2026-09-29,item_syr_10,demo_batch,loc_apex_central,2026-09-29,97,General Surgery
+cons_item_foley_16_2026-09-29,item_foley_16,demo_batch,loc_apex_central,2026-09-29,10,General Surgery
+cons_item_ett_75_2026-09-29,item_ett_75,demo_batch,loc_apex_central,2026-09-29,4,General Surgery
+cons_item_stopcock_3w_2026-09-29,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-29,28,General Surgery
+cons_item_pacli_100_2026-09-29,item_pacli_100,demo_batch,loc_apex_central,2026-09-29,3,General Surgery
+cons_item_carbo_450_2026-09-29,item_carbo_450,demo_batch,loc_apex_central,2026-09-29,2,General Surgery
+cons_item_albu_20_2026-09-29,item_albu_20,demo_batch,loc_apex_central,2026-09-29,3,General Surgery
+cons_item_blood_bag_2026-09-29,item_blood_bag,demo_batch,loc_apex_central,2026-09-29,8,General Surgery
+cons_item_trop_i_2026-09-29,item_trop_i,demo_batch,loc_apex_central,2026-09-29,7,General Surgery
+cons_item_covid_ag_2026-09-29,item_covid_ag,demo_batch,loc_apex_central,2026-09-29,8,General Surgery
+cons_item_edta_tube_2026-09-29,item_edta_tube,demo_batch,loc_apex_central,2026-09-29,64,General Surgery
+cons_item_cftx_1g_2026-09-30,item_cftx_1g,demo_batch,loc_apex_central,2026-09-30,30,Inpatient Medicine
+cons_item_mero_1g_2026-09-30,item_mero_1g,demo_batch,loc_apex_central,2026-09-30,9,Inpatient Medicine
+cons_item_piptaz_45_2026-09-30,item_piptaz_45,demo_batch,loc_apex_central,2026-09-30,18,Inpatient Medicine
+cons_item_vanco_500_2026-09-30,item_vanco_500,demo_batch,loc_apex_central,2026-09-30,10,Inpatient Medicine
+cons_item_amox_12_2026-09-30,item_amox_12,demo_batch,loc_apex_central,2026-09-30,18,Inpatient Medicine
+cons_item_epi_1mg_2026-09-30,item_epi_1mg,demo_batch,loc_apex_central,2026-09-30,11,ICU
+cons_item_norepi_4mg_2026-09-30,item_norepi_4mg,demo_batch,loc_apex_central,2026-09-30,25,ICU
+cons_item_dopa_200_2026-09-30,item_dopa_200,demo_batch,loc_apex_central,2026-09-30,5,ICU
+cons_item_atro_06_2026-09-30,item_atro_06,demo_batch,loc_apex_central,2026-09-30,6,ICU
+cons_item_pcm_1g_2026-09-30,item_pcm_1g,demo_batch,loc_apex_central,2026-09-30,33,General Surgery
+cons_item_fent_100_2026-09-30,item_fent_100,demo_batch,loc_apex_central,2026-09-30,9,General Surgery
+cons_item_midaz_5mg_2026-09-30,item_midaz_5mg,demo_batch,loc_apex_central,2026-09-30,13,General Surgery
+cons_item_tram_100_2026-09-30,item_tram_100,demo_batch,loc_apex_central,2026-09-30,13,General Surgery
+cons_item_ns_500_2026-09-30,item_ns_500,demo_batch,loc_apex_central,2026-09-30,89,General Surgery
+cons_item_rl_500_2026-09-30,item_rl_500,demo_batch,loc_apex_central,2026-09-30,67,General Surgery
+cons_item_d5_500_2026-09-30,item_d5_500,demo_batch,loc_apex_central,2026-09-30,30,General Surgery
+cons_item_kcl_20_2026-09-30,item_kcl_20,demo_batch,loc_apex_central,2026-09-30,11,General Surgery
+cons_item_iv_set_2026-09-30,item_iv_set,demo_batch,loc_apex_central,2026-09-30,21,General Surgery
+cons_item_gloves_75_2026-09-30,item_gloves_75,demo_batch,loc_apex_central,2026-09-30,44,General Surgery
+cons_item_syr_10_2026-09-30,item_syr_10,demo_batch,loc_apex_central,2026-09-30,119,General Surgery
+cons_item_foley_16_2026-09-30,item_foley_16,demo_batch,loc_apex_central,2026-09-30,8,General Surgery
+cons_item_ett_75_2026-09-30,item_ett_75,demo_batch,loc_apex_central,2026-09-30,4,General Surgery
+cons_item_stopcock_3w_2026-09-30,item_stopcock_3w,demo_batch,loc_apex_central,2026-09-30,34,General Surgery
+cons_item_pacli_100_2026-09-30,item_pacli_100,demo_batch,loc_apex_central,2026-09-30,2,General Surgery
+cons_item_carbo_450_2026-09-30,item_carbo_450,demo_batch,loc_apex_central,2026-09-30,2,General Surgery
+cons_item_albu_20_2026-09-30,item_albu_20,demo_batch,loc_apex_central,2026-09-30,2,General Surgery
+cons_item_blood_bag_2026-09-30,item_blood_bag,demo_batch,loc_apex_central,2026-09-30,7,General Surgery
+cons_item_trop_i_2026-09-30,item_trop_i,demo_batch,loc_apex_central,2026-09-30,9,General Surgery
+cons_item_covid_ag_2026-09-30,item_covid_ag,demo_batch,loc_apex_central,2026-09-30,6,General Surgery
+cons_item_edta_tube_2026-09-30,item_edta_tube,demo_batch,loc_apex_central,2026-09-30,54,General Surgery
+cons_item_cftx_1g_2026-10-01,item_cftx_1g,demo_batch,loc_apex_central,2026-10-01,37,Inpatient Medicine
+cons_item_mero_1g_2026-10-01,item_mero_1g,demo_batch,loc_apex_central,2026-10-01,11,Inpatient Medicine
+cons_item_piptaz_45_2026-10-01,item_piptaz_45,demo_batch,loc_apex_central,2026-10-01,14,Inpatient Medicine
+cons_item_vanco_500_2026-10-01,item_vanco_500,demo_batch,loc_apex_central,2026-10-01,8,Inpatient Medicine
+cons_item_amox_12_2026-10-01,item_amox_12,demo_batch,loc_apex_central,2026-10-01,22,Inpatient Medicine
+cons_item_epi_1mg_2026-10-01,item_epi_1mg,demo_batch,loc_apex_central,2026-10-01,13,ICU
+cons_item_norepi_4mg_2026-10-01,item_norepi_4mg,demo_batch,loc_apex_central,2026-10-01,21,ICU
+cons_item_dopa_200_2026-10-01,item_dopa_200,demo_batch,loc_apex_central,2026-10-01,5,ICU
+cons_item_atro_06_2026-10-01,item_atro_06,demo_batch,loc_apex_central,2026-10-01,7,ICU
+cons_item_pcm_1g_2026-10-01,item_pcm_1g,demo_batch,loc_apex_central,2026-10-01,42,General Surgery
+cons_item_fent_100_2026-10-01,item_fent_100,demo_batch,loc_apex_central,2026-10-01,9,General Surgery
+cons_item_midaz_5mg_2026-10-01,item_midaz_5mg,demo_batch,loc_apex_central,2026-10-01,10,General Surgery
+cons_item_tram_100_2026-10-01,item_tram_100,demo_batch,loc_apex_central,2026-10-01,12,General Surgery
+cons_item_ns_500_2026-10-01,item_ns_500,demo_batch,loc_apex_central,2026-10-01,112,General Surgery
+cons_item_rl_500_2026-10-01,item_rl_500,demo_batch,loc_apex_central,2026-10-01,84,General Surgery
+cons_item_d5_500_2026-10-01,item_d5_500,demo_batch,loc_apex_central,2026-10-01,37,General Surgery
+cons_item_kcl_20_2026-10-01,item_kcl_20,demo_batch,loc_apex_central,2026-10-01,14,General Surgery
+cons_item_iv_set_2026-10-01,item_iv_set,demo_batch,loc_apex_central,2026-10-01,26,General Surgery
+cons_item_gloves_75_2026-10-01,item_gloves_75,demo_batch,loc_apex_central,2026-10-01,34,General Surgery
+cons_item_syr_10_2026-10-01,item_syr_10,demo_batch,loc_apex_central,2026-10-01,149,General Surgery
+cons_item_foley_16_2026-10-01,item_foley_16,demo_batch,loc_apex_central,2026-10-01,7,General Surgery
+cons_item_ett_75_2026-10-01,item_ett_75,demo_batch,loc_apex_central,2026-10-01,6,General Surgery
+cons_item_stopcock_3w_2026-10-01,item_stopcock_3w,demo_batch,loc_apex_central,2026-10-01,34,General Surgery
+cons_item_pacli_100_2026-10-01,item_pacli_100,demo_batch,loc_apex_central,2026-10-01,2,General Surgery
+cons_item_carbo_450_2026-10-01,item_carbo_450,demo_batch,loc_apex_central,2026-10-01,1,General Surgery
+cons_item_albu_20_2026-10-01,item_albu_20,demo_batch,loc_apex_central,2026-10-01,3,General Surgery
+cons_item_blood_bag_2026-10-01,item_blood_bag,demo_batch,loc_apex_central,2026-10-01,5,General Surgery
+cons_item_trop_i_2026-10-01,item_trop_i,demo_batch,loc_apex_central,2026-10-01,11,General Surgery
+cons_item_covid_ag_2026-10-01,item_covid_ag,demo_batch,loc_apex_central,2026-10-01,6,General Surgery
+cons_item_edta_tube_2026-10-01,item_edta_tube,demo_batch,loc_apex_central,2026-10-01,42,General Surgery
+cons_item_cftx_1g_2026-10-02,item_cftx_1g,demo_batch,loc_apex_central,2026-10-02,47,Inpatient Medicine
+cons_item_mero_1g_2026-10-02,item_mero_1g,demo_batch,loc_apex_central,2026-10-02,14,Inpatient Medicine
+cons_item_piptaz_45_2026-10-02,item_piptaz_45,demo_batch,loc_apex_central,2026-10-02,13,Inpatient Medicine
+cons_item_vanco_500_2026-10-02,item_vanco_500,demo_batch,loc_apex_central,2026-10-02,7,Inpatient Medicine
+cons_item_amox_12_2026-10-02,item_amox_12,demo_batch,loc_apex_central,2026-10-02,28,Inpatient Medicine
+cons_item_epi_1mg_2026-10-02,item_epi_1mg,demo_batch,loc_apex_central,2026-10-02,17,ICU
+cons_item_norepi_4mg_2026-10-02,item_norepi_4mg,demo_batch,loc_apex_central,2026-10-02,16,ICU
+cons_item_dopa_200_2026-10-02,item_dopa_200,demo_batch,loc_apex_central,2026-10-02,6,ICU
+cons_item_atro_06_2026-10-02,item_atro_06,demo_batch,loc_apex_central,2026-10-02,9,ICU
+cons_item_pcm_1g_2026-10-02,item_pcm_1g,demo_batch,loc_apex_central,2026-10-02,45,General Surgery
+cons_item_fent_100_2026-10-02,item_fent_100,demo_batch,loc_apex_central,2026-10-02,10,General Surgery
+cons_item_midaz_5mg_2026-10-02,item_midaz_5mg,demo_batch,loc_apex_central,2026-10-02,10,General Surgery
+cons_item_tram_100_2026-10-02,item_tram_100,demo_batch,loc_apex_central,2026-10-02,15,General Surgery
+cons_item_ns_500_2026-10-02,item_ns_500,demo_batch,loc_apex_central,2026-10-02,120,General Surgery
+cons_item_rl_500_2026-10-02,item_rl_500,demo_batch,loc_apex_central,2026-10-02,90,General Surgery
+cons_item_d5_500_2026-10-02,item_d5_500,demo_batch,loc_apex_central,2026-10-02,40,General Surgery
+cons_item_kcl_20_2026-10-02,item_kcl_20,demo_batch,loc_apex_central,2026-10-02,15,General Surgery
+cons_item_iv_set_2026-10-02,item_iv_set,demo_batch,loc_apex_central,2026-10-02,28,General Surgery
+cons_item_gloves_75_2026-10-02,item_gloves_75,demo_batch,loc_apex_central,2026-10-02,32,General Surgery
+cons_item_syr_10_2026-10-02,item_syr_10,demo_batch,loc_apex_central,2026-10-02,160,General Surgery
+cons_item_foley_16_2026-10-02,item_foley_16,demo_batch,loc_apex_central,2026-10-02,9,General Surgery
+cons_item_ett_75_2026-10-02,item_ett_75,demo_batch,loc_apex_central,2026-10-02,6,General Surgery
+cons_item_stopcock_3w_2026-10-02,item_stopcock_3w,demo_batch,loc_apex_central,2026-10-02,29,General Surgery
+cons_item_pacli_100_2026-10-02,item_pacli_100,demo_batch,loc_apex_central,2026-10-02,2,General Surgery
+cons_item_carbo_450_2026-10-02,item_carbo_450,demo_batch,loc_apex_central,2026-10-02,1,General Surgery
+cons_item_albu_20_2026-10-02,item_albu_20,demo_batch,loc_apex_central,2026-10-02,4,General Surgery
+cons_item_blood_bag_2026-10-02,item_blood_bag,demo_batch,loc_apex_central,2026-10-02,5,General Surgery
+cons_item_trop_i_2026-10-02,item_trop_i,demo_batch,loc_apex_central,2026-10-02,12,General Surgery
+cons_item_covid_ag_2026-10-02,item_covid_ag,demo_batch,loc_apex_central,2026-10-02,7,General Surgery
+cons_item_edta_tube_2026-10-02,item_edta_tube,demo_batch,loc_apex_central,2026-10-02,40,General Surgery
+cons_item_cftx_1g_2026-10-03,item_cftx_1g,demo_batch,loc_apex_central,2026-10-03,50,Inpatient Medicine
+cons_item_mero_1g_2026-10-03,item_mero_1g,demo_batch,loc_apex_central,2026-10-03,15,Inpatient Medicine
+cons_item_piptaz_45_2026-10-03,item_piptaz_45,demo_batch,loc_apex_central,2026-10-03,16,Inpatient Medicine
+cons_item_vanco_500_2026-10-03,item_vanco_500,demo_batch,loc_apex_central,2026-10-03,9,Inpatient Medicine
+cons_item_amox_12_2026-10-03,item_amox_12,demo_batch,loc_apex_central,2026-10-03,30,Inpatient Medicine
+cons_item_epi_1mg_2026-10-03,item_epi_1mg,demo_batch,loc_apex_central,2026-10-03,18,ICU
+cons_item_norepi_4mg_2026-10-03,item_norepi_4mg,demo_batch,loc_apex_central,2026-10-03,15,ICU
+cons_item_dopa_200_2026-10-03,item_dopa_200,demo_batch,loc_apex_central,2026-10-03,7,ICU
+cons_item_atro_06_2026-10-03,item_atro_06,demo_batch,loc_apex_central,2026-10-03,10,ICU
+cons_item_pcm_1g_2026-10-03,item_pcm_1g,demo_batch,loc_apex_central,2026-10-03,40,General Surgery
+cons_item_fent_100_2026-10-03,item_fent_100,demo_batch,loc_apex_central,2026-10-03,13,General Surgery
+cons_item_midaz_5mg_2026-10-03,item_midaz_5mg,demo_batch,loc_apex_central,2026-10-03,12,General Surgery
+cons_item_tram_100_2026-10-03,item_tram_100,demo_batch,loc_apex_central,2026-10-03,19,General Surgery
+cons_item_ns_500_2026-10-03,item_ns_500,demo_batch,loc_apex_central,2026-10-03,106,General Surgery
+cons_item_rl_500_2026-10-03,item_rl_500,demo_batch,loc_apex_central,2026-10-03,80,General Surgery
+cons_item_d5_500_2026-10-03,item_d5_500,demo_batch,loc_apex_central,2026-10-03,35,General Surgery
+cons_item_kcl_20_2026-10-03,item_kcl_20,demo_batch,loc_apex_central,2026-10-03,13,General Surgery
+cons_item_iv_set_2026-10-03,item_iv_set,demo_batch,loc_apex_central,2026-10-03,25,General Surgery
+cons_item_gloves_75_2026-10-03,item_gloves_75,demo_batch,loc_apex_central,2026-10-03,39,General Surgery
+cons_item_syr_10_2026-10-03,item_syr_10,demo_batch,loc_apex_central,2026-10-03,141,General Surgery
+cons_item_foley_16_2026-10-03,item_foley_16,demo_batch,loc_apex_central,2026-10-03,11,General Surgery
+cons_item_ett_75_2026-10-03,item_ett_75,demo_batch,loc_apex_central,2026-10-03,5,General Surgery
+cons_item_stopcock_3w_2026-10-03,item_stopcock_3w,demo_batch,loc_apex_central,2026-10-03,23,General Surgery
+cons_item_pacli_100_2026-10-03,item_pacli_100,demo_batch,loc_apex_central,2026-10-03,2,General Surgery
+cons_item_carbo_450_2026-10-03,item_carbo_450,demo_batch,loc_apex_central,2026-10-03,1,General Surgery
+cons_item_albu_20_2026-10-03,item_albu_20,demo_batch,loc_apex_central,2026-10-03,4,General Surgery
+cons_item_blood_bag_2026-10-03,item_blood_bag,demo_batch,loc_apex_central,2026-10-03,6,General Surgery
+cons_item_trop_i_2026-10-03,item_trop_i,demo_batch,loc_apex_central,2026-10-03,11,General Surgery
+cons_item_covid_ag_2026-10-03,item_covid_ag,demo_batch,loc_apex_central,2026-10-03,9,General Surgery
+cons_item_edta_tube_2026-10-03,item_edta_tube,demo_batch,loc_apex_central,2026-10-03,48,General Surgery
+cons_item_cftx_1g_2026-10-04,item_cftx_1g,demo_batch,loc_apex_central,2026-10-04,44,Inpatient Medicine
+cons_item_mero_1g_2026-10-04,item_mero_1g,demo_batch,loc_apex_central,2026-10-04,13,Inpatient Medicine
+cons_item_piptaz_45_2026-10-04,item_piptaz_45,demo_batch,loc_apex_central,2026-10-04,20,Inpatient Medicine
+cons_item_vanco_500_2026-10-04,item_vanco_500,demo_batch,loc_apex_central,2026-10-04,11,Inpatient Medicine
+cons_item_amox_12_2026-10-04,item_amox_12,demo_batch,loc_apex_central,2026-10-04,27,Inpatient Medicine
+cons_item_epi_1mg_2026-10-04,item_epi_1mg,demo_batch,loc_apex_central,2026-10-04,16,ICU
+cons_item_norepi_4mg_2026-10-04,item_norepi_4mg,demo_batch,loc_apex_central,2026-10-04,19,ICU
+cons_item_dopa_200_2026-10-04,item_dopa_200,demo_batch,loc_apex_central,2026-10-04,8,ICU
+cons_item_atro_06_2026-10-04,item_atro_06,demo_batch,loc_apex_central,2026-10-04,9,ICU
+cons_item_pcm_1g_2026-10-04,item_pcm_1g,demo_batch,loc_apex_central,2026-10-04,31,General Surgery
+cons_item_fent_100_2026-10-04,item_fent_100,demo_batch,loc_apex_central,2026-10-04,14,General Surgery
+cons_item_midaz_5mg_2026-10-04,item_midaz_5mg,demo_batch,loc_apex_central,2026-10-04,15,General Surgery
+cons_item_tram_100_2026-10-04,item_tram_100,demo_batch,loc_apex_central,2026-10-04,20,General Surgery
+cons_item_ns_500_2026-10-04,item_ns_500,demo_batch,loc_apex_central,2026-10-04,83,General Surgery
+cons_item_rl_500_2026-10-04,item_rl_500,demo_batch,loc_apex_central,2026-10-04,62,General Surgery
+cons_item_d5_500_2026-10-04,item_d5_500,demo_batch,loc_apex_central,2026-10-04,28,General Surgery
+cons_item_kcl_20_2026-10-04,item_kcl_20,demo_batch,loc_apex_central,2026-10-04,10,General Surgery
+cons_item_iv_set_2026-10-04,item_iv_set,demo_batch,loc_apex_central,2026-10-04,19,General Surgery
+cons_item_gloves_75_2026-10-04,item_gloves_75,demo_batch,loc_apex_central,2026-10-04,49,General Surgery
+cons_item_syr_10_2026-10-04,item_syr_10,demo_batch,loc_apex_central,2026-10-04,111,General Surgery
+cons_item_foley_16_2026-10-04,item_foley_16,demo_batch,loc_apex_central,2026-10-04,12,General Surgery
+cons_item_ett_75_2026-10-04,item_ett_75,demo_batch,loc_apex_central,2026-10-04,4,General Surgery
+cons_item_stopcock_3w_2026-10-04,item_stopcock_3w,demo_batch,loc_apex_central,2026-10-04,21,General Surgery
+cons_item_pacli_100_2026-10-04,item_pacli_100,demo_batch,loc_apex_central,2026-10-04,3,General Surgery
+cons_item_carbo_450_2026-10-04,item_carbo_450,demo_batch,loc_apex_central,2026-10-04,2,General Surgery
+cons_item_albu_20_2026-10-04,item_albu_20,demo_batch,loc_apex_central,2026-10-04,4,General Surgery
+cons_item_blood_bag_2026-10-04,item_blood_bag,demo_batch,loc_apex_central,2026-10-04,7,General Surgery
+cons_item_trop_i_2026-10-04,item_trop_i,demo_batch,loc_apex_central,2026-10-04,8,General Surgery
+cons_item_covid_ag_2026-10-04,item_covid_ag,demo_batch,loc_apex_central,2026-10-04,10,General Surgery
+cons_item_edta_tube_2026-10-04,item_edta_tube,demo_batch,loc_apex_central,2026-10-04,60,General Surgery

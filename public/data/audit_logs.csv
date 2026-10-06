@@ -1,0 +1,5 @@
+id,timestamp,user,role,actionType,description,details
+log_001,2026-10-04 18:42:10,Dr. Anita Sharma,Pharmacist,FEFO_RECOMMENDED,"Auto-allocated Batch CFX-2025-001 (500 units) and CFX-2026-002 (100 units) to fulfill ICU Emergency Ceftriaxone indent of 600 units.","{""itemId"":""item_cftx_1g"",""requested"":600,""compliance"":""100% FEFO""}"
+log_002,2026-10-04 15:20:00,Rajesh Nair,Inventory Manager,STOCK_ADJUSTMENT,"Quarantined Batch VNC-1044 (45 units) following expiry cutoff trigger.","{""batchId"":""batch_vanc_001"",""reason"":""Past shelf-life milestone""}"
+log_003,2026-10-03 11:05:32,Kavita Menon,Procurement Manager,PROCUREMENT_ACTION,"Flagged PO-2026-0891 for Ceftriaxone (2,000 units) with DELAY recommendation due to on-hand 5,000 unit inventory.",
+log_004,2026-10-02 09:14:15,System Bot,Hospital Administrator,DATA_IMPORT,"Completed automated morning hospital inventory synchronization across 8 locations.",

@@ -112,7 +112,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate, onSele
     ];
   }, [batches, predictions]);
 
-  // Top 5 Highest Loss Batches
+  // Top Highest Loss Batches
   const topLossBatches = React.useMemo(() => {
     return batches
       .map(b => {
@@ -127,13 +127,13 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate, onSele
       })
       .filter(x => x.loss > 0)
       .sort((a, b) => b.loss - a.loss)
-      .slice(0, 5)
+      .slice(0, 6)
       .map(x => ({
         label: x.item?.name || 'Unknown',
-        subLabel: `${x.batch.batchNumber} • ${x.pred?.daysToExpiry}d`,
+        subLabel: `${x.batch.batchNumber} • ${x.pred?.daysToExpiry}d left`,
         value: x.loss,
         color: '#e11d48',
-        valueFormat: (v: number) => `₹${v.toLocaleString()}`,
+        valueFormat: (v: number) => `$${v.toLocaleString()}`,
       }));
   }, [batches, items, predictions]);
 

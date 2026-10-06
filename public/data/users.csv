@@ -1,0 +1,5 @@
+id,name,email,role,hospitalName,avatar,department
+user_admin,Dr. Rajeshwari Rao,admin@apexmetro.health,Hospital Administrator,Apex Metro Super-Speciality,RR,Executive Medical Board & Clinical Governance
+user_inv,Rajesh Nair,inventory@apexmetro.health,Inventory Manager,Apex Metro Super-Speciality,RN,Central Warehouse & Supply Chain Logistics
+user_rx,Dr. Anita Sharma,pharmacy@apexmetro.health,Pharmacist,Apex Metro Super-Speciality,AS,Clinical Inpatient Pharmacy & Dispensing
+user_po,Kavita Menon,procurement@apexmetro.health,Procurement Manager,Apex Metro Super-Speciality,KM,Global Sourcing & Vendor Contracts

@@ -1,0 +1,35 @@
+id,itemId,batchNumber,receivedDate,expiryDate,quantityReceived,currentStock,locationId,status,notes
+batch_cftx_001,item_cftx_1g,CFX-2025-001,2025-11-20,2026-11-19,6000,5000,loc_apex_central,active,"Demo target batch: High excess stock, expiring in 45 days."
+batch_cftx_002,item_cftx_1g,CFX-2026-002,2026-03-10,2027-02-15,1000,300,loc_apex_icu,active,
+batch_cftx_003,item_cftx_1g,CFX-2026-003,2026-06-01,2027-08-30,2000,700,loc_apex_icu,active,
+batch_mero_001,item_mero_1g,MER-8819,2025-09-12,2026-10-25,500,240,loc_apex_central,active,
+batch_mero_002,item_mero_1g,MER-9102,2026-01-15,2027-04-30,600,480,loc_apex_icu,active,
+batch_ptaz_001,item_piptaz_45,PTZ-4410,2025-10-10,2026-11-05,800,410,loc_apex_central,active,
+batch_ptaz_002,item_piptaz_45,PTZ-4921,2026-04-12,2027-07-20,1200,1100,loc_city_central,active,
+batch_vanc_001,item_vanco_500,VNC-1044,2025-05-10,2026-09-15,300,45,loc_apex_central,quarantine,Expired stock quarantined during morning ward check.
+batch_vanc_002,item_vanco_500,VNC-1190,2026-02-14,2027-03-31,500,380,loc_apex_icu,active,
+batch_epi_001,item_epi_1mg,EPN-7731,2026-01-20,2026-11-30,600,350,loc_apex_er,active,
+batch_epi_002,item_epi_1mg,EPN-8104,2026-05-18,2027-09-15,1000,950,loc_apex_central,active,
+batch_norepi_001,item_norepi_4mg,NOR-5521,2025-12-05,2026-10-31,400,180,loc_apex_icu,active,
+batch_norepi_002,item_norepi_4mg,NOR-6200,2026-03-22,2027-05-18,600,520,loc_apex_central,active,
+batch_pcm_001,item_pcm_1g,PCM-3031,2025-11-01,2026-12-15,2500,1400,loc_apex_central,active,
+batch_pcm_002,item_pcm_1g,PCM-3510,2026-04-01,2027-08-30,3000,2800,loc_city_central,active,
+batch_fent_001,item_fent_100,FNT-9912,2026-02-10,2027-06-15,400,280,loc_apex_ot,active,
+batch_ns_001,item_ns_500,NS-2025-11,2025-08-01,2026-10-18,4000,1200,loc_apex_central,active,
+batch_ns_002,item_ns_500,NS-2026-03,2026-03-01,2028-02-28,5000,4200,loc_apex_er,active,
+batch_ns_003,item_ns_500,NS-2026-07,2026-07-01,2028-06-30,6000,5800,loc_stjude_main,active,
+batch_rl_001,item_rl_500,RL-1088,2025-12-10,2027-01-20,3000,2100,loc_apex_central,active,
+batch_ivset_001,item_iv_set,IVS-6001,2025-10-01,2026-12-04,2500,2000,loc_apex_central,active,"Requirement example: 2000 stock, 60 days to expiry, 1700 forecast usage."
+batch_ivset_002,item_iv_set,IVS-7210,2026-04-10,2028-03-31,4000,3500,loc_apex_icu,active,
+batch_glv_001,item_gloves_75,GLV-75-01,2025-06-15,2027-04-03,12000,10000,loc_apex_ot,active,"Requirement example: 10,000 stock, 180 days, Low risk."
+batch_syr_001,item_syr_10,SYR-10-88,2025-09-01,2027-08-31,10000,6500,loc_apex_central,active,
+batch_fol_001,item_foley_16,FOL-16-04,2025-04-10,2026-09-28,400,60,loc_city_central,quarantine,Quarantined post-monthly audit.
+batch_fol_002,item_foley_16,FOL-16-12,2026-02-15,2028-01-30,500,420,loc_apex_ot,active,
+batch_pacli_001,item_pacli_100,PAC-4401,2025-11-15,2026-11-20,120,85,loc_apex_onc,active,
+batch_pacli_002,item_pacli_100,PAC-4822,2026-05-10,2027-11-10,150,140,loc_apex_central,active,
+batch_carbo_001,item_carbo_450,CRB-201,2026-03-01,2027-09-20,80,65,loc_apex_onc,active,
+batch_albu_001,item_albu_20,ALB-902,2025-10-10,2026-10-30,90,48,loc_apex_central,active,High-value cold chain product expiring shortly.
+batch_trop_001,item_trop_i,TRP-501,2025-11-01,2026-10-28,180,95,loc_apex_er,active,
+batch_trop_002,item_trop_i,TRP-612,2026-04-10,2027-04-10,200,170,loc_city_central,active,
+batch_cov_001,item_covid_ag,COV-882,2025-07-20,2026-09-10,400,120,loc_apex_central,quarantine,Quarantined expired test cassettes.
+batch_ett_001,item_ett_75,ETT-75-01,2025-08-15,2028-08-15,350,220,loc_apex_ot,active,

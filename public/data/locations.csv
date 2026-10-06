@@ -1,0 +1,9 @@
+id,name,type,hospitalId,hospitalName
+loc_apex_central,Central Pharmacy Warehouse,Central Store,hosp_apex,Apex Metro Super-Speciality
+loc_apex_icu,Main Intensive Care Unit (ICU),ICU,hosp_apex,Apex Metro Super-Speciality
+loc_apex_er,Emergency & Trauma Care,Emergency,hosp_apex,Apex Metro Super-Speciality
+loc_apex_ot,Surgical Suites & Operation Theatres,Surgical Suite,hosp_apex,Apex Metro Super-Speciality
+loc_apex_onc,Comprehensive Oncology Infusion Center,Oncology,hosp_apex,Apex Metro Super-Speciality
+loc_city_central,North Central Pharmacy,Central Store,hosp_city,City Health North Hospital
+loc_city_icu,City North ICU & CCU,ICU,hosp_city,City Health North Hospital
+loc_stjude_main,St. Jude General Dispensary,Central Store,hosp_stjude,St. Jude Community Hospital

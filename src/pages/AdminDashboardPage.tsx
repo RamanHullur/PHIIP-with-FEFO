@@ -19,9 +19,12 @@ import {
   Save,
   Clock,
   DollarSign,
+  Database,
+  FileSpreadsheet,
 } from 'lucide-react';
 import { useInventory, DEMO_ACCOUNTS } from '../context/InventoryContext';
 import { Item, Batch, Location, PurchaseOrder, UserRole } from '../types/inventory';
+import { DatabaseCsvHub } from '../components/admin/DatabaseCsvHub';
 
 export const AdminDashboardPage: React.FC = () => {
   const {
@@ -48,7 +51,7 @@ export const AdminDashboardPage: React.FC = () => {
   } = useInventory();
 
   // Active Admin Sub-tab
-  const [activeSubTab, setActiveSubTab] = useState<'items' | 'batches' | 'locations' | 'pos' | 'policy' | 'users'>('items');
+  const [activeSubTab, setActiveSubTab] = useState<'items' | 'batches' | 'locations' | 'pos' | 'policy' | 'users' | 'database'>('items');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [toastMsg, setToastMsg] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
 
@@ -571,6 +574,21 @@ export const AdminDashboardPage: React.FC = () => {
         >
           <UserCheck className="w-4 h-4" />
           Staff Roles &amp; Access
+        </button>
+
+        <button
+          onClick={() => setActiveSubTab('database')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl font-bold transition cursor-pointer ${
+            activeSubTab === 'database'
+              ? 'bg-emerald-600 text-white shadow-2xs'
+              : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+          }`}
+        >
+          <Database className="w-4 h-4 text-emerald-400" />
+          <span>Database &amp; CSV Hub (7 Files)</span>
+          <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-emerald-500/30 text-white">
+            .CSV / .XLS
+          </span>
         </button>
       </div>
 
@@ -1239,6 +1257,11 @@ export const AdminDashboardPage: React.FC = () => {
             })}
           </div>
         </div>
+      )}
+
+      {/* --- SUB-TAB 7: DATABASE & CSV/EXCEL REPOSITORY --- */}
+      {activeSubTab === 'database' && (
+        <DatabaseCsvHub />
       )}
 
       {/* ============================================================ */}

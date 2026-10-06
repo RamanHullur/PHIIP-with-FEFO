@@ -21,6 +21,7 @@ import {
   INITIAL_LOCATIONS,
   INITIAL_PURCHASE_ORDERS,
   INITIAL_AUDIT_LOGS,
+  INITIAL_USERS,
   generateMockConsumptionHistory,
   DEMO_DATE,
 } from '../data/mockHospitalData';
@@ -30,44 +31,7 @@ import { calculateProcurementRecommendations } from '../services/procurement/pro
 import { generateActionRecommendations } from '../services/recommendation/actionEngine';
 import { validateManualBatchSelection } from '../services/fefo/fefoEngine';
 
-export const DEMO_ACCOUNTS: UserAccount[] = [
-  {
-    id: 'user_admin',
-    name: 'Dr. Rajeshwari Rao',
-    email: 'admin@apexmetro.health',
-    role: 'Hospital Administrator',
-    hospitalName: 'Apex Metro Super-Speciality',
-    avatar: 'RR',
-    department: 'Executive Medical Board & Clinical Governance',
-  },
-  {
-    id: 'user_inv',
-    name: 'Rajesh Nair',
-    email: 'inventory@apexmetro.health',
-    role: 'Inventory Manager',
-    hospitalName: 'Apex Metro Super-Speciality',
-    avatar: 'RN',
-    department: 'Central Warehouse & Supply Chain Logistics',
-  },
-  {
-    id: 'user_rx',
-    name: 'Dr. Anita Sharma',
-    email: 'pharmacy@apexmetro.health',
-    role: 'Pharmacist',
-    hospitalName: 'Apex Metro Super-Speciality',
-    avatar: 'AS',
-    department: 'Clinical Inpatient Pharmacy & Dispensing',
-  },
-  {
-    id: 'user_po',
-    name: 'Kavita Menon',
-    email: 'procurement@apexmetro.health',
-    role: 'Procurement Manager',
-    hospitalName: 'Apex Metro Super-Speciality',
-    avatar: 'KM',
-    department: 'Global Sourcing & Vendor Contracts',
-  },
-];
+export const DEMO_ACCOUNTS: UserAccount[] = INITIAL_USERS;
 
 interface InventoryContextType {
   currentUser: UserAccount | null;

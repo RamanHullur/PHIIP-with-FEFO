@@ -1,0 +1,9 @@
+id,poNumber,itemId,quantity,expectedDate,status,supplier,unitPrice
+po_101,PO-2026-0891,item_cftx_1g,2000,2026-10-20,pending,Apollo MedSupply Co.,180
+po_102,PO-2026-0895,item_gloves_75,5000,2026-11-05,pending,Surgical Direct Supplies,56
+po_103,PO-2026-0902,item_mero_1g,300,2026-10-15,pending,MedEx Logistics,840
+po_104,PO-2026-0910,item_iv_set,3000,2026-10-25,pending,Surgical Direct Supplies,21
+po_105,PO-2026-0914,item_ns_500,4000,2026-10-18,pending,National IV Infusions Ltd.,25
+po_106,PO-2026-0920,item_epi_1mg,500,2026-11-12,pending,Emergency Health Care,40
+po_107,PO-2026-0925,item_pacli_100,50,2026-10-30,pending,OncoMed Specialty Rx,3150
+po_108,PO-2026-0933,item_albu_20,60,2026-11-01,pending,Blood & Plasma Direct,4050

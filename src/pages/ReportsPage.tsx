@@ -10,6 +10,15 @@ import {
   TrendingUp,
   Clock,
   ShieldCheck,
+  Database,
+  FileCode,
+  ArrowDownToLine,
+  Boxes,
+  Layers,
+  Building2,
+  ShoppingCart,
+  UserCheck,
+  FileClock,
 } from 'lucide-react';
 import { useInventory } from '../context/InventoryContext';
 import {
@@ -18,6 +27,8 @@ import {
   exportToCSV,
   CSVParseResult,
 } from '../services/csv/csvService';
+import { RAW_CSV_FILES } from '../data/mockHospitalData';
+import { downloadFile, downloadAsExcelXls, parseCsv } from '../utils/csvParser';
 
 export const ReportsPage: React.FC = () => {
   const {
@@ -191,6 +202,94 @@ export const ReportsPage: React.FC = () => {
           <span>{importSuccessMsg}</span>
         </div>
       )}
+
+      {/* Database Schema & Static CSV Dataset Section */}
+      <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-2xl p-6 text-white border border-slate-800 shadow-xl space-y-4">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div>
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px] font-bold uppercase tracking-wider mb-2">
+              <Database className="w-3 h-3" />
+              Relational Database Repository (.csv / .xls)
+            </div>
+            <h2 className="text-lg font-bold text-white flex items-center gap-2">
+              Core Database Static Tables &amp; CSV Seeds
+            </h2>
+            <p className="text-xs text-slate-300 max-w-2xl leading-relaxed mt-1">
+              All initial system data has been moved out of script files into standalone <code className="text-emerald-400 font-mono">.csv</code> files in <code className="text-emerald-400 font-mono">/public/data/csv/</code>. Use these files to design and populate PostgreSQL, Cloud SQL, Supabase, or MySQL databases.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
+            <button
+              onClick={() => {
+                const list = [
+                  RAW_CSV_FILES.items,
+                  RAW_CSV_FILES.batches,
+                  RAW_CSV_FILES.locations,
+                  RAW_CSV_FILES.purchaseOrders,
+                  RAW_CSV_FILES.users,
+                  RAW_CSV_FILES.auditLogs,
+                  RAW_CSV_FILES.consumptionHistory,
+                ];
+                list.forEach((f, idx) => {
+                  setTimeout(() => downloadFile(f.filename, f.content), idx * 250);
+                });
+              }}
+              className="px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black rounded-xl text-xs transition cursor-pointer flex items-center gap-2 shadow-lg"
+            >
+              <ArrowDownToLine className="w-4 h-4" />
+              Download All 7 CSVs
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+          {[
+            { key: 'items', label: 'items.csv', title: 'Master SKUs', count: '30 SKUs', icon: Boxes, file: RAW_CSV_FILES.items },
+            { key: 'batches', label: 'batches.csv', title: 'Physical Lots', count: '34 Lots', icon: Layers, file: RAW_CSV_FILES.batches },
+            { key: 'locations', label: 'locations.csv', title: 'Network Sites', count: '8 Sites', icon: Building2, file: RAW_CSV_FILES.locations },
+            { key: 'pos', label: 'purchase_orders.csv', title: 'Procurement POs', count: '8 Orders', icon: ShoppingCart, file: RAW_CSV_FILES.purchaseOrders },
+            { key: 'users', label: 'users.csv', title: 'Staff RBAC', count: '4 Users', icon: UserCheck, file: RAW_CSV_FILES.users },
+            { key: 'audit', label: 'audit_logs.csv', title: 'Audit Trail', count: '4 Logs', icon: FileClock, file: RAW_CSV_FILES.auditLogs },
+            { key: 'cons', label: 'consumption_history.csv', title: '60d Dispensing', count: '1,800 Rows', icon: TrendingUp, file: RAW_CSV_FILES.consumptionHistory },
+          ].map(table => {
+            const Icon = table.icon;
+            return (
+              <div key={table.key} className="bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 p-3 rounded-xl flex items-center justify-between text-xs transition">
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <div className="w-8 h-8 rounded-lg bg-indigo-500/20 border border-indigo-400/30 flex items-center justify-center text-indigo-300 shrink-0">
+                    <Icon className="w-4 h-4" />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="font-mono font-bold text-white text-[11px] truncate">{table.label}</div>
+                    <div className="text-[10px] text-slate-400">{table.title} ({table.count})</div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-1 shrink-0 ml-2">
+                  <button
+                    onClick={() => downloadFile(table.file.filename, table.file.content)}
+                    className="p-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-200 hover:text-white transition cursor-pointer"
+                    title={`Download ${table.label}`}
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    onClick={() => {
+                      const rows = parseCsv(table.file.content);
+                      downloadAsExcelXls(`${table.key}_export.xls`, table.key, rows);
+                    }}
+                    className="p-1.5 rounded-lg bg-emerald-900/60 hover:bg-emerald-800 text-emerald-300 hover:text-emerald-100 transition cursor-pointer"
+                    title={`Export ${table.label} as Excel XLS`}
+                  >
+                    <FileSpreadsheet className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
 
       {/* CSV Upload & Validation Section */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-2xs p-5 space-y-4">
