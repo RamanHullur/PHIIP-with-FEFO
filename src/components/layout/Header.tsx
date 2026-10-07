@@ -49,6 +49,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
 
   const [showRoleMenu, setShowRoleMenu] = useState<boolean>(false);
   const [showNotifMenu, setShowNotifMenu] = useState<boolean>(false);
+  const [showResetConfirm, setShowResetConfirm] = useState<boolean>(false);
   const [searchVal, setSearchVal] = useState<string>('');
   const [scenarioToast, setScenarioToast] = useState<string | null>(null);
 
@@ -129,22 +130,18 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
     <header className="sticky top-0 z-30 bg-white border-b border-slate-200 shadow-xs">
       <div className="px-4 lg:px-6 h-16 flex items-center justify-between gap-4">
         {/* Left: Brand Identity */}
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center text-white shadow-xs">
-            <Activity className="w-6 h-6 stroke-[2.5]" />
+        <div className="flex items-center gap-3 shrink-0">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center text-white shadow-xs shrink-0">
+            <Activity className="w-5 h-5 stroke-[2.5]" />
           </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-slate-900 tracking-tight text-base">
-                Smart Hospital Inventory Intelligence
-              </span>
-              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200/80">
-                PoC Intelligence
-              </span>
-            </div>
-            <p className="text-[11px] text-slate-500 hidden sm:block">
-              Predictive Expiry • FEFO Routing • Waste Prevention • Master Admin Control
-            </p>
+          <div className="flex items-center gap-2.5">
+            <span className="font-bold text-slate-900 tracking-tight text-xs sm:text-sm leading-tight flex flex-col">
+              <span>Predictive Hospital Inventory Intelligence Platform (PHIIP)</span>
+              <span className="text-[11px] font-semibold text-indigo-600">with FEFO</span>
+            </span>
+            <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200/80 shrink-0 self-center">
+              PoC Intelligence
+            </span>
           </div>
         </div>
 
@@ -186,12 +183,12 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
 
           {/* Load / Reset Data */}
           <button
-            onClick={resetDemoData}
-            className="hidden lg:flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-50 text-slate-600 text-xs font-medium transition"
-            title="Reset to fresh 32-item demo hospital database"
+            onClick={() => setShowResetConfirm(true)}
+            className="hidden lg:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-50 text-slate-600 text-xs font-medium transition cursor-pointer"
+            title="Reset to fresh demo hospital CSV database"
           >
-            <RefreshCw className="w-3 h-3 text-slate-500" />
-            Reset Data
+            <RefreshCw className="w-3.5 h-3.5 text-slate-500" />
+            <span>Reset Data</span>
           </button>
 
           {/* Hospital Switcher */}
@@ -425,6 +422,59 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
           <button onClick={() => setScenarioToast(null)} className="text-white/80 hover:text-white">
             <X className="w-4 h-4" />
           </button>
+        </div>
+      )}
+
+      {/* Reset Data Confirmation Modal */}
+      {showResetConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-in fade-in">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 border border-slate-200 text-xs space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
+                <AlertTriangle className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="font-bold text-sm text-slate-900">
+                  Restore Factory CSV Baseline Data?
+                </h3>
+                <p className="text-slate-500 text-[11px] mt-0.5">
+                  Confirm action impact for Administrator
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-slate-50 border border-slate-200/80 rounded-xl p-3.5 space-y-2 text-slate-600 leading-relaxed text-[11px]">
+              <div className="font-bold text-slate-800">Purpose &amp; System Impact:</div>
+              <ul className="list-disc list-inside space-y-1">
+                <li><strong className="text-slate-700">Clears custom edits:</strong> Any items, lots, purchase orders, or hospital facilities added or edited in the Admin Console will be cleared from local storage.</li>
+                <li><strong className="text-slate-700">Restores CSV files:</strong> Resets all records back to the static 30 master items, 34 physical batches, 8 hospital facilities, and 8 purchase orders loaded from <code className="font-mono text-indigo-600 bg-indigo-50 px-1 py-0.5 rounded">.csv</code> files.</li>
+                <li><strong className="text-slate-700">Recalculates models:</strong> FEFO allocations, expiry risk scores, and rebalancing recommendations will instantly recalculate from clean factory data.</li>
+              </ul>
+            </div>
+
+            <div className="flex items-center justify-end gap-2 pt-2 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={() => setShowResetConfirm(false)}
+                className="px-4 py-2 rounded-xl text-slate-600 hover:bg-slate-100 font-semibold text-xs transition cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  resetDemoData();
+                  setShowResetConfirm(false);
+                  setScenarioToast('Database successfully restored to baseline factory CSV dataset.');
+                  setTimeout(() => setScenarioToast(null), 4000);
+                }}
+                className="px-4 py-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs transition cursor-pointer shadow-xs flex items-center gap-1.5"
+              >
+                <RefreshCw className="w-3.5 h-3.5" />
+                <span>Confirm &amp; Restore Baseline</span>
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </header>
