@@ -130,16 +130,17 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
     <header className="sticky top-0 z-30 bg-white border-b border-slate-200 shadow-xs">
       <div className="px-4 lg:px-6 h-16 flex items-center justify-between gap-4">
         {/* Left: Brand Identity */}
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-2.5 shrink-0">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center text-white shadow-xs shrink-0">
             <Activity className="w-5 h-5 stroke-[2.5]" />
           </div>
-          <div className="flex items-center gap-2.5">
-            <span className="font-bold text-slate-900 tracking-tight text-xs sm:text-sm leading-tight flex flex-col">
-              <span>Predictive Hospital Inventory Intelligence Platform (PHIIP)</span>
+          <div className="flex items-center gap-2">
+            <span className="font-bold text-slate-900 tracking-tight text-[11px] sm:text-xs leading-tight flex flex-col">
+              <span>Predictive Hospital Inventory</span>
+              <span>Intelligence Platform (PHIIP)</span>
               <span className="text-[11px] font-semibold text-indigo-600">with FEFO</span>
             </span>
-            <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200/80 shrink-0 self-center">
+            <span className="hidden xl:inline-block text-[9px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200/80 shrink-0 self-center">
               PoC Intelligence
             </span>
           </div>
@@ -379,23 +380,23 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onNavigateTab }) => {
 
           {/* User Profile Chip with Logout */}
           {currentUser ? (
-            <div className="flex items-center gap-1.5 pl-2 border-l border-slate-200">
+            <div className="flex items-center gap-2 pl-2 border-l border-slate-200 shrink-0">
               <button
                 onClick={() => setShowRoleMenu(!showRoleMenu)}
-                className="flex items-center gap-1.5 hover:opacity-80 transition cursor-pointer text-left"
+                className="flex items-center gap-2 hover:opacity-80 transition cursor-pointer text-left shrink-0"
                 title="Click to switch operating role"
               >
-                <div className="w-8 h-8 rounded-xl bg-slate-900 text-white font-bold text-xs flex items-center justify-center shadow-xs">
+                <div className="w-8 h-8 rounded-xl bg-slate-900 text-white font-bold text-xs flex items-center justify-center shadow-xs shrink-0">
                   {currentUser.avatar || 'DR'}
                 </div>
-                <div className="hidden lg:block text-left text-xs leading-tight">
-                  <span className="font-bold text-slate-800 block truncate max-w-[120px]">{currentUser.name}</span>
-                  <span className="text-[10px] text-indigo-600 font-semibold block">{userRole}</span>
+                <div className="hidden sm:block text-left text-xs leading-tight whitespace-nowrap">
+                  <span className="font-bold text-slate-800 block whitespace-nowrap">{currentUser.name}</span>
+                  <span className="text-[10px] text-indigo-600 font-semibold block whitespace-nowrap">{userRole}</span>
                 </div>
               </button>
               <button
                 onClick={logout}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition"
+                className="p-1.5 rounded-lg text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition shrink-0"
                 title="Log out of session"
               >
                 <LogOut className="w-4 h-4" />

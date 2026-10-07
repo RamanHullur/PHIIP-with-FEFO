@@ -340,14 +340,9 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate, onSele
         {/* Chart 2: Expiry Risk Distribution (Vertical Column Bars ONLY) */}
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between">
           <div>
-            <div className="flex items-center justify-between mb-1">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700">
-                Expiry Risk Distribution
-              </h3>
-              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200">
-                Column Bars
-              </span>
-            </div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">
+              Expiry Risk Distribution
+            </h3>
             <p className="text-xs text-slate-500 mb-4">Risk score categorization across 0–100 scale</p>
           </div>
           <div className="py-2">
