@@ -150,13 +150,13 @@ export const ExpiryRiskPage: React.FC<ExpiryRiskPageProps> = ({ onSelectItem, on
         <div className="bg-rose-50/70 p-3.5 rounded-xl border border-rose-200 text-xs">
           <div className="text-rose-600 font-bold uppercase text-[10px] tracking-wider">&le; 30 Days (Critical)</div>
           <div className="text-lg font-bold text-rose-800 font-mono mt-0.5">{timelineBuckets.b30.toLocaleString()} units</div>
-          <div className="text-[11px] text-rose-600 font-medium mt-1">₹{timelineBuckets.loss30.toLocaleString()} at risk</div>
+          <div className="text-[11px] text-rose-600 font-medium mt-1">${timelineBuckets.loss30.toLocaleString()} at risk</div>
         </div>
 
         <div className="bg-amber-50/70 p-3.5 rounded-xl border border-amber-200 text-xs">
           <div className="text-amber-700 font-bold uppercase text-[10px] tracking-wider">31–60 Days (Near)</div>
           <div className="text-lg font-bold text-amber-800 font-mono mt-0.5">{timelineBuckets.b60.toLocaleString()} units</div>
-          <div className="text-[11px] text-amber-700 font-medium mt-1">₹{timelineBuckets.loss60.toLocaleString()} at risk</div>
+          <div className="text-[11px] text-amber-700 font-medium mt-1">${timelineBuckets.loss60.toLocaleString()} at risk</div>
         </div>
 
         <div className="bg-yellow-50/70 p-3.5 rounded-xl border border-yellow-200 text-xs">
@@ -205,7 +205,7 @@ export const ExpiryRiskPage: React.FC<ExpiryRiskPageProps> = ({ onSelectItem, on
               subLabel: `${r.batch.batchNumber} • ${r.pred.daysToExpiry}d`,
               value: r.pred.potentialExpiryLoss,
               color: r.pred.riskLevel === 'Critical' ? '#e11d48' : '#ea580c',
-              valueFormat: (v: number) => `₹${v.toLocaleString()}`,
+              valueFormat: (v: number) => `$${v.toLocaleString()}`,
             }))}
           />
         </div>
@@ -250,7 +250,7 @@ export const ExpiryRiskPage: React.FC<ExpiryRiskPageProps> = ({ onSelectItem, on
                 <th className="py-3 px-3 text-right">Daily Rate</th>
                 <th className="py-3 px-3 text-right">Forecast Usage</th>
                 <th className="py-3 px-3 text-right">Potential Excess</th>
-                <th className="py-3 px-3 text-right">Potential Loss (₹)</th>
+                <th className="py-3 px-3 text-right">Potential Loss ($)</th>
                 <th className="py-3 px-3 text-center">Prediction Classification</th>
                 <th className="py-3 px-3 text-center">Risk Score</th>
                 <th className="py-3 px-4 text-right">Audit</th>
@@ -293,7 +293,7 @@ export const ExpiryRiskPage: React.FC<ExpiryRiskPageProps> = ({ onSelectItem, on
                       </span>
                     </td>
                     <td className="py-3 px-3 text-right font-mono font-bold text-slate-800">
-                      ₹{pred.potentialExpiryLoss.toLocaleString()}
+                      ${pred.potentialExpiryLoss.toLocaleString()}
                     </td>
                     <td className="py-3 px-3 text-center">
                       <span

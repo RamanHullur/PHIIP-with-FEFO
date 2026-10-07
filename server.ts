@@ -110,21 +110,21 @@ app.post('/api/gemini/explain-risk', async (req, res) => {
     const prompt = `Provide a clear, professional, multi-point explanation for hospital clinicians and pharmacy managers explaining the risk or recommendation for the following item:
 
 Item: ${item?.name} (${item?.category})
-Unit Cost: ₹${item?.unitCost}
+Unit Cost: $${item?.unitCost}
 Batch: ${batch?.batchNumber} (Current Stock: ${batch?.currentStock} units)
 Expiry Date: ${batch?.expiryDate} (${prediction?.daysToExpiry} days remaining)
 Average Daily Consumption: ${prediction?.breakdown?.consumptionVelocityDaily || 50} units/day
 Forecast Consumption before Expiry: ${prediction?.forecastConsumption} units
 Potential Excess Quantity: ${prediction?.potentialExcess} units
 Risk Score: ${prediction?.riskScore}/100 (${prediction?.riskLevel})
-Potential Expiry Loss: ₹${prediction?.potentialExpiryLoss?.toLocaleString()}
+Potential Expiry Loss: $${prediction?.potentialExpiryLoss?.toLocaleString()}
 Will Expire Before Use: ${prediction?.willExpireBeforeUse}
 Recommended Action: ${action?.type || 'PRIORITIZE_CONSUMPTION'}
 
 Format your explanation in 4 clear sections:
 1. ⚠️ Clinical & Stock Severity (Why this score was triggered)
 2. 📊 Mathematical Run-Rate Breakdown (Stock vs expected consumption)
-3. 💰 Financial & Waste Exposure (Potential loss in ₹)
+3. 💰 Financial & Waste Exposure (Potential loss in $)
 4. 🎯 Recommended Immediate Action & Justification`;
 
     const response = await ai.models.generateContent({
@@ -163,21 +163,21 @@ app.post('/api/gemini/daily-brief', async (req, res) => {
     const prompt = `Generate a concise, high-impact "Daily Hospital Inventory Intelligence Brief" for the Chief Medical Officer, Pharmacy Director, and Procurement Head.
 
 Date: 2026-10-05
-Total Inventory Value: ₹${stats?.totalInventoryValue?.toLocaleString()}
+Total Inventory Value: $${stats?.totalInventoryValue?.toLocaleString()}
 Total Batches: ${stats?.totalBatches}
 Near-Expiry Batches: ${stats?.nearExpiryItems}
 Critical Expiry Items: ${stats?.criticalExpiryItems}
 Expired Batches (in quarantine): ${stats?.expiredItems}
-Potential Expiry Loss Exposure: ₹${stats?.potentialExpiryLoss?.toLocaleString()}
-Inventory at Risk: ₹${stats?.inventoryAtRiskValue?.toLocaleString()}
-Potential Savings via Rebalancing: ₹${stats?.potentialSavings?.toLocaleString()}
+Potential Expiry Loss Exposure: $${stats?.potentialExpiryLoss?.toLocaleString()}
+Inventory at Risk: $${stats?.inventoryAtRiskValue?.toLocaleString()}
+Potential Savings via Rebalancing: $${stats?.potentialSavings?.toLocaleString()}
 FEFO Compliance Rate: ${stats?.fefoComplianceRate}%
 
 Top Expiry Risks:
 ${topRisks.map((r: any) => `- ${r.itemName} (Batch ${r.batchNumber}): ${r.potentialExcess} excess units expiring in ${r.daysToExpiry} days (Risk: ${r.riskScore}/100)`).join('\n')}
 
 Top Transfer Opportunities:
-${topTransfers.map((t: any) => `- Transfer ${t.recommendedTransferQuantity} units of ${t.itemName} from ${t.sourceLocationName} to ${t.destLocationName} (Prevents ₹${t.estimatedSavings?.toLocaleString()} waste)`).join('\n')}
+${topTransfers.map((t: any) => `- Transfer ${t.recommendedTransferQuantity} units of ${t.itemName} from ${t.sourceLocationName} to ${t.destLocationName} (Prevents $${t.estimatedSavings?.toLocaleString()} waste)`).join('\n')}
 
 Top Procurement Directives:
 ${topProcurements.map((p: any) => `- ${p.action} for ${p.itemName} (${p.reason})`).join('\n')}
@@ -220,7 +220,7 @@ function generateLocalChatReply(query: string, context: any): string {
 - **Consumption Run-Rate:** 50 units/day across inpatient wards.
 - **Expected Absorption:** 50 × 45 = 2,250 units.
 - **Potential Excess:** 5,000 − 2,250 = **2,750 units**.
-- **Financial Exposure:** ₹508,750 at ₹185/unit.
+- **Financial Exposure:** $508,750 at $185/unit.
 - **Risk Score:** 87/100 (CRITICAL).
 - **Action Required:** Prioritize consumption across all medical wards and authorize transfer of 800 units to ICU/City Health North. Also delay pending PO-2026-0891 (2,000 units).`;
   }
@@ -228,9 +228,9 @@ function generateLocalChatReply(query: string, context: any): string {
   if (q.includes('expire this month') || q.includes('near expiry') || q.includes('most likely')) {
     return `**Top Items Expiring Soon (<30 Days):**
 1. **Normal Saline 500ml** (Batch NS-2025-11): 13 days remaining (1,200 units on hand). Fast-track to Emergency Dept.
-2. **Meropenem IV 1g** (Batch MER-8819): 20 days remaining (240 units on hand, ₹850/vial). Risk Score: 92/100.
+2. **Meropenem IV 1g** (Batch MER-8819): 20 days remaining (240 units on hand, $850/vial). Risk Score: 92/100.
 3. **Troponin-I Reagent Kit** (Batch TRP-501): 23 days remaining (95 kits). High consumption in Emergency.
-4. **Human Albumin 20%** (Batch ALB-902): 25 days remaining (48 vials at ₹4,100/vial). Financial risk ₹196,800.
+4. **Human Albumin 20%** (Batch ALB-902): 25 days remaining (48 vials at $4,100/vial). Financial risk $196,800.
 5. **Norepinephrine 4mg** (Batch NOR-5521): 26 days remaining (180 units in ICU).`;
   }
 
@@ -244,8 +244,8 @@ The system strictly enforces First-Expiry, First-Out:
 
   if (q.includes('transfer') || q.includes('where do we have excess')) {
     return `**Active Transfer Opportunities:**
-1. **Ceftriaxone 1g**: Transfer 800 units from **Central Pharmacy** to **City North ICU**. Prevents ₹148,000 in expiry loss.
-2. **IV Infusion Sets**: Transfer 300 units from **Central Store** to **Apex ICU** (consumption rate 28/day). Prevents ₹6,600 waste.
+1. **Ceftriaxone 1g**: Transfer 800 units from **Central Pharmacy** to **City North ICU**. Prevents $148,000 in expiry loss.
+2. **IV Infusion Sets**: Transfer 300 units from **Central Store** to **Apex ICU** (consumption rate 28/day). Prevents $6,600 waste.
 3. **Paracetamol IV**: Transfer 400 bottles from Central Warehouse to Emergency Trauma Care.`;
   }
 
@@ -258,7 +258,7 @@ The system strictly enforces First-Expiry, First-Out:
   return `Based on live inventory records across 8 hospital locations:
 - **Total Monitored Batches:** 24 active lots.
 - **Critical Expiry Alerts:** 5 items (including Ceftriaxone, Meropenem, Human Albumin).
-- **Total Potential Expiry Loss Exposure:** ₹1,120,400.
+- **Total Potential Expiry Loss Exposure:** $1,120,400.
 - **FEFO Allocation Engine:** Active with 100% compliance on automated orders.
 - **Recommended Action:** Review the Expiry Risk tab and authorize the recommended Ceftriaxone and IV Set transfers to recover capital.`;
 }
@@ -275,8 +275,8 @@ Batch **${batch?.batchNumber || 'CFX-2025-001'}** has reached critical expiry st
 - **Potential Unused Inventory:** ${batch?.currentStock || 5000} − ${pred?.forecastConsumption || 2250} = **${pred?.potentialExcess?.toLocaleString() || '2,750'} units**
 
 ### 💰 Financial Exposure:
-- **Unit Acquisition Cost:** ₹${item?.unitCost || 185}
-- **Estimated Expiry Loss:** ${pred?.potentialExcess || 2750} units × ₹${item?.unitCost || 185} = **₹${pred?.potentialExpiryLoss?.toLocaleString() || '508,750'}**
+- **Unit Acquisition Cost:** $${item?.unitCost || 185}
+- **Estimated Expiry Loss:** ${pred?.potentialExcess || 2750} units × $${item?.unitCost || 185} = **$${pred?.potentialExpiryLoss?.toLocaleString() || '508,750'}**
 
 ### 🎯 Recommended Decision Support:
 1. **FEFO Prioritization:** Mandate immediate allocation of this lot for all incoming inpatient pharmacy orders.
@@ -289,7 +289,7 @@ function generateLocalDailyBrief(stats: any, topRisks: any[], topTransfers: any[
 **Date: 2026-10-05 | System Status: Active Monitoring**
 
 #### 1. Executive Summary
-The facility is currently managing ₹${(stats?.totalInventoryValue || 5240000).toLocaleString()} across 32 medical SKUs and 24 monitored batch lots. Current predictive models identify **${stats?.criticalExpiryItems || 6} critical near-expiry lots** with an estimated financial loss exposure of **₹${(stats?.potentialExpiryLoss || 854000).toLocaleString()}** if unmitigated. However, active FEFO routing and inter-facility transfers can salvage **₹${(stats?.potentialSavings || 580000).toLocaleString()}** of this capital.
+The facility is currently managing $${(stats?.totalInventoryValue || 5240000).toLocaleString()} across 32 medical SKUs and 24 monitored batch lots. Current predictive models identify **${stats?.criticalExpiryItems || 6} critical near-expiry lots** with an estimated financial loss exposure of **$${(stats?.potentialExpiryLoss || 854000).toLocaleString()}** if unmitigated. However, active FEFO routing and inter-facility transfers can salvage **$${(stats?.potentialSavings || 580000).toLocaleString()}** of this capital.
 
 #### 2. Top 3 Urgent Actions for Today
 1. **Prioritize Ceftriaxone Injection 1g (Batch CFX-2025-001):** 5,000 units on hand expiring in 45 days. Discontinue new replenishment and prioritize ward dispensing.

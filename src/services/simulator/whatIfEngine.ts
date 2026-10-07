@@ -114,13 +114,13 @@ export function runWhatIfSimulation(
   let insight = '';
   if (params.consumptionDeltaPercent > 0 && simPred.potentialExcess < baselinePred.potentialExcess) {
     const reducedExcess = baselinePred.potentialExcess - simPred.potentialExcess;
-    insight = `A ${params.consumptionDeltaPercent}% surge in daily consumption increases absorption, preventing ${reducedExcess} units from expiring and unlocking ₹${potentialSavings.toLocaleString()} in waste mitigation.`;
+    insight = `A ${params.consumptionDeltaPercent}% surge in daily consumption increases absorption, preventing ${reducedExcess} units from expiring and unlocking $${potentialSavings.toLocaleString()} in waste mitigation.`;
   } else if (params.transferOutQty > 0) {
     insight = `Transferring ${params.transferOutQty} units safely reduces excess inventory at the source, dropping risk score from ${baselinePred.riskScore} to ${simPred.riskScore} while retaining minimum safety stock.`;
   } else if (simStockOut) {
     insight = `Warning: High demand combined with current stock levels shrinks supply runway to under 7 days (${Math.round(simDaysOfSupply)} days), creating an acute stock-out hazard.`;
   } else {
-    insight = `Simulation reflects updated parameters: Risk score moved by ${simPred.riskScore - baselinePred.riskScore > 0 ? '+' : ''}${simPred.riskScore - baselinePred.riskScore} points with ₹${simLoss.toLocaleString()} remaining exposure.`;
+    insight = `Simulation reflects updated parameters: Risk score moved by ${simPred.riskScore - baselinePred.riskScore > 0 ? '+' : ''}${simPred.riskScore - baselinePred.riskScore} points with $${simLoss.toLocaleString()} remaining exposure.`;
   }
 
   return {

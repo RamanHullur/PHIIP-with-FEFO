@@ -34,7 +34,7 @@ export interface Item {
   category: 'Antibiotics' | 'Critical Care' | 'Analgesics' | 'IV Fluids' | 'Consumables & Surgical' | 'Oncology' | 'Laboratory & Reagents';
   manufacturer: string;
   supplier: string;
-  unitCost: number; // in INR (₹)
+  unitCost: number; // in USD ($)
   reorderLevel: number;
   safetyStock: number;
   unit: string; // e.g. "Vial", "Ampoule", "Pack of 100", "Infusion Bag", "Box"
@@ -109,7 +109,7 @@ export interface Prediction {
   confidence: 'Low' | 'Medium' | 'High';
   confidenceReason?: string;
   breakdown: PredictionBreakdown;
-  potentialExpiryLoss: number; // ₹ value
+  potentialExpiryLoss: number; // $ value
 }
 
 export interface BatchAllocation {

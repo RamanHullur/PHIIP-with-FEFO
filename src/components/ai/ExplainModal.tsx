@@ -115,7 +115,7 @@ export const ExplainModal: React.FC<ExplainModalProps> = ({
             <div>
               <div className="text-slate-400">Potential Loss</div>
               <div className="font-semibold text-rose-600 font-mono">
-                ₹{prediction?.potentialExpiryLoss ? prediction.potentialExpiryLoss.toLocaleString() : 0}
+                ${prediction?.potentialExpiryLoss ? prediction.potentialExpiryLoss.toLocaleString() : 0}
               </div>
             </div>
           </div>

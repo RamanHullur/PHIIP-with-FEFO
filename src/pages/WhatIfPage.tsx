@@ -317,7 +317,7 @@ export const WhatIfPage: React.FC = () => {
                 <div className="bg-white p-4 rounded-xl border border-emerald-200 bg-emerald-50/20 shadow-2xs">
                   <div className="text-[10px] text-emerald-700 uppercase font-bold">Prevented Loss / Savings</div>
                   <div className="text-xl font-bold font-mono mt-1 text-emerald-700">
-                    ₹{comparison.delta.potentialSavings.toLocaleString()}
+                    ${comparison.delta.potentialSavings.toLocaleString()}
                   </div>
                   <div className="text-[10px] text-emerald-600 font-medium mt-1">
                     Waste capital avoided
@@ -388,8 +388,8 @@ export const WhatIfPage: React.FC = () => {
                   <div className="p-3.5 flex justify-between items-center hover:bg-slate-50">
                     <span className="text-slate-600 font-medium">Potential Expiry Loss Exposure</span>
                     <div className="flex gap-20 font-mono">
-                      <span className="text-slate-700">₹{comparison.baseline.financialLoss.toLocaleString()}</span>
-                      <span className="font-bold text-slate-900">₹{comparison.simulated.financialLoss.toLocaleString()}</span>
+                      <span className="text-slate-700">${comparison.baseline.financialLoss.toLocaleString()}</span>
+                      <span className="font-bold text-slate-900">${comparison.simulated.financialLoss.toLocaleString()}</span>
                     </div>
                   </div>
 

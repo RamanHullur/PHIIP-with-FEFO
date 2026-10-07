@@ -109,11 +109,11 @@ export const ItemDetailModal: React.FC<ItemDetailModalProps> = ({
               </div>
               <div>
                 <span className="text-[10px] text-slate-400 uppercase font-medium">Unit Cost</span>
-                <div className="text-base font-bold text-slate-800 font-mono">₹{item.unitCost}</div>
+                <div className="text-base font-bold text-slate-800 font-mono">${item.unitCost}</div>
               </div>
               <div>
                 <span className="text-[10px] text-slate-400 uppercase font-medium">Inventory Value</span>
-                <div className="text-base font-bold text-slate-800 font-mono">₹{totalValue.toLocaleString()}</div>
+                <div className="text-base font-bold text-slate-800 font-mono">${totalValue.toLocaleString()}</div>
               </div>
               <div>
                 <span className="text-[10px] text-slate-400 uppercase font-medium">Active Batches</span>

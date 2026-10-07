@@ -218,8 +218,8 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({ onSelectItem, init
       'Batch Number',
       'Location',
       'Current Stock',
-      'Unit Cost (₹)',
-      'Inventory Value (₹)',
+      'Unit Cost ($)',
+      'Inventory Value ($)',
       'Received Date',
       'Expiry Date',
       'Days to Expiry',
@@ -526,11 +526,11 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({ onSelectItem, init
                       </td>
 
                       {/* Unit Cost */}
-                      <td className="py-2.5 px-2 text-right font-mono text-slate-700">₹{row.item.unitCost}</td>
+                      <td className="py-2.5 px-2 text-right font-mono text-slate-700">${row.item.unitCost}</td>
 
                       {/* Inventory Value */}
                       <td className="py-2.5 px-2 text-right font-mono font-bold text-slate-800">
-                        ₹{row.inventoryValue.toLocaleString()}
+                        ${row.inventoryValue.toLocaleString()}
                       </td>
 
                       {/* Expiry Date */}

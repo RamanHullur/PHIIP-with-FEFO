@@ -117,7 +117,7 @@ export const ReportsPage: React.FC = () => {
   };
 
   const exportTransfersReport = () => {
-    const headers = ['Item Name', 'Batch Number', 'Source Facility', 'Destination Facility', 'Transfer Quantity', 'Prevented Expiry', 'Estimated Savings (₹)'];
+    const headers = ['Item Name', 'Batch Number', 'Source Facility', 'Destination Facility', 'Transfer Quantity', 'Prevented Expiry', 'Estimated Savings ($)'];
     const rows = transfers.map(t => [t.itemName, t.batchNumber, t.sourceLocationName, t.destLocationName, t.recommendedTransferQuantity, t.expectedExpiryPrevented, t.estimatedSavings]);
     exportToCSV('hospital_transfer_rebalancing_report', headers, rows);
   };

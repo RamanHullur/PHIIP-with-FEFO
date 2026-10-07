@@ -85,7 +85,7 @@ export const LocationsPage: React.FC<LocationsPageProps> = ({ onNavigateTab }) =
                   </div>
                   <div className="text-right border-l border-slate-200 pl-4">
                     <span className="text-slate-400 block text-[10px]">Capital Held</span>
-                    <span className="font-bold text-slate-900 text-sm">₹{hospValue.toLocaleString()}</span>
+                    <span className="font-bold text-slate-900 text-sm">${hospValue.toLocaleString()}</span>
                   </div>
                   <div className="text-right border-l border-slate-200 pl-4">
                     <span className="text-slate-400 block text-[10px]">Near Expiry</span>

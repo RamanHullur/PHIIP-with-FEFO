@@ -139,7 +139,7 @@ export const ConsumptionPage: React.FC = () => {
                     ~{(it.dailyAvg * 30).toLocaleString()} / mo
                   </td>
                   <td className="py-2.5 px-4 text-right font-mono font-semibold text-slate-800">
-                    ₹{it.value.toLocaleString()}
+                    ${it.value.toLocaleString()}
                   </td>
                 </tr>
               ))}

@@ -23,7 +23,7 @@ export const TransfersPage: React.FC<TransfersPageProps> = ({ onSelectItem }) =>
   const handleExecute = (tr: TransferRecommendation) => {
     executeTransfer(tr.id);
     setSuccessToast(
-      `Transferred ${tr.recommendedTransferQuantity} units of ${tr.itemName} from ${tr.sourceLocationName} to ${tr.destLocationName}. Prevented ₹${tr.estimatedSavings.toLocaleString()} in expiry waste!`
+      `Transferred ${tr.recommendedTransferQuantity} units of ${tr.itemName} from ${tr.sourceLocationName} to ${tr.destLocationName}. Prevented $${tr.estimatedSavings.toLocaleString()} in expiry waste!`
     );
     setTimeout(() => setSuccessToast(null), 6000);
   };
@@ -52,7 +52,7 @@ export const TransfersPage: React.FC<TransfersPageProps> = ({ onSelectItem }) =>
 
         <div className="bg-blue-50/70 p-3 rounded-xl border border-blue-200 text-right">
           <div className="text-[10px] uppercase tracking-wider text-blue-600 font-bold">Total Preventable Waste</div>
-          <div className="text-xl font-bold text-blue-900 font-mono">₹{totalTransferSavings.toLocaleString()}</div>
+          <div className="text-xl font-bold text-blue-900 font-mono">${totalTransferSavings.toLocaleString()}</div>
         </div>
       </div>
 
@@ -94,7 +94,7 @@ export const TransfersPage: React.FC<TransfersPageProps> = ({ onSelectItem }) =>
                 <th className="py-3 px-3 text-right">Transfer Qty</th>
                 <th className="py-3 px-3 text-right">Source Retained</th>
                 <th className="py-3 px-3 text-right">Prevented Expiry</th>
-                <th className="py-3 px-3 text-right">Savings (₹)</th>
+                <th className="py-3 px-3 text-right">Savings ($)</th>
                 <th className="py-3 px-3 text-center">Urgency</th>
                 <th className="py-3 px-4 text-right">Action</th>
               </tr>
@@ -155,7 +155,7 @@ export const TransfersPage: React.FC<TransfersPageProps> = ({ onSelectItem }) =>
                       </td>
 
                       <td className="py-3 px-3 text-right font-mono font-bold text-emerald-700">
-                        ₹{tr.estimatedSavings.toLocaleString()}
+                        ${tr.estimatedSavings.toLocaleString()}
                       </td>
 
                       <td className="py-3 px-3 text-center">

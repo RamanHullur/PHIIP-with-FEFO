@@ -27,7 +27,7 @@ export const AIAssistantPage: React.FC = () => {
       role: 'assistant',
       content: `Hello! I am your **Hospital Inventory Intelligence Assistant**, powered by server-side Gemini 3.8 Flash.
 
-I have real-time visibility into **${stats.totalSKUs} hospital SKUs**, **${stats.totalBatches} active lots**, **${stats.criticalExpiryItems} critical expiry alerts**, and **₹${stats.potentialSavings.toLocaleString()} in identified transfer savings**.
+I have real-time visibility into **${stats.totalSKUs} hospital SKUs**, **${stats.totalBatches} active lots**, **${stats.criticalExpiryItems} critical expiry alerts**, and **$${stats.potentialSavings.toLocaleString()} in identified transfer savings**.
 
 How can I assist your clinical supply chain today?`,
       timestamp: 'Just now',

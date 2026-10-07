@@ -528,7 +528,7 @@ export const InventoryProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       user: 'Logistics Supervisor',
       role: userRole,
       actionType: 'TRANSFER_INITIATED',
-      description: `Executed transfer of ${tr.recommendedTransferQuantity} units of ${tr.itemName} from ${tr.sourceLocationName} to ${tr.destLocationName}. Prevented ₹${tr.estimatedSavings.toLocaleString()} in anticipated expiry loss.`,
+      description: `Executed transfer of ${tr.recommendedTransferQuantity} units of ${tr.itemName} from ${tr.sourceLocationName} to ${tr.destLocationName}. Prevented $${tr.estimatedSavings.toLocaleString()} in anticipated expiry loss.`,
       details: { transferId, ...tr },
     });
   };

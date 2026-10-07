@@ -219,8 +219,8 @@ export function runAllAutomatedTests(): TestCaseResult[] {
         name: 'Transparent Risk Scoring & Critical Threshold (>= 81)',
         category: 'Risk Scoring',
         status: passed ? 'passed' : 'failed',
-        expected: 'Score >= 81, Level: "Critical", Potential Loss: ₹508,750',
-        actual: `Score: ${pred.riskScore}, Level: "${pred.riskLevel}", Potential Loss: ₹${pred.potentialExpiryLoss.toLocaleString()}`,
+        expected: 'Score >= 81, Level: "Critical", Potential Loss: $508,750',
+        actual: `Score: ${pred.riskScore}, Level: "${pred.riskLevel}", Potential Loss: $${pred.potentialExpiryLoss.toLocaleString()}`,
         durationMs: Math.round((performance.now() - start) * 100) / 100,
       });
     } catch (e: any) {

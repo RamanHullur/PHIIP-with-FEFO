@@ -665,7 +665,7 @@ export const AdminDashboardPage: React.FC = () => {
                       </td>
                       <td className="py-2.5 px-3 text-slate-600">{item.manufacturer}</td>
                       <td className="py-2.5 px-3 text-slate-600">{item.supplier}</td>
-                      <td className="py-2.5 px-3 text-right font-mono font-bold text-slate-800">₹{item.unitCost}</td>
+                      <td className="py-2.5 px-3 text-right font-mono font-bold text-slate-800">${item.unitCost}</td>
                       <td className="py-2.5 px-3 text-right font-mono text-slate-700">{item.safetyStock} {item.unit}s</td>
                       <td className="py-2.5 px-3 text-right font-mono text-slate-700">{item.reorderLevel}</td>
                       <td className="py-2.5 px-3 text-right">
@@ -991,7 +991,7 @@ export const AdminDashboardPage: React.FC = () => {
                         <td className="py-2.5 px-3 text-right font-mono font-bold text-slate-800">
                           {po.quantity.toLocaleString()}
                         </td>
-                        <td className="py-2.5 px-3 text-right font-mono text-slate-700">₹{po.unitPrice}</td>
+                        <td className="py-2.5 px-3 text-right font-mono text-slate-700">${po.unitPrice}</td>
                         <td className="py-2.5 px-3 font-mono text-slate-700">{po.expectedDate}</td>
                         <td className="py-2.5 px-3 text-center">
                           <select
@@ -1319,7 +1319,7 @@ export const AdminDashboardPage: React.FC = () => {
                   </select>
                 </div>
                 <div>
-                  <label className="text-slate-600 font-semibold block mb-1">Unit Cost (₹)</label>
+                  <label className="text-slate-600 font-semibold block mb-1">Unit Cost ($)</label>
                   <input
                     type="number"
                     required
@@ -1702,7 +1702,7 @@ export const AdminDashboardPage: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label className="text-slate-600 font-semibold block mb-1">Unit Price (₹)</label>
+                  <label className="text-slate-600 font-semibold block mb-1">Unit Price ($)</label>
                   <input
                     type="number"
                     required

@@ -266,7 +266,7 @@ export const ProcurementPage: React.FC<ProcurementPageProps> = ({ onSelectItem }
                     <td className="py-2.5 px-3 text-right font-mono font-bold text-slate-800">
                       {po.quantity.toLocaleString()}
                     </td>
-                    <td className="py-2.5 px-3 text-right font-mono text-slate-700">₹{po.unitPrice}</td>
+                    <td className="py-2.5 px-3 text-right font-mono text-slate-700">${po.unitPrice}</td>
                     <td className="py-2.5 px-3 font-mono text-slate-700">{po.expectedDate}</td>
                     <td className="py-2.5 px-3 text-center">
                       <span
