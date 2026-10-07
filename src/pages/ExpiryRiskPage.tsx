@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import { useInventory } from '../context/InventoryContext';
 import { Item, Batch, Prediction } from '../types/inventory';
-import { DonutChart, HorizontalBarList } from '../components/charts/Charts';
+import { VerticalColumnChart, HorizontalBarList } from '../components/charts/Charts';
 import { ExplainModal } from '../components/ai/ExplainModal';
 
 interface ExpiryRiskPageProps {
@@ -180,15 +180,22 @@ export const ExpiryRiskPage: React.FC<ExpiryRiskPageProps> = ({ onSelectItem, on
 
       {/* Charts & Analytics Row */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Risk Distribution Donut */}
+        {/* Risk Distribution (Vertical Column Bars ONLY) */}
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between">
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">
-              Risk Level Classification
-            </h3>
+            <div className="flex items-center justify-between mb-1">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700">
+                Risk Level Classification
+              </h3>
+              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200">
+                Column Bars
+              </span>
+            </div>
             <p className="text-xs text-slate-500 mb-4">Breakdown across 0–100 risk score bands</p>
           </div>
-          <DonutChart data={riskDonutData} size={180} strokeWidth={24} centerSub="Total Lots" />
+          <div className="py-2">
+            <VerticalColumnChart data={riskDonutData} valuePrefix="" />
+          </div>
         </div>
 
         {/* Top 5 Capital Losses */}

@@ -72,8 +72,8 @@ function MainApp() {
           onNavigateTab={tab => handleNavigate(tab)}
         />
 
-        {/* Dynamic Page Body */}
-        <main className="flex-1 overflow-y-auto bg-slate-50/50">
+        {/* Dynamic Page Body with comfortable non-white healthcare slate background */}
+        <main className="flex-1 overflow-y-auto bg-slate-100">
           {activeTab === 'admin' && <AdminDashboardPage />}
 
           {activeTab === 'dashboard' && (

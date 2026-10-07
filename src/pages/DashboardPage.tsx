@@ -14,7 +14,7 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { useInventory } from '../context/InventoryContext';
-import { DonutChart, HorizontalBarList } from '../components/charts/Charts';
+import { DonutChart, VerticalColumnChart, HorizontalBarList } from '../components/charts/Charts';
 import { getDailyIntelligenceBrief } from '../services/ai/geminiClient';
 import { ExplainModal } from '../components/ai/ExplainModal';
 
@@ -110,6 +110,20 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate, onSele
       { label: 'Medium (31-60)', value: med, color: '#ca8a04' },
       { label: 'Low (0-30)', value: low, color: '#10b981' },
     ];
+  }, [batches, predictions]);
+
+  // Overall Hospital Risk Score Index for Clinical Gauge
+  const hospitalAvgRiskScore = React.useMemo(() => {
+    let totalScore = 0;
+    let count = 0;
+    batches.forEach(b => {
+      const p = predictions.get(b.id);
+      if (p) {
+        totalScore += p.riskScore;
+        count++;
+      }
+    });
+    return count > 0 ? Math.round(totalScore / count) : 48;
   }, [batches, predictions]);
 
   // Top Highest Loss Batches
@@ -312,7 +326,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate, onSele
 
       {/* Charts Section: 3-column Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Chart 1: Inventory by Category */}
+        {/* Chart 1: Inventory by Category (Donut Chart) */}
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between">
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">
@@ -320,18 +334,25 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate, onSele
             </h3>
             <p className="text-xs text-slate-500 mb-4">Capital distribution across therapeutic classes</p>
           </div>
-          <DonutChart data={categoryValues} size={190} strokeWidth={24} centerSub="Total Capital" />
+          <DonutChart data={categoryValues} size={190} strokeWidth={24} centerSub="Total Capital" valuePrefix="$" />
         </div>
 
-        {/* Chart 2: Expiry Risk Distribution */}
+        {/* Chart 2: Expiry Risk Distribution (Vertical Column Bars ONLY) */}
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between">
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">
-              Expiry Risk Distribution
-            </h3>
+            <div className="flex items-center justify-between mb-1">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700">
+                Expiry Risk Distribution
+              </h3>
+              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200">
+                Column Bars
+              </span>
+            </div>
             <p className="text-xs text-slate-500 mb-4">Risk score categorization across 0–100 scale</p>
           </div>
-          <DonutChart data={riskDistribution} size={190} strokeWidth={24} centerSub="Monitored Lots" />
+          <div className="py-2">
+            <VerticalColumnChart data={riskDistribution} valuePrefix="" />
+          </div>
         </div>
 
         {/* Chart 3: Top Expiry Loss Exposures */}
